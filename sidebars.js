@@ -41,6 +41,15 @@ const sidebars = {
         'architecture/index',
       ],
     },
+
+    {
+      type: 'category',
+      label: 'Guides',
+      collapsed: false,
+      items: [
+        'guides/index',
+      ],
+    },
   ],
 };
 
