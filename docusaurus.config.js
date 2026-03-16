@@ -7,7 +7,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://granitelabsai.github.io',
-baseUrl: '/granitelabs-site/',
+  baseUrl: '/granitelabs-site/',
 
   organizationName: 'GraniteLabsAI',
   projectName: 'granitelabs-site',
@@ -52,6 +52,10 @@ baseUrl: '/granitelabs-site/',
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Granite Labs',
+      logo: {
+        alt: 'Granite Labs Logo',
+        src: 'img/granite-logo.png',
+      },
       items: [
         {
           href: 'https://github.com/GraniteLabsAI/granitelabs-site',
