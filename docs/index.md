@@ -1,38 +1,29 @@
----
-title: Granite Labs
-sidebar_position: 1
----
-
 # Granite Labs
 
-**Engineering Knowledge Systems**
+Searchable deployment documentation for technical systems, infrastructure, and operations.
 
-Granite Labs documents real-world technical systems involving AI, networking, security cameras, infrastructure, and applied field engineering.
+## Projects
 
-## Core Areas
+- [Blue Iris 6](./blue-iris/)
+- UniFi Network
+- Acumatica
+- Velixo
 
-### Projects
-Structured documentation for complete systems and real-world deployments.
+## What this site is for
 
-Current focus includes:
+Granite Labs is a structured documentation platform for:
 
-- Blue Iris video systems
-- UniFi network infrastructure
-- security camera platforms
-- wildlife AI systems
+- system architecture
+- installation procedures
+- configuration standards
+- troubleshooting guides
+- research and testing
+- long-term reference documentation
 
-### Architecture
-System maps, technical diagrams, design structure, and deployment logic.
+## Main Sections
 
-### Guides
-Practical step-by-step documentation for setup, configuration, and troubleshooting.
-
-### Research
-Testing, experiments, findings, and technical observations.
-
-### Brand
-Granite Labs visual standards, logo usage, colors, typography, and design system.
-
-## Current Status
-
-This site is being developed as a searchable engineering knowledge platform for practical systems, documentation, and field-tested technical workflows.
+- [Projects](./projects/)
+- [Brand](./brand/)
+- [Architecture](./architecture/)
+- [Guides](./guides/)
+- [Research](./research/)
