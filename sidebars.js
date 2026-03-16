@@ -11,14 +11,16 @@ const sidebars = {
       label: 'Projects',
       collapsed: false,
       items: [
-        'projects/index',
         {
           type: 'category',
           label: 'Blue Iris 6',
           collapsed: false,
           items: [
-            'blue-iris/index',
-            'blue-iris/overview',
+            {
+              type: 'doc',
+              id: 'blue-iris/index',
+              label: 'Overview',
+            },
             'blue-iris/documentation-map',
             'blue-iris/system-reference',
             'blue-iris/installation',
@@ -30,7 +32,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Brand',
-      collapsed: false,
       items: [
         'brand/index',
       ],
@@ -39,7 +40,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Architecture',
-      collapsed: false,
       items: [
         'architecture/index',
       ],
@@ -48,7 +48,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Guides',
-      collapsed: false,
       items: [
         'guides/index',
       ],
@@ -57,7 +56,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Research',
-      collapsed: false,
       items: [
         'research/index',
       ],
