@@ -1,6 +1,5 @@
 const sidebars = {
   graniteLabsSidebar: [
-
     {
       type: 'doc',
       id: 'index',
@@ -34,6 +33,14 @@ const sidebars = {
       ],
     },
 
+    {
+      type: 'category',
+      label: 'Architecture',
+      collapsed: false,
+      items: [
+        'architecture/index',
+      ],
+    },
   ],
 };
 
