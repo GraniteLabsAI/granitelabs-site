@@ -13,16 +13,17 @@ const sidebars = {
       items: [
         'projects/index',
         {
-          type: 'category',
-          label: 'Blue Iris 6',
-          items: [
-            'blue-iris/index',
-            'blue-iris/overview',
-            'blue-iris/installation',
-          ],
-        },
-      ],
-    },
+  type: 'category',
+  label: 'Blue Iris 6',
+  collapsed: false,
+  items: [
+    'blue-iris/index',
+    'blue-iris/overview',
+    'blue-iris/documentation-map',
+    'blue-iris/system-reference',
+    'blue-iris/installation',
+  ],
+},
 
     {
       type: 'category',
