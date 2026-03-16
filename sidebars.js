@@ -50,6 +50,15 @@ const sidebars = {
         'guides/index',
       ],
     },
+
+    {
+      type: 'category',
+      label: 'Research',
+      collapsed: false,
+      items: [
+        'research/index',
+      ],
+    },
   ],
 };
 
