@@ -5,16 +5,25 @@ const sidebars = {
       id: 'index',
       label: 'Home',
     },
+
     {
       type: 'category',
-      label: 'Blue Iris 6',
+      label: 'Projects',
       collapsed: false,
       items: [
-        'blue-iris/index',
-        'blue-iris/overview',
-        'blue-iris/installation',
+        'projects/index',
+        {
+          type: 'category',
+          label: 'Blue Iris 6',
+          items: [
+            'blue-iris/index',
+            'blue-iris/overview',
+            'blue-iris/installation',
+          ],
+        },
       ],
     },
+
   ],
 };
 
