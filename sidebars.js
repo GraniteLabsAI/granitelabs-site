@@ -1,5 +1,6 @@
 const sidebars = {
   graniteLabsSidebar: [
+
     {
       type: 'doc',
       id: 'index',
@@ -21,6 +22,15 @@ const sidebars = {
             'blue-iris/installation',
           ],
         },
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Brand',
+      collapsed: false,
+      items: [
+        'brand/index',
       ],
     },
 
