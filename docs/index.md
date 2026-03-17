@@ -1,54 +1,46 @@
 # Granite Labs
 
-**Searchable Deployment Documentation**
-
-Granite Labs is a structured technical documentation platform used to design, build, document, and maintain complex systems.
-
-This site organizes long-term documentation for infrastructure, software platforms, and operational systems.
+Searchable Deployment Documentation
 
 ---
 
 ## Projects
 
-### Blue Iris 6
-Video security and camera management platform.
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px'}}>
 
-Documentation includes:
+<a href="./blue-iris/" style={{textDecoration: 'none'}}>
+  <div style={{border: '1px solid #333', borderRadius: '10px', padding: '20px', textAlign: 'center'}}>
+    <img src="/granitelabs-site/img/projects/blue-iris-card.png" style={{width: '100%', borderRadius: '8px'}} />
+    <h3>Blue Iris</h3>
+  </div>
+</a>
 
-- system architecture
-- installation procedures
-- camera configuration
-- storage architecture
-- AI detection integration
-- performance tuning
+<a href="#" style={{textDecoration: 'none'}}>
+  <div style={{border: '1px solid #333', borderRadius: '10px', padding: '20px', textAlign: 'center'}}>
+    <img src="/granitelabs-site/img/projects/unifi-card.png" style={{width: '100%', borderRadius: '8px'}} />
+    <h3>UniFi</h3>
+  </div>
+</a>
 
-➡️ [Open Blue Iris Documentation](./blue-iris/)
+<a href="#" style={{textDecoration: 'none'}}>
+  <div style={{border: '1px solid #333', borderRadius: '10px', padding: '20px', textAlign: 'center'}}>
+    <img src="/granitelabs-site/img/projects/acumatica-card.png" style={{width: '100%', borderRadius: '8px'}} />
+    <h3>Acumatica</h3>
+  </div>
+</a>
 
----
+<a href="#" style={{textDecoration: 'none'}}>
+  <div style={{border: '1px solid #333', borderRadius: '10px', padding: '20px', textAlign: 'center'}}>
+    <img src="/granitelabs-site/img/projects/velixo-card.png" style={{width: '100%', borderRadius: '8px'}} />
+    <h3>Velixo</h3>
+  </div>
+</a>
 
-## Documentation Areas
+<a href="#" style={{textDecoration: 'none'}}>
+  <div style={{border: '1px solid #333', borderRadius: '10px', padding: '20px', textAlign: 'center'}}>
+    <img src="/granitelabs-site/img/projects/research-card.png" style={{width: '100%', borderRadius: '8px'}} />
+    <h3>Research</h3>
+  </div>
+</a>
 
-### Architecture
-System design, infrastructure planning, and deployment models.
-
-### Guides
-Step-by-step implementation and configuration guides.
-
-### Research
-Testing, experiments, and technical evaluation of tools and hardware.
-
-### Brand
-Granite Labs identity, logos, and visual standards.
-
----
-
-## Purpose
-
-Granite Labs exists to create **clear, searchable, long-term documentation** for complex technical systems.
-
-The goal is to ensure systems can be:
-
-- built consistently  
-- maintained long-term  
-- expanded safely  
-- understood years later
+</div>
