@@ -1,9 +1,17 @@
-# Logging
+# TITLE
+
+<div style={{marginBottom: '16px'}}>
+  <a href="/granitelabs-site/icon-system/">← Back to Icon System</a>
+</div>
+
+<div style={{textAlign: 'center', marginBottom: '20px'}}>
+  <img src="/granitelabs-site/img/projects/logging-icon.png" width="180" />
+</div>
 
 ## Overview
-System logs and data tracking.
+YOUR OVERVIEW TEXT
 
 ## Notes
-- Storage
-- Analysis
-- Retention
+- Item 1
+- Item 2
+- Item 3
