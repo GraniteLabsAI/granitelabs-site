@@ -1,9 +1,17 @@
-# Telemetry
+# TITLE
+
+<div style={{marginBottom: '16px'}}>
+  <a href="/granitelabs-site/icon-system/">← Back to Icon System</a>
+</div>
+
+<div style={{textAlign: 'center', marginBottom: '20px'}}>
+  <img src="/granitelabs-site/img/projects/telemetry-icon.png" width="180" />
+</div>
 
 ## Overview
-Data collection and monitoring systems.
+YOUR OVERVIEW TEXT
 
 ## Notes
-- Metrics
-- Sensors
-- Reporting
+- Item 1
+- Item 2
+- Item 3
