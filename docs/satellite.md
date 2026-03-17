@@ -9,9 +9,15 @@
 </div>
 
 ## Overview
-YOUR OVERVIEW TEXT
+Satellite communication systems and integration.
 
-## Notes
-- Item 1
-- Item 2
-- Item 3
+## Scope
+- Starlink
+- Backup connectivity
+- Remote deployments
+
+## Current Notes
+Add your working notes here.
+
+## References
+Add links, models, or supporting docs here.
