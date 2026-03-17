@@ -9,9 +9,15 @@
 </div>
 
 ## Overview
-YOUR OVERVIEW TEXT
+Data collection and monitoring systems.
 
-## Notes
-- Item 1
-- Item 2
-- Item 3
+## Scope
+- Metrics
+- Sensors
+- Reporting
+
+## Current Notes
+Add your working notes here.
+
+## References
+Add links, models, or supporting docs here.
