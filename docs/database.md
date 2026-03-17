@@ -1,9 +1,17 @@
-# Database
+# TITLE
+
+<div style={{marginBottom: '16px'}}>
+  <a href="/granitelabs-site/icon-system/">← Back to Icon System</a>
+</div>
+
+<div style={{textAlign: 'center', marginBottom: '20px'}}>
+  <img src="/granitelabs-site/img/projects/database-icon.png" width="180" />
+</div>
 
 ## Overview
-Structured data storage systems.
+YOUR OVERVIEW TEXT
 
 ## Notes
-- SQL / NoSQL
-- Performance
-- Backups
+- Item 1
+- Item 2
+- Item 3
