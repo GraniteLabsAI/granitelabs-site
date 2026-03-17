@@ -16,6 +16,28 @@
 
 </div>
 
+## Quick Access
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', marginBottom: '10px'}}>
+
+<a href="/granitelabs-site/icon-system/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
+  Icon System
+</a>
+
+<a href="/granitelabs-site/blue-iris/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
+  Blue Iris
+</a>
+
+<a href="/granitelabs-site/acumatica/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
+  Acumatica
+</a>
+
+<a href="/granitelabs-site/velixo/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
+  Velixo
+</a>
+
+</div>
+
 ## IT Core Systems
 
 <div class="icon-grid">
