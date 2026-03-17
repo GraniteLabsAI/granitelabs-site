@@ -9,9 +9,15 @@
 </div>
 
 ## Overview
-YOUR OVERVIEW TEXT
+Structured data storage systems.
 
-## Notes
-- Item 1
-- Item 2
-- Item 3
+## Scope
+- SQL / NoSQL
+- Performance
+- Backups
+
+## Current Notes
+Add your working notes here.
+
+## References
+Add links, models, or supporting docs here.
