@@ -100,3 +100,10 @@
 
 </div>
 
+</div>
+
+---
+
+## AI & Automation
+
+AI systems, inference, searchable knowledge, and intelligent workflows.
