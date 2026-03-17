@@ -1,9 +1,17 @@
-# Satellite
+# TITLE
+
+<div style={{marginBottom: '16px'}}>
+  <a href="/granitelabs-site/icon-system/">← Back to Icon System</a>
+</div>
+
+<div style={{textAlign: 'center', marginBottom: '20px'}}>
+  <img src="/granitelabs-site/img/projects/satellite-icon.png" width="180" />
+</div>
 
 ## Overview
-Satellite communication systems and integration.
+YOUR OVERVIEW TEXT
 
 ## Notes
-- Starlink
-- Backup connectivity
-- Remote deployments
+- Item 1
+- Item 2
+- Item 3
