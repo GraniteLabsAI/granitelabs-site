@@ -10,6 +10,23 @@ const sidebars = {
   id: 'icon-system',
   label: 'Icon System',
 },
+    
+{
+  type: 'category',
+  label: 'IT Core',
+  collapsed: false,
+  items: [
+    'poe',
+    'power-protection',
+    'satellite',
+    'cloud',
+    'telemetry',
+    'alerting',
+    'logging',
+    'database',
+  ],
+},
+    
     {
       type: 'category',
       label: 'Projects',
