@@ -73,3 +73,48 @@ A visual index of systems, components, and capabilities.
 </a>
 
 </div>
+## IT Core Icons
+
+<div class="icon-grid">
+
+  <div class="icon-card">
+    <img src="/img/projects/poe-icon.png" />
+    <div>POE</div>
+  </div>
+
+  <div class="icon-card">
+    <img src="/img/projects/power-protection-icon.png" />
+    <div>Power Protection</div>
+  </div>
+
+  <div class="icon-card">
+    <img src="/img/projects/satellite-icon.png" />
+    <div>Satellite</div>
+  </div>
+
+  <div class="icon-card">
+    <img src="/img/projects/cloud-icon.png" />
+    <div>Cloud</div>
+  </div>
+
+  <div class="icon-card">
+    <img src="/img/projects/telemetry-icon.png" />
+    <div>Telemetry</div>
+  </div>
+
+  <div class="icon-card">
+    <img src="/img/projects/alerting-icon.png" />
+    <div>Alerting</div>
+  </div>
+
+  <div class="icon-card">
+    <img src="/img/projects/logging-icon.png" />
+    <div>Logging</div>
+  </div>
+
+  <div class="icon-card">
+    <img src="/img/projects/database-icon.png" />
+    <div>Database</div>
+  </div>
+
+</div>
