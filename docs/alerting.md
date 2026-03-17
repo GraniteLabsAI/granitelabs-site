@@ -9,9 +9,15 @@
 </div>
 
 ## Overview
-YOUR OVERVIEW TEXT
+Event detection and notification systems.
 
-## Notes
-- Item 1
-- Item 2
-- Item 3
+## Scope
+- Thresholds
+- Notifications
+- Escalation
+
+## Current Notes
+Add your working notes here.
+
+## References
+Add links, models, or supporting docs here.
