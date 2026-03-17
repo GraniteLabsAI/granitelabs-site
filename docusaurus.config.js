@@ -50,6 +50,11 @@ const config = {
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+   colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'Granite Labs',
       logo: {
