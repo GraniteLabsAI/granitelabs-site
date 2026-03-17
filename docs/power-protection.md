@@ -9,9 +9,15 @@
 </div>
 
 ## Overview
-YOUR OVERVIEW TEXT
+UPS, surge protection, and electrical reliability.
 
-## Notes
-- Item 1
-- Item 2
-- Item 3
+## Scope
+- UPS sizing
+- Surge layers
+- Runtime strategy
+
+## Current Notes
+Add your working notes here.
+
+## References
+Add links, models, or supporting docs here.
