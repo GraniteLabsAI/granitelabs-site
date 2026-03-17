@@ -59,3 +59,46 @@
 .icon-card:hover img {
   transform: scale(1.05);
 }
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 28px;
+  margin-top: 24px;
+}
+
+.icon-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.icon-card {
+  text-align: center;
+  padding: 12px;
+  border-radius: 14px;
+  transition: transform 0.25s ease, filter 0.25s ease, box-shadow 0.25s ease;
+}
+
+.icon-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  filter: brightness(1.12);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+}
+
+.icon-card img {
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.25s ease;
+}
+
+.icon-card:hover img {
+  transform: scale(1.05);
+}
+
+.icon-card div {
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
