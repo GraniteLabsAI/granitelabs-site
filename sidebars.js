@@ -26,6 +26,20 @@ const sidebars = {
     'database',
   ],
 },
+
+{
+  type: 'category',
+  label: 'AI & Automation',
+  collapsed: false,
+  items: [
+    'ai-systems/index',
+    'ai-inference/index',
+    'searchable-hub/index',
+    'wildlife-specialist/index',
+    'knowledge-monolith/index',
+    'chatgpt/index',
+  ],
+},
     
     {
       type: 'category',
