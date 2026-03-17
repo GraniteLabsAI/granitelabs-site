@@ -106,3 +106,49 @@
 ## AI & Automation
 
 AI systems, inference, searchable knowledge, and intelligent workflows.
+
+<div class="icon-grid">
+
+  <a href="/granitelabs-site/ai-systems/" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/granitelabs-site/img/projects/ai-systems-card.png" />
+      <div>AI Systems</div>
+    </div>
+  </a>
+
+  <a href="/granitelabs-site/ai-inference/" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/granitelabs-site/img/projects/ai-inference-card.png" />
+      <div>AI Inference</div>
+    </div>
+  </a>
+
+  <a href="/granitelabs-site/searchable-hub/" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/granitelabs-site/img/projects/searchable-hub-card.png" />
+      <div>Searchable Hub</div>
+    </div>
+  </a>
+
+  <a href="/granitelabs-site/wildlife-specialist/" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/granitelabs-site/img/projects/wildlife-specialist-card.png" />
+      <div>Wildlife Specialist</div>
+    </div>
+  </a>
+
+  <a href="/granitelabs-site/knowledge-monolith/" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/granitelabs-site/img/projects/knowledge-monolith-card.png" />
+      <div>Knowledge Monolith</div>
+    </div>
+  </a>
+
+  <a href="/granitelabs-site/chatgpt/" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/granitelabs-site/img/projects/chatgpt-card.png" />
+      <div>ChatGPT</div>
+    </div>
+  </a>
+
+</div>
