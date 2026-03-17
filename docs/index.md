@@ -1,8 +1,20 @@
 # Granite Labs
 
-Searchable Deployment Documentation
+<div style={{padding: '28px 24px', borderRadius: '18px', background: 'linear-gradient(135deg, rgba(20,30,45,0.95), rgba(10,14,20,0.98))', border: '1px solid rgba(120,160,200,0.18)', marginBottom: '28px'}}>
 
----
+<div style={{fontSize: '2.2rem', fontWeight: 700, marginBottom: '8px'}}>
+  Granite Labs
+</div>
+
+<div style={{fontSize: '1.05rem', opacity: 0.9, marginBottom: '10px'}}>
+  Searchable Deployment Documentation
+</div>
+
+<div style={{fontSize: '0.98rem', opacity: 0.8, maxWidth: '760px'}}>
+  A structured knowledge platform for infrastructure, AI systems, networking, monitoring, logging, cloud services, and technical operations.
+</div>
+
+</div>
 
 ## IT Core Systems
 
