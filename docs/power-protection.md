@@ -1,4 +1,4 @@
-# TITLE
+# Power Protection
 
 <div style={{marginBottom: '16px'}}>
   <a href="/granitelabs-site/icon-system/">← Back to Icon System</a>
