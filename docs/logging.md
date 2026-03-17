@@ -9,9 +9,15 @@
 </div>
 
 ## Overview
-YOUR OVERVIEW TEXT
+System logs and data tracking.
 
-## Notes
-- Item 1
-- Item 2
-- Item 3
+## Scope
+- Storage
+- Analysis
+- Retention
+
+## Current Notes
+Add your working notes here.
+
+## References
+Add links, models, or supporting docs here.
