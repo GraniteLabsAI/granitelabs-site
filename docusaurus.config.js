@@ -54,7 +54,7 @@ const config = {
   title: 'Granite Labs',
   logo: {
     alt: 'Granite Labs Logo',
-    src: require('@site/static/img/cube_1024_master.png').default,
+    src: 'img/cube_1024_master.png',
     height: 32,
     width: 32,
   },
