@@ -77,44 +77,60 @@ A visual index of systems, components, and capabilities.
 
 <div class="icon-grid">
 
-  <div class="icon-card">
-    <img src="/img/projects/poe-icon.png" />
-    <div>POE</div>
-  </div>
+  <a href="/docs/poe" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/img/projects/poe-icon.png" />
+      <div>POE</div>
+    </div>
+  </a>
 
-  <div class="icon-card">
-    <img src="/img/projects/power-protection-icon.png" />
-    <div>Power Protection</div>
-  </div>
+  <a href="/docs/power-protection" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/img/projects/power-protection-icon.png" />
+      <div>Power Protection</div>
+    </div>
+  </a>
 
-  <div class="icon-card">
-    <img src="/img/projects/satellite-icon.png" />
-    <div>Satellite</div>
-  </div>
+  <a href="/docs/satellite" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/img/projects/satellite-icon.png" />
+      <div>Satellite</div>
+    </div>
+  </a>
 
-  <div class="icon-card">
-    <img src="/img/projects/cloud-icon.png" />
-    <div>Cloud</div>
-  </div>
+  <a href="/docs/cloud" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/img/projects/cloud-icon.png" />
+      <div>Cloud</div>
+    </div>
+  </a>
 
-  <div class="icon-card">
-    <img src="/img/projects/telemetry-icon.png" />
-    <div>Telemetry</div>
-  </div>
+  <a href="/docs/telemetry" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/img/projects/telemetry-icon.png" />
+      <div>Telemetry</div>
+    </div>
+  </a>
 
-  <div class="icon-card">
-    <img src="/img/projects/alerting-icon.png" />
-    <div>Alerting</div>
-  </div>
+  <a href="/docs/alerting" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/img/projects/alerting-icon.png" />
+      <div>Alerting</div>
+    </div>
+  </a>
 
-  <div class="icon-card">
-    <img src="/img/projects/logging-icon.png" />
-    <div>Logging</div>
-  </div>
+  <a href="/docs/logging" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/img/projects/logging-icon.png" />
+      <div>Logging</div>
+    </div>
+  </a>
 
-  <div class="icon-card">
-    <img src="/img/projects/database-icon.png" />
-    <div>Database</div>
-  </div>
+  <a href="/docs/database" class="icon-card-link">
+    <div class="icon-card">
+      <img src="/img/projects/database-icon.png" />
+      <div>Database</div>
+    </div>
+  </a>
 
 </div>
