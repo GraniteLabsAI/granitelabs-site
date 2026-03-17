@@ -1,9 +1,17 @@
-# Cloud
+# TITLE
+
+<div style={{marginBottom: '16px'}}>
+  <a href="/granitelabs-site/icon-system/">← Back to Icon System</a>
+</div>
+
+<div style={{textAlign: 'center', marginBottom: '20px'}}>
+  <img src="/granitelabs-site/img/projects/cloud-icon.png" width="180" />
+</div>
 
 ## Overview
-Cloud services and architecture.
+YOUR OVERVIEW TEXT
 
 ## Notes
-- Storage
-- Compute
-- Sync systems
+- Item 1
+- Item 2
+- Item 3
