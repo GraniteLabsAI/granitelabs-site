@@ -51,11 +51,14 @@ const config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Granite Labs',
-      logo: {
-        alt: 'Granite Labs Logo',
-        src: 'img/granite-logo.png',
-      },
+  title: 'Granite Labs',
+  logo: {
+    alt: 'Granite Labs Logo',
+    src: 'img/cube_1024_master.png',
+    height: 32,
+    width: 32,
+  },
+},
       items: [
         {
           href: 'https://github.com/GraniteLabsAI/granitelabs-site',
