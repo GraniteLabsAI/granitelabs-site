@@ -5,7 +5,11 @@ const sidebars = {
       id: 'index',
       label: 'Home',
     },
-
+{
+  type: 'doc',
+  id: 'icon-system',
+  label: 'Icon System',
+},
     {
       type: 'category',
       label: 'Projects',
