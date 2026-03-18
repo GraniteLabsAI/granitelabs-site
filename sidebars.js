@@ -24,7 +24,7 @@ const sidebars = {
     'alerting',
     'logging',
     'database',
-    'blue-iris/tab-index',
+    
   ],
 },
 
@@ -64,6 +64,7 @@ const sidebars = {
             'blue-iris/documentation-map',
             'blue-iris/system-reference',
             'blue-iris/installation',
+            'blue-iris/tab-index',
           ],
         },
       ],
