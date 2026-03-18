@@ -4,9 +4,6 @@ This is a fully searchable reference of all Blue Iris settings, tabs, and option
 
 ---
 
-<iframe 
-  src="/granitelabs-site/tools/blueiris-tab-index.html" 
-  width="100%" 
-  height="900" 
-  style="border:none;">
-</iframe>
+👉 Open the interactive version:
+
+[Launch Blue Iris Tab Index](https://granitelabsai.github.io/granitelabs-site/tools/blueiris-tab-index.html)
