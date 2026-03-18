@@ -24,6 +24,7 @@ const sidebars = {
     'alerting',
     'logging',
     'database',
+    'blue-iris/tab-index',
   ],
 },
 
