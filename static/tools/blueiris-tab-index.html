@@ -425,6 +425,7 @@ searchInput.addEventListener('input', () => {
       entry.classList.add('hidden');
     }
   });
+ 
 
   // Show/hide program sections
   document.querySelectorAll('.program-section').forEach(section => {
@@ -437,6 +438,17 @@ searchInput.addEventListener('input', () => {
     ? visible + ' of ' + totalEntries + ' results for "' + searchInput.value + '"'
     : totalEntries + ' tabs and sections indexed';
 });
+
+// Apply a search query from the URL, e.g. ?q=AI
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q');
+  if (!q) return;
+
+  searchInput.value = q;
+  searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+})();
+ 
 </script>
 </body>
 </html>
