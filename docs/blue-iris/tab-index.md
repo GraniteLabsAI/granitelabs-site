@@ -23,23 +23,27 @@ Search the full Blue Iris settings map by tab, feature, keyword, or option.
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '14px'}}>
 
 <a href="/granitelabs-site/tools/blueiris-tab-index.html?q=AI" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
-  <strong>AI Settings</strong>
-  <div style={{fontSize: '0.85rem', opacity: 0.75}}>Detection, hardware decode, preview tuning</div>
+  <strong>24 – AI Detection</strong>
+  <div style={{fontSize: '0.85rem', opacity: 0.75}}>Detection, CodeProject AI, hardware decode
+  </div>
 </a>
 
 <a href="/granitelabs-site/tools/blueiris-tab-index.html?q=Database" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
-  <strong>Storage / Database</strong>
-  <div style={{fontSize: '0.85rem', opacity: 0.75}}>Clip paths, retention, queue behavior</div>
+  <strong>21 – Recording & Storage</strong>
+  <div style={{fontSize: '0.85rem', opacity: 0.75}}>Clip paths, retention, database behavior
+  </div>
 </a>
 
 <a href="/granitelabs-site/tools/blueiris-tab-index.html?q=Webserver" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
-  <strong>Web Server</strong>
-  <div style={{fontSize: '0.85rem', opacity: 0.75}}>Ports, HTTPS, remote access</div>
+  <strong>30 – Web / Integration</strong>
+  <div style={{fontSize: '0.85rem', opacity: 0.75}}>Web server, ports, remote access
+  </div>
 </a>
 
 <a href="/granitelabs-site/tools/blueiris-tab-index.html?q=Users" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
-  <strong>Users & Security</strong>
-  <div style={{fontSize: '0.85rem', opacity: 0.75}}>Accounts, permissions, mobile access</div>
+  <strong>Users / Security</strong>
+  <div style={{fontSize: '0.85rem', opacity: 0.75}}>Accounts, permissions, mobile access
+  </div>
 </a>
 
 </div>
