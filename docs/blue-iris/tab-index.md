@@ -20,10 +20,10 @@ Search the full Blue Iris settings map by tab, feature, keyword, or option.
 
 ## Quick Access
 
-- [24 – AI Detection](/granitelabs-site/docs/blue-iris/system-reference)
-- [21 – Recording & Storage](/granitelabs-site/docs/blue-iris/installation)
-- [30 – Web / Integration](/granitelabs-site/docs/blue-iris/overview)
-- [Users / Security](/granitelabs-site/docs/blue-iris/index)
+- [24 – AI Detection](/granitelabs-site/blue-iris/system-reference)
+- [21 – Recording & Storage](/granitelabs-site/blue-iris/installation)
+- [30 – Web / Integration](/granitelabs-site/blue-iris/overview)
+- [Users / Security](/granitelabs-site/blue-iris/)
 
 ## Use This With
 
