@@ -20,16 +20,16 @@ Search the full Blue Iris settings map by tab, feature, keyword, or option.
 
 ## Quick Access
 
-- [24 – AI Detection](/granitelabs-site/tools/blueiris-tab-index.html?q=AI)  
+- [24 – AI Detection](/tools/blueiris-tab-index?q=AI)  
   Detection, CodeProject AI, hardware decode
 
-- [21 – Recording & Storage](/granitelabs-site/tools/blueiris-tab-index.html?q=Database)  
+- [21 – Recording & Storage](/tools/blueiris-tab-index?q=Database)  
   Clip paths, retention, database behavior
 
-- [30 – Web / Integration](/granitelabs-site/tools/blueiris-tab-index.html?q=Webserver)  
+- [30 – Web / Integration](/tools/blueiris-tab-index?q=Webserver)  
   Web server, ports, remote access
 
-- [Users / Security](/granitelabs-site/tools/blueiris-tab-index.html?q=Users)  
+- [Users / Security](/tools/blueiris-tab-index?q=Users)  
   Accounts, permissions, mobile access
 
 ## Use This With
