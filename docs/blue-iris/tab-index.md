@@ -44,6 +44,12 @@ Search the full Blue Iris settings map by tab, feature, keyword, or option.
 
 </div>
 
+## Use This With
+
+- [System Reference](/granitelabs-site/blue-iris/system-reference/)
+- [Installation](/granitelabs-site/blue-iris/installation/)
+- [Documentation Map](/granitelabs-site/blue-iris/documentation-map/)
+
 ## What this tool includes
 
 - Search across Blue Iris settings and tabs
