@@ -22,22 +22,22 @@ Search the full Blue Iris settings map by tab, feature, keyword, or option.
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '14px'}}>
 
-<a href="/granitelabs-site/tools/blueiris-tab-index.html" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
+<a href="/granitelabs-site/tools/blueiris-tab-index.html?q=AI" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
   <strong>AI Settings</strong>
   <div style={{fontSize: '0.85rem', opacity: 0.75}}>Detection, hardware decode, preview tuning</div>
 </a>
 
-<a href="/granitelabs-site/tools/blueiris-tab-index.html" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
+<a href="/granitelabs-site/tools/blueiris-tab-index.html?q=Database" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
   <strong>Storage / Database</strong>
   <div style={{fontSize: '0.85rem', opacity: 0.75}}>Clip paths, retention, queue behavior</div>
 </a>
 
-<a href="/granitelabs-site/tools/blueiris-tab-index.html" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
+<a href="/granitelabs-site/tools/blueiris-tab-index.html?q=Webserver" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
   <strong>Web Server</strong>
   <div style={{fontSize: '0.85rem', opacity: 0.75}}>Ports, HTTPS, remote access</div>
 </a>
 
-<a href="/granitelabs-site/tools/blueiris-tab-index.html" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
+<a href="/granitelabs-site/tools/blueiris-tab-index.html?q=Users" style={{display: 'block', padding: '14px', borderRadius: '12px', border: '1px solid rgba(120,160,200,0.18)', textDecoration: 'none'}}>
   <strong>Users & Security</strong>
   <div style={{fontSize: '0.85rem', opacity: 0.75}}>Accounts, permissions, mobile access</div>
 </a>
