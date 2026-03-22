@@ -4,6 +4,11 @@
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
 **Status:** Phase 1 Complete – Awaiting Onsite Installation (Phase 2)
 
+![Cloudflare Tunnel Phase 1 Diagram](/img/networking/cloudflare-tunnel-phase1-dark.png)
+
+*Architecture overview: Cloudflare provides HTTPS and authentication, the tunnel stays outbound-only, and Blue Iris remains private on the LAN.*
+
+
 ---
 
 ## 🎯 Objective
