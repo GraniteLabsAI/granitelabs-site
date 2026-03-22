@@ -4,7 +4,7 @@
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
 **Status:** Phase 1 Complete – Awaiting Onsite Installation (Phase 2)
 
-
+![Cloudflare Tunnel Phase 1 Diagram](/img/cloudflare-tunnel-phase1-dark.png)
 
 
 
