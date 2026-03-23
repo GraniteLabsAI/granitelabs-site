@@ -1,7 +1,7 @@
 # Searchable Hub
 
 <div style={{textAlign: 'center', marginBottom: '20px'}}>
-  <img src="/granitelabs-site/img/projects/searchable-hub-card.png" width="220" />
+  <img src="/img/projects/searchable-hub-card.png" width="220" />
 </div>
 
 <div style={{marginBottom: '16px'}}>
