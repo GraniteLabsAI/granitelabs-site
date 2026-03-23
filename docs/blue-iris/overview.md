@@ -71,5 +71,17 @@ System performance depends on stream type, codec choice, decode settings, AI loa
 
 ---
 
+## 🧠 Real-World Notes
+
+- H.264 is often more stable than H.265 in multi-camera setups
+- Direct-to-disk reduces CPU load significantly
+- AI confirmation should be tuned before enabling alerts
+- Pre-trigger settings are critical for capturing full events
+- Too many high-resolution streams can degrade performance quickly
+
+
+
+---
+
 ## ✅ Result
 This page gives a clear overview of the Blue Iris environment and helps the reader quickly understand how the main system components fit together.
