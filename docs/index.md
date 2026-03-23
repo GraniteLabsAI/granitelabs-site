@@ -92,4 +92,13 @@
   </div>
 </a>
 
+<a href="/velixo/" style={{textDecoration: 'none', color: 'inherit'}}>
+  <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
+    <img src="/img/projects/velixo-card.png" alt="Velixo" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
+    <div style={{fontWeight: 600}}>Velixo Reporting</div>
+    <div style={{fontSize: '0.9rem', opacity: 0.75}}>Excel-based reporting for Acumatica data</div>
+  </div>
+</a>
+
+
 </div>
