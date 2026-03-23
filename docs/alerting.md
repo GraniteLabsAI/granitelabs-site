@@ -5,7 +5,7 @@
 </div>
 
 <div style={{textAlign: 'center', marginBottom: '20px'}}>
-  <img src="/granitelabs-site/img/projects/alerting-icon.png" width="180" />
+  <img src="/img/projects/alerting-icon.png" width="180" />
 </div>
 
 ## Overview
