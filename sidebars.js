@@ -14,7 +14,24 @@ const sidebars = {
 
     {
       type: 'category',
-      label: 'IT Core',
+      label: 'Blue Iris',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'blue-iris/index',
+      },
+      items: [
+        'blue-iris/overview',
+        'blue-iris/documentation-map',
+        'blue-iris/system-reference',
+        'blue-iris/installation',
+        'blue-iris/tab-index',
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'IT Core Systems',
       collapsed: false,
       items: [
         'poe',
@@ -28,7 +45,6 @@ const sidebars = {
       ],
     },
 
-    // ✅ NEW SECTION
     {
       type: 'category',
       label: 'Networking',
@@ -66,67 +82,6 @@ const sidebars = {
       link: {
         type: 'doc',
         id: 'projects/index',
-      },
-      items: [
-        {
-          type: 'category',
-          label: 'Blue Iris 6',
-          collapsed: false,
-          link: {
-            type: 'doc',
-            id: 'blue-iris/index',
-          },
-          items: [
-            'blue-iris/overview',
-            'blue-iris/documentation-map',
-            'blue-iris/system-reference',
-            'blue-iris/installation',
-            'blue-iris/tab-index',
-          ],
-        },
-      ],
-    },
-
-    {
-      type: 'category',
-      label: 'Brand',
-      collapsed: false,
-      link: {
-        type: 'doc',
-        id: 'brand/index',
-      },
-      items: [],
-    },
-
-    {
-      type: 'category',
-      label: 'Architecture',
-      collapsed: false,
-      link: {
-        type: 'doc',
-        id: 'architecture/index',
-      },
-      items: [],
-    },
-
-    {
-      type: 'category',
-      label: 'Guides',
-      collapsed: false,
-      link: {
-        type: 'doc',
-        id: 'guides/index',
-      },
-      items: [],
-    },
-
-    {
-      type: 'category',
-      label: 'Research',
-      collapsed: false,
-      link: {
-        type: 'doc',
-        id: 'research/index',
       },
       items: [],
     },
