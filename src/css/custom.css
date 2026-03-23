@@ -1,104 +1,75 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-.card-hover img {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card-hover:hover img {
-  transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
-}
-
-.icon-card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-.icon-card {
-  transition: transform 0.25s ease, filter 0.25s ease;
-}
-
-.icon-card:hover {
-  transform: translateY(-6px) scale(1.03);
-  filter: brightness(1.15);
-}
-
-.icon-card img {
-  transition: transform 0.25s ease;
-}
-
-.icon-card:hover img {
-  transform: scale(1.05);
-}
+/* =========================
+   GLOBAL CARD / ICON SYSTEM
+========================= */
 
 .icon-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 28px;
   margin-top: 24px;
 }
 
+/* Card container */
 .icon-card-link {
   text-decoration: none;
   color: inherit;
   display: block;
 }
 
+/* Card styling */
 .icon-card {
   text-align: center;
-  padding: 12px;
-  border-radius: 14px;
-  transition: transform 0.25s ease, filter 0.25s ease, box-shadow 0.25s ease;
+  padding: 18px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(120, 160, 200, 0.12);
+
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease,
+              filter 0.25s ease;
 }
 
+/* Hover effect */
 .icon-card:hover {
   transform: translateY(-6px) scale(1.03);
-  filter: brightness(1.12);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+  filter: brightness(1.1);
 }
 
+/* Image styling */
 .icon-card img {
-  width: 140px;
-  max-width: 100%;
-  height: auto;
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  margin-bottom: 10px;
+
   transition: transform 0.25s ease;
 }
 
+/* Image hover */
 .icon-card:hover img {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
+/* Label text */
 .icon-card div {
-  margin-top: 10px;
+  margin-top: 6px;
   font-weight: 600;
   letter-spacing: 0.02em;
+  font-size: 0.95rem;
+}
+
+/* =========================
+   OPTIONAL: HERO BUTTONS
+========================= */
+
+a[href="/icon-system/"],
+a[href="/blue-iris/"] {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a[href="/icon-system/"]:hover,
+a[href="/blue-iris/"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
 }
