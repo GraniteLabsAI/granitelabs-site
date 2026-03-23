@@ -1,39 +1,69 @@
+# Blue Iris 6 – Overview
+
+## 🔹 Overview
+Blue Iris 6 is the core platform for managing cameras, recording strategy, motion detection, AI-assisted analysis, alerts, storage, and system tuning.
+
+This page provides the high-level view of how the Blue Iris environment is structured and how the major parts of the system work together.
+
 ---
-title: Overview
-sidebar_position: 2
+
+## 🎯 Objective
+- Explain the purpose of the Blue Iris system
+- Provide a high-level operational view
+- Establish the main configuration areas
+- Create a clean starting point for deeper documentation
+
 ---
 
-# Blue Iris Overview
+## 🧠 Key Concepts
+- Camera ingestion and stream handling
+- Recording modes and retention
+- Motion detection and trigger behavior
+- AI confirmation workflows
+- Alerts and notifications
+- Profiles and schedules
+- Storage and database health
+- Performance and hardware acceleration
 
-The Blue Iris project documents the design, deployment, and optimization of a real-world Blue Iris 6 surveillance system.
+---
 
-## Focus Areas
+## 🛠️ System Areas
 
-This project covers:
+### Cameras
+Blue Iris connects to IP cameras and related video sources, manages streams, and coordinates recording, live view, and alert workflows.
 
-- practical camera deployment
-- Blue Iris configuration
-- AI-assisted object detection
-- storage planning
-- alerting and notifications
-- performance tuning
-- maintenance workflows
+### Recording
+Recording behavior is driven by profile settings, trigger logic, direct-to-disk strategy, retention rules, and storage architecture.
 
-## Core System Areas
+### Motion + AI
+Motion detection can trigger recording and alerts, while AI confirmation helps reduce false alerts and improve event quality.
 
-The Blue Iris knowledge base is organized around these major categories:
+### Alerts
+Alerts may include notifications, clips, still images, mobile push, and other actions depending on the profile and camera configuration.
 
-- system reference
-- architecture
-- hardware and server configuration
-- network and camera IP planning
-- camera setup
-- global settings
-- storage and recording
-- motion and AI detection
-- alerts and notifications
-- maintenance and backup
+### Storage
+Storage planning includes New, Stored, alerts, database maintenance, and long-term retention strategy.
 
-## Goal
+### Performance
+System performance depends on stream type, codec choice, decode settings, AI load, frame rate, resolution, and hardware acceleration.
 
-The goal is to produce a reliable engineering reference for building and maintaining a Blue Iris system using clear structure, repeatable settings, and field-tested procedures.
+---
+
+## 📊 Related Pages
+
+- [System Reference](/blue-iris/system-reference/)
+- [Installation](/blue-iris/installation/)
+- [Documentation Map](/blue-iris/documentation-map/)
+- [Blue Iris Tab Index](/blue-iris/tab-index/)
+
+---
+
+## ⚠️ Notes
+- This page should stay high-level and easy to scan
+- Detailed procedures belong in dedicated pages
+- Use this page as a front door to the rest of the Blue Iris section
+
+---
+
+## ✅ Result
+This page gives a clear overview of the Blue Iris environment and helps the reader quickly understand how the main system components fit together.
