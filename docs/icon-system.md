@@ -19,7 +19,7 @@ A visual index of systems, components, and capabilities.
 
   <a href="/granitelabs-site/power-protection" class="icon-card-link">
     <div class="icon-card">
-      <img src="/img/projects/power-protection-icon.png" />
+      <img src="/img/projects/power-protection-icon.png" alt="Power Protection" style={{width: '64px', height: '64px', objectFit: 'contain', marginBottom: '10px'}} /> />
       <div>Power Protection</div>
     </div>
   </a>
