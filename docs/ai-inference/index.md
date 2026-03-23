@@ -1,7 +1,7 @@
 # AI Inference
 
 <div style={{textAlign: 'center', marginBottom: '20px'}}>
-  <img src="/granitelabs-site/img/projects/ai-inference-card.png" width="220" />
+  <img src="/img/projects/ai-inference-card.png" width="220" />
 </div>
 
 <div style={{marginBottom: '16px'}}>
