@@ -84,6 +84,14 @@ This guide provides a structured approach to installing and configuring Blue Iri
 
 ---
 
+
+## ⚡ Quick Wins
+
+- Start with 1–2 cameras before scaling
+- Use sub-stream for motion detection where possible
+- Set frame rate to ~15 FPS for most cameras
+- Confirm storage paths before long-term recording
+- Avoid enabling all alerts at once
 ## ⚠️ Notes
 - Do not over-tune during installation
 - Avoid adding too many cameras at once
