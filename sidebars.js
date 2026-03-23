@@ -20,13 +20,16 @@ const sidebars = {
         type: 'doc',
         id: 'blue-iris/index',
       },
-      items: [
-        'blue-iris/overview',
-        'blue-iris/documentation-map',
-        'blue-iris/system-reference',
-        'blue-iris/installation',
-        'blue-iris/tab-index',
-      ],
+      
+     items: [
+  'blue-iris/overview',
+  'blue-iris/documentation-map',
+  'blue-iris/system-reference',
+  'blue-iris/installation',
+  'blue-iris/tab-index',
+  'blue-iris/tuning',
+],
+      
     },
 
     {
