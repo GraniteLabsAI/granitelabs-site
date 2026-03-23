@@ -37,6 +37,9 @@ const sidebars = {
   'blue-iris/alerts-not-working',
   'blue-iris/performance-optimization',
   'blue-iris/field-quick-sheet',
+  'blue-iris/system-architecture',
+  'blue-iris/detection-flow',
+  'blue-iris/field-quick-sheet-print',
 ],
       
     },
