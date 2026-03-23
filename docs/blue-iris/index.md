@@ -1,39 +1,55 @@
----
-title: Blue Iris 6
-sidebar_position: 1
----
-
 # Blue Iris 6
 
-Blue Iris 6 is a Granite Labs project focused on building, documenting, and optimizing a practical video security and camera management platform.
+## 🔹 Overview
+Blue Iris 6 is the central platform for camera management, recording, alerting, AI-assisted detection, storage planning, and long-term surveillance documentation.
 
-## Project Scope
+This section is the working knowledge base for designing, configuring, tuning, and maintaining a Blue Iris system.
 
-This project includes:
+---
 
-- Blue Iris installation
-- camera setup and integration
-- AI object detection
-- storage architecture
-- alerts and notifications
-- performance tuning
-- system maintenance
-- project documentation structure
+## 🎯 Objective
+- Create a structured reference for Blue Iris configuration
+- Document recording, alerting, AI, storage, and performance decisions
+- Support repeatable deployment and troubleshooting
+- Provide a clean entry point into the Blue Iris documentation set
 
-## Documentation Areas
+---
 
-Blue Iris documentation will be organized into the following areas:
+## 🧠 Key Concepts
+- Direct-to-disk recording
+- Motion detection and trigger logic
+- AI confirmation workflows
+- Profiles and schedules
+- Storage architecture
+- Camera integration and stream tuning
+- Performance optimization
 
-- Overview
-- Installation
-- Camera Setup
-- Recording and Storage
-- Motion Detection
-- AI Detection
-- Alerts and Notifications
-- Performance
-- Maintenance
+---
 
-## Purpose
+## 🛠️ Documentation Map
 
-The goal of this project is to create a clear, repeatable, field-tested documentation system for deploying and maintaining a Blue Iris-based surveillance platform.
+### Core Pages
+- [Overview](/blue-iris/overview/)
+- [Documentation Map](/blue-iris/documentation-map/)
+- [System Reference](/blue-iris/system-reference/)
+- [Installation](/blue-iris/installation/)
+- [Blue Iris Tab Index](/blue-iris/tab-index/)
+
+---
+
+## 📊 Featured Diagram
+
+<img src="/img/projects/blue-iris-card.png" alt="Blue Iris" style={{width: '100%', maxWidth: '420px', borderRadius: '12px', marginTop: '10px', marginBottom: '20px'}} />
+
+---
+
+## ⚠️ Notes
+- This section is intended to grow into a full structured manual
+- Some pages are reference-oriented, while others are deployment-oriented
+- Keep image paths in `/img/...`
+- Use HTML image tags instead of markdown image syntax for consistency
+
+---
+
+## ✅ Result
+This page serves as the entry point for the Blue Iris knowledge base and should remain the cleanest starting point for navigation into the full section.
