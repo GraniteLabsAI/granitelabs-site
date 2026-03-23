@@ -33,6 +33,9 @@ const sidebars = {
   'blue-iris/axis-p1485-le',
   'blue-iris/ai-tuning',
   'blue-iris/storage-architecture',
+  'blue-iris/troubleshooting',
+  'blue-iris/alerts-not-working',
+  'blue-iris/performance-optimization',
 ],
       
     },
