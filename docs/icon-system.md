@@ -115,7 +115,4 @@ A visual index of systems, components, and capabilities.
   </a>
 
 </div>
-    </div>
-  </a>
 
-</div>
