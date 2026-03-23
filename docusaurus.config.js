@@ -6,8 +6,8 @@ const config = {
   tagline: 'Searchable Deployment Documentation',
   favicon: 'img/favicon.ico',
 
-  url: 'https://granitelabsai.github.io',
-  baseUrl: '/granitelabs-site/',
+  url: 'https://granitelabs.ai',
+  baseUrl: '/',
 
   organizationName: 'GraniteLabsAI',
   projectName: 'granitelabs-site',
