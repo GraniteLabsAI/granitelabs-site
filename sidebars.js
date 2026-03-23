@@ -32,6 +32,36 @@ const sidebars = {
       
     },
 
+{
+  type: 'category',
+  label: 'Acumatica',
+  collapsed: false,
+  link: {
+    type: 'doc',
+    id: 'acumatica/index',
+  },
+  items: [
+    'acumatica/overview',
+    'acumatica/system-reference',
+    'acumatica/practical-guide',
+  ],
+},
+
+{
+  type: 'category',
+  label: 'Velixo',
+  collapsed: false,
+  link: {
+    type: 'doc',
+    id: 'velixo/index',
+  },
+  items: [
+    'velixo/overview',
+    'velixo/system-reference',
+    'velixo/reporting-patterns',
+  ],
+},
+    
     {
       type: 'category',
       label: 'IT Core Systems',
