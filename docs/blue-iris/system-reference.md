@@ -1,45 +1,133 @@
+# Blue Iris 6 – System Reference
+
+## 🔹 Overview
+This page serves as a structured reference for the major configuration areas within Blue Iris 6.
+
+Use this page as a quick lookup to understand where settings live and how they relate to system behavior.
+
 ---
-title: System Reference
-sidebar_position: 5
+
+## 🎯 Objective
+- Provide a quick reference to Blue Iris configuration areas
+- Reduce time spent searching for settings
+- Support troubleshooting and system tuning
+- Create a consistent reference structure
+
 ---
 
-# Blue Iris System Reference
+## 🧠 Key Concepts
+- Global vs Camera-level settings
+- Trigger-based recording logic
+- AI confirmation vs motion detection
+- Profiles and scheduling control behavior
+- Storage paths and retention rules
+- Performance tuning impacts system stability
 
-The Blue Iris System Reference provides the foundational information required to understand the structure of the Granite Labs Blue Iris project.
+---
 
-This section explains how the Blue Iris documentation is organized and how the system components relate to each other.
+## 🛠️ System Areas
 
-## Project Documentation Structure
+### Global Settings
+Controls system-wide behavior:
+- Web server
+- User access
+- Alerts (global level)
+- Profiles and schedules
+- Storage configuration
+- AI integration
 
-The Blue Iris documentation follows a structured index system used throughout Granite Labs projects.
+---
 
-Major sections include:
+### Camera Settings
+Controls individual camera behavior:
+- Video and audio configuration
+- Trigger settings
+- Recording rules
+- Alert behavior
+- Scheduling and profile overrides
 
-- System Reference
-- Architecture
-- Hardware and Server Configuration
-- Network and Camera IP Planning
-- Camera Setup
-- Global Settings
-- Recording and Storage
-- Motion Detection
-- AI Detection
-- Alerts and Notifications
-- Performance Optimization
-- Maintenance and Backup
+---
 
-## Purpose
+### Recording
+Defines how and when video is stored:
+- Continuous vs triggered recording
+- Pre-trigger and post-trigger buffers
+- Direct-to-disk configuration
+- Retention and cleanup rules
 
-The purpose of the System Reference is to act as the central guide to the Blue Iris documentation system.
+---
 
-It provides a high-level explanation of how the project is organized so that readers can easily locate specific technical information.
+### Motion Detection
+Determines when events occur:
+- Sensitivity
+- Object size
+- Zones
+- Contrast thresholds
+- Trigger timing
 
-## Future Content
+---
 
-This section will expand to include:
+### AI Detection
+Enhances motion detection:
+- Object classification
+- Confidence thresholds
+- Confirmed vs unconfirmed alerts
+- Reduces false positives
 
-- Blue Iris project numbering system
-- documentation index
-- system overview diagrams
-- configuration reference summaries
+---
 
+### Alerts
+Defines system responses:
+- Push notifications
+- Email / SMS
+- Clip generation
+- Image capture
+- External integrations
+
+---
+
+### Profiles & Schedules
+Controls system behavior over time:
+- Different modes (day/night/security)
+- Schedule-based switching
+- Per-camera overrides
+
+---
+
+### Storage
+Defines how data is managed:
+- New / Stored / Alerts folders
+- Size limits
+- Retention rules
+- Database management
+
+---
+
+### Performance
+System optimization areas:
+- Hardware acceleration
+- Stream selection (main vs sub)
+- Codec selection (H.264 vs H.265)
+- Frame rate tuning
+- CPU / GPU load management
+
+---
+
+## 📊 Related Pages
+
+- [Overview](/blue-iris/overview/)
+- [Installation](/blue-iris/installation/)
+- [Documentation Map](/blue-iris/documentation-map/)
+- [Blue Iris Tab Index](/blue-iris/tab-index/)
+
+---
+
+## ⚠️ Notes
+- This page is not for step-by-step instructions
+- It is a reference layer for understanding the system
+- Use detailed pages for configuration walkthroughs
+
+---
+
+## ✅ Result
+This page provides a structured reference for all major Blue Iris configuration areas and supports faster navigation and troubleshooting.
