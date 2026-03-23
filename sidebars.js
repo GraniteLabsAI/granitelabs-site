@@ -31,6 +31,8 @@ const sidebars = {
   'blue-iris/reolink-rlc-810a',
   'blue-iris/reolink-rlc-843a',
   'blue-iris/axis-p1485-le',
+  'blue-iris/ai-tuning',
+  'blue-iris/storage-architecture',
 ],
       
     },
