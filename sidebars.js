@@ -21,13 +21,16 @@ const sidebars = {
         id: 'blue-iris/index',
       },
       
-     items: [
+    items: [
   'blue-iris/overview',
   'blue-iris/documentation-map',
   'blue-iris/system-reference',
   'blue-iris/installation',
   'blue-iris/tab-index',
   'blue-iris/tuning',
+  'blue-iris/reolink-rlc-810a',
+  'blue-iris/reolink-rlc-843a',
+  'blue-iris/axis-p1485-le',
 ],
       
     },
