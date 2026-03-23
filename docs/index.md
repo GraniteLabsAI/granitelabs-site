@@ -20,19 +20,19 @@
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '12px', marginBottom: '10px'}}>
 
-<a href="/granitelabs-site/icon-system/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
+<a href="/icon-system/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
   Icon System
 </a>
 
-<a href="/granitelabs-site/blue-iris/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
+<a href="/blue-iris/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
   Blue Iris
 </a>
 
-<a href="/granitelabs-site/acumatica/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
+<a href="/acumatica/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
   Acumatica
 </a>
 
-<a href="/granitelabs-site/velixo/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
+<a href="/velixo/" style={{padding: '10px 14px', borderRadius: '10px', textDecoration: 'none', border: '1px solid rgba(120,160,200,0.22)'}}>
   Velixo
 </a>
 
@@ -42,64 +42,63 @@
 
 <div class="icon-grid">
 
-<a href="/granitelabs-site/docs/poe/" class="icon-card-link">
+<a href="/docs/poe/" class="icon-card-link">
   <div class="icon-card">
-    <img src="/granitelabs-site/img/projects/poe-icon.png" />
+    <img src="/img/projects/poe-icon.png" />
     <div>POE</div>
   </div>
 </a>
 
-<a href="/granitelabs-site/docs/power-protection/" class="icon-card-link">
+<a href="/docs/power-protection/" class="icon-card-link">
   <div class="icon-card">
-    <img src="/granitelabs-site/img/projects/power-protection-icon.png" />
+    <img src="/img/projects/power-protection-icon.png" />
     <div>Power Protection</div>
   </div>
 </a>
 
-<a href="/granitelabs-site/docs/satellite/" class="icon-card-link">
+<a href="/docs/satellite/" class="icon-card-link">
   <div class="icon-card">
-    <img src="/granitelabs-site/img/projects/satellite-icon.png" />
+    <img src="/img/projects/satellite-icon.png" />
     <div>Satellite</div>
   </div>
 </a>
 
-<a href="/granitelabs-site/docs/cloud/" class="icon-card-link">
+<a href="/docs/cloud/" class="icon-card-link">
   <div class="icon-card">
-    <img src="/granitelabs-site/img/projects/cloud-icon.png" />
+    <img src="/img/projects/cloud-icon.png" />
     <div>Cloud</div>
   </div>
 </a>
 
-<a href="/granitelabs-site/docs/telemetry/" class="icon-card-link">
+<a href="/docs/telemetry/" class="icon-card-link">
   <div class="icon-card">
-    <img src="/granitelabs-site/img/projects/telemetry-icon.png" />
+    <img src="/img/projects/telemetry-icon.png" />
     <div>Telemetry</div>
   </div>
 </a>
 
-<a href="/granitelabs-site/docs/alerting/" class="icon-card-link">
+<a href="/docs/alerting/" class="icon-card-link">
   <div class="icon-card">
-    <img src="/granitelabs-site/img/projects/alerting-icon.png" />
+    <img src="/img/projects/alerting-icon.png" />
     <div>Alerting</div>
   </div>
 </a>
 
-<a href="/granitelabs-site/docs/logging/" class="icon-card-link">
+<a href="/docs/logging/" class="icon-card-link">
   <div class="icon-card">
-    <img src="/granitelabs-site/img/projects/logging-icon.png" />
+    <img src="/img/projects/logging-icon.png" />
     <div>Logging</div>
   </div>
 </a>
 
-<a href="/granitelabs-site/docs/database/" class="icon-card-link">
+<a href="/docs/database/" class="icon-card-link">
   <div class="icon-card">
-    <img src="/granitelabs-site/img/projects/database-icon.png" />
+    <img src="/img/projects/database-icon.png" />
     <div>Database</div>
   </div>
 </a>
 
 </div>
-
 
 ---
 
@@ -109,44 +108,44 @@ AI systems, inference, searchable knowledge, and intelligent workflows.
 
 <div class="icon-grid">
 
-  <a href="/granitelabs-site/ai-systems/" class="icon-card-link">
+  <a href="/ai-systems/" class="icon-card-link">
     <div class="icon-card">
-      <img src="/granitelabs-site/img/projects/ai-systems-card.png" />
+      <img src="/img/projects/ai-systems-card.png" />
       <div>AI Systems</div>
     </div>
   </a>
 
-  <a href="/granitelabs-site/ai-inference/" class="icon-card-link">
+  <a href="/ai-inference/" class="icon-card-link">
     <div class="icon-card">
-      <img src="/granitelabs-site/img/projects/ai-inference-card.png" />
+      <img src="/img/projects/ai-inference-card.png" />
       <div>AI Inference</div>
     </div>
   </a>
 
-  <a href="/granitelabs-site/searchable-hub/" class="icon-card-link">
+  <a href="/searchable-hub/" class="icon-card-link">
     <div class="icon-card">
-      <img src="/granitelabs-site/img/projects/searchable-hub-card.png" />
+      <img src="/img/projects/searchable-hub-card.png" />
       <div>Searchable Hub</div>
     </div>
   </a>
 
-  <a href="/granitelabs-site/wildlife-specialist/" class="icon-card-link">
+  <a href="/wildlife-specialist/" class="icon-card-link">
     <div class="icon-card">
-      <img src="/granitelabs-site/img/projects/wildlife-specialist-card.png" />
+      <img src="/img/projects/wildlife-specialist-card.png" />
       <div>Wildlife Specialist</div>
     </div>
   </a>
 
-  <a href="/granitelabs-site/knowledge-monolith/" class="icon-card-link">
+  <a href="/knowledge-monolith/" class="icon-card-link">
     <div class="icon-card">
-      <img src="/granitelabs-site/img/projects/knowledge-monolith-card.png" />
+      <img src="/img/projects/knowledge-monolith-card.png" />
       <div>Knowledge Monolith</div>
     </div>
   </a>
 
-  <a href="/granitelabs-site/chatgpt/" class="icon-card-link">
+  <a href="/chatgpt/" class="icon-card-link">
     <div class="icon-card">
-      <img src="/granitelabs-site/img/projects/chatgpt-card.png" />
+      <img src="/img/projects/chatgpt-card.png" />
       <div>ChatGPT</div>
     </div>
   </a>
