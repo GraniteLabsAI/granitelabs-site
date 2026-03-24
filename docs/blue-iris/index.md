@@ -1,4 +1,9 @@
-# Blue Iris 6
+---
+title: Blue Iris Setup Guide – AI, Motion Detection, and System Architecture
+description: Complete Blue Iris setup guide covering camera configuration, AI detection, motion tuning, storage design, and performance optimization.
+---
+
+# Blue Iris Setup Guide (AI, Motion Detection, Storage & Performance)
 
 ## 🔹 Overview
 Blue Iris 6 is the central platform for camera management, recording, alerting, AI-assisted detection, storage planning, and long-term surveillance documentation.
