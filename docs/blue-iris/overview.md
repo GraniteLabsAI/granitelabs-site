@@ -1,3 +1,5 @@
+[← Back to Blue Iris](/blue-iris/)
+
 # Blue Iris 6 – Overview
 
 ## 🔹 Overview
