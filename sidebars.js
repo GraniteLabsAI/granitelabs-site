@@ -41,6 +41,7 @@ const sidebars = {
   'blue-iris/detection-flow',
   'blue-iris/field-quick-sheet-print',
   'blue-iris/real-config-examples',
+  'blue-iris/real-world-operations',
 ],
       
     },
