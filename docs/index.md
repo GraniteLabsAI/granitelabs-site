@@ -28,6 +28,46 @@
 
 ---
 
+</div>
+
+---
+
+## Granite Labs
+
+A structured, searchable documentation system for real-world infrastructure.
+
+This site is built from live systems — not theory — covering:
+
+- Blue Iris video surveillance architecture
+- Network and remote access design (Cloudflare Tunnel)
+- AI-assisted detection workflows
+- Storage and performance optimization
+- Acumatica and Velixo operational systems
+
+---
+
+## How to Use This Site
+
+- Start with **Projects → Blue Iris 6** for a complete working system
+- Use the **Icon System** for quick navigation across components
+- Use **Real World Operation** pages to understand how systems behave
+
+---
+
+## Design Philosophy
+
+- Keep systems simple and observable  
+- Optimize for stability, not maximum settings  
+- Validate each stage before adding complexity  
+
+---
+
+## Core Flow
+
+**Camera → Motion → Recording → AI → Alerts → Storage**
+
+---
+
 ## Core Systems
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '26px', marginBottom: '40px'}}>
