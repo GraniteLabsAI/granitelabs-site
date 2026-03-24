@@ -11,7 +11,7 @@
 </div>
 
 <div style={{fontSize: '1rem', opacity: 0.82, maxWidth: '820px', lineHeight: '1.6', marginBottom: '20px'}}>
-  A structured knowledge platform for infrastructure, AI systems, networking, monitoring, logging, cloud services, and technical operations.
+  A structured documentation system built from real-world infrastructure, not theory.
 </div>
 
 <div style={{display: 'flex', gap: '12px', flexWrap: 'wrap'}}>
@@ -28,6 +28,31 @@
 
 ---
 
+## 🔹 Overview
+
+This site documents real systems including:
+
+- Blue Iris surveillance architecture  
+- Cloudflare Tunnel remote access  
+- AI-assisted detection workflows  
+- Storage and performance tuning  
+- Acumatica ERP and Velixo reporting  
+
+---
+
+## 🔹 How to Use This Site
+
+- Start with **Projects → Blue Iris 6**
+- Use the **Icon System** to navigate components
+- Use **Real World Operation** pages to understand behavior
+
+---
+
+## 🔹 Core Flow
+
+**Camera → Motion → Recording → AI → Alerts → Storage**
+
+---
 
 ## Core Systems
 
@@ -35,28 +60,28 @@
 
   <a href="/poe/" style={{textDecoration: 'none', color: 'inherit'}}>
     <div style={{textAlign: 'center', padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-      <img src="/img/projects/poe-icon.png" alt="POE" style={{width: '100px', height: '100px', objectFit: 'contain', marginBottom: '12px'}} />
+      <img src="/img/projects/poe-icon.png" style={{width: '100px', height: '100px', objectFit: 'contain', marginBottom: '12px'}} />
       <div style={{fontWeight: 600}}>POE</div>
     </div>
   </a>
 
   <a href="/cloud/" style={{textDecoration: 'none', color: 'inherit'}}>
     <div style={{textAlign: 'center', padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-      <img src="/img/projects/cloud-icon.png" alt="Cloud" style={{width: '100px', height: '100px', objectFit: 'contain', marginBottom: '12px'}} />
+      <img src="/img/projects/cloud-icon.png" style={{width: '100px', height: '100px', objectFit: 'contain', marginBottom: '12px'}} />
       <div style={{fontWeight: 600}}>Cloud</div>
     </div>
   </a>
 
   <a href="/logging/" style={{textDecoration: 'none', color: 'inherit'}}>
     <div style={{textAlign: 'center', padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-      <img src="/img/projects/logging-icon.png" alt="Logging" style={{width: '100px', height: '100px', objectFit: 'contain', marginBottom: '12px'}} />
+      <img src="/img/projects/logging-icon.png" style={{width: '100px', height: '100px', objectFit: 'contain', marginBottom: '12px'}} />
       <div style={{fontWeight: 600}}>Logging</div>
     </div>
   </a>
 
   <a href="/database/" style={{textDecoration: 'none', color: 'inherit'}}>
     <div style={{textAlign: 'center', padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-      <img src="/img/projects/database-icon.png" alt="Database" style={{width: '100px', height: '100px', objectFit: 'contain', marginBottom: '12px'}} />
+      <img src="/img/projects/database-icon.png" style={{width: '100px', height: '100px', objectFit: 'contain', marginBottom: '12px'}} />
       <div style={{fontWeight: 600}}>Database</div>
     </div>
   </a>
@@ -71,51 +96,34 @@
 
   <a href="/blue-iris/" style={{textDecoration: 'none', color: 'inherit'}}>
     <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-      <img src="/img/projects/blue-iris-card.png" alt="Blue Iris" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
+      <img src="/img/projects/blue-iris-card.png" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
       <div style={{fontWeight: 600}}>Blue Iris System</div>
-      <div style={{fontSize: '0.9rem', opacity: 0.75}}>Camera system architecture, AI detection, and deployment</div>
+      <div style={{fontSize: '0.9rem', opacity: 0.75}}>Camera system architecture and AI detection</div>
     </div>
   </a>
 
-<a href="/acumatica/" style={{textDecoration: 'none', color: 'inherit'}}>
-  <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-    <img src="/img/projects/acumatica-card.png" alt="Acumatica" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
-    <div style={{fontWeight: 600}}>Acumatica ERP</div>
-    <div style={{fontSize: '0.9rem', opacity: 0.75}}>ERP, job cost, and financial system structure</div>
-  </div>
-</a>
+  <a href="/acumatica/" style={{textDecoration: 'none', color: 'inherit'}}>
+    <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
+      <img src="/img/projects/acumatica-card.png" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
+      <div style={{fontWeight: 600}}>Acumatica ERP</div>
+      <div style={{fontSize: '0.9rem', opacity: 0.75}}>ERP and financial system structure</div>
+    </div>
+  </a>
 
-<a href="/velixo/" style={{textDecoration: 'none', color: 'inherit'}}>
-  <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-    <img src="/img/projects/velixo-card.png" alt="Velixo" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
-    <div style={{fontWeight: 600}}>Velixo Reporting</div>
-    <div style={{fontSize: '0.9rem', opacity: 0.75}}>Excel-based real-time reporting from Acumatica</div>
-  </div>
-</a>
+  <a href="/velixo/" style={{textDecoration: 'none', color: 'inherit'}}>
+    <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
+      <img src="/img/projects/velixo-card.png" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
+      <div style={{fontWeight: 600}}>Velixo Reporting</div>
+      <div style={{fontSize: '0.9rem', opacity: 0.75}}>Excel-based reporting</div>
+    </div>
+  </a>
 
   <a href="/networking/cloudflare-tunnel/phase1-overview/" style={{textDecoration: 'none', color: 'inherit'}}>
     <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-      <img src="/img/cloudflare-tunnel-phase1-dark.png" alt="Cloudflare Tunnel" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
+      <img src="/img/cloudflare-tunnel-phase1-dark.png" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
       <div style={{fontWeight: 600}}>Cloudflare Tunnel</div>
-      <div style={{fontSize: '0.9rem', opacity: 0.75}}>Secure remote access without port forwarding</div>
+      <div style={{fontSize: '0.9rem', opacity: 0.75}}>Secure remote access</div>
     </div>
   </a>
-
-<a href="/acumatica/" style={{textDecoration: 'none', color: 'inherit'}}>
-  <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-    <img src="/img/projects/acumatica-card.png" alt="Acumatica" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
-    <div style={{fontWeight: 600}}>Acumatica ERP</div>
-    <div style={{fontSize: '0.9rem', opacity: 0.75}}>ERP, job cost, reporting, and financial structure</div>
-  </div>
-</a>
-
-<a href="/velixo/" style={{textDecoration: 'none', color: 'inherit'}}>
-  <div style={{padding: '20px', borderRadius: '16px', border: '1px solid rgba(120,160,200,0.15)', background: 'rgba(255,255,255,0.02)'}}>
-    <img src="/img/projects/velixo-card.png" alt="Velixo" style={{width: '100%', borderRadius: '10px', marginBottom: '12px'}} />
-    <div style={{fontWeight: 600}}>Velixo Reporting</div>
-    <div style={{fontSize: '0.9rem', opacity: 0.75}}>Excel-based reporting for Acumatica data</div>
-  </div>
-</a>
-
 
 </div>
