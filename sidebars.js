@@ -21,27 +21,38 @@ const sidebars = {
         id: 'blue-iris/index',
       },
       
-    items: [
+   items: [
+  'blue-iris/index',
+
+  // Core understanding
   'blue-iris/overview',
-  'blue-iris/documentation-map',
-  'blue-iris/system-reference',
   'blue-iris/installation',
+  'blue-iris/system-reference',
+  'blue-iris/documentation-map',
   'blue-iris/tab-index',
+
+  // Real-world usage
+  'blue-iris/real-world-operations',
+  'blue-iris/real-config-examples',
+
+  // Advanced tuning
   'blue-iris/tuning',
+  'blue-iris/ai-tuning',
+  'blue-iris/storage-architecture',
+  'blue-iris/performance-optimization',
+  'blue-iris/troubleshooting',
+  'blue-iris/alerts-not-working',
+
+  // Camera references
   'blue-iris/reolink-rlc-810a',
   'blue-iris/reolink-rlc-843a',
   'blue-iris/axis-p1485-le',
-  'blue-iris/ai-tuning',
-  'blue-iris/storage-architecture',
-  'blue-iris/troubleshooting',
-  'blue-iris/alerts-not-working',
-  'blue-iris/performance-optimization',
+
+  // Tools
   'blue-iris/field-quick-sheet',
+  'blue-iris/field-quick-sheet-print',
   'blue-iris/system-architecture',
   'blue-iris/detection-flow',
-  'blue-iris/field-quick-sheet-print',
-  'blue-iris/real-config-examples',
-  'blue-iris/real-world-operations',
 ],
       
     },
