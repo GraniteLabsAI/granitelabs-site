@@ -40,6 +40,7 @@ const sidebars = {
   'blue-iris/system-architecture',
   'blue-iris/detection-flow',
   'blue-iris/field-quick-sheet-print',
+  'blue-iris/real-config-examples',
 ],
       
     },
