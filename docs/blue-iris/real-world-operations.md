@@ -1,3 +1,5 @@
+[← Back to Blue Iris](/blue-iris/)
+
 # Blue Iris – Real World Operation
 
 ## 🔹 Overview
