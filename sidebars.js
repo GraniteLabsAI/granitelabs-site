@@ -137,6 +137,19 @@ const sidebars = {
       ],
     },
 
+{
+  type: 'category',
+  label: 'Research',
+  collapsed: false,
+  link: {
+    type: 'doc',
+    id: 'research/index',
+  },
+  items: [
+    'research/environmental-abatement-overview',
+  ],
+},
+    
     {
       type: 'category',
       label: 'Projects',
@@ -150,18 +163,7 @@ const sidebars = {
   ],
 };
 
-{
-  type: 'category',
-  label: 'Research',
-  collapsed: false,
-  link: {
-    type: 'doc',
-    id: 'research/index',
-  },
-  items: [
-    'research/environmental-abatement-overview',
-  ],
-},
+
 
 
 export default sidebars;
