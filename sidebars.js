@@ -38,6 +38,7 @@ const sidebars = {
   // Advanced tuning
   'blue-iris/tuning',
   'blue-iris/best-settings',
+  'blue-iris/fix-false-alerts',
   'blue-iris/ai-tuning',
   'blue-iris/storage-architecture',
   'blue-iris/performance-optimization',
