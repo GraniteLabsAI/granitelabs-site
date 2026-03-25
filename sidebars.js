@@ -27,6 +27,7 @@ const sidebars = {
   // Core understanding
   'blue-iris/overview',
   'blue-iris/installation',
+  'blue-iris/how-to-add-a-camera',
   'blue-iris/remote-access',
   'blue-iris/system-reference',
   'blue-iris/documentation-map',
