@@ -1,106 +1,142 @@
+---
+title: Blue Iris Installation and Initial Setup
+description: Step-by-step Blue Iris installation guide including camera setup, recording configuration, motion detection, and system validation.
+---
+
 [← Back to Blue Iris](/blue-iris/)
 
-# Blue Iris 6 – Installation
+# Blue Iris Installation and Initial Setup
 
 ## 🔹 Overview
-This guide provides a structured approach to installing and configuring Blue Iris 6 for a clean, stable, and scalable deployment.
+
+This guide walks through a clean Blue Iris installation and first system setup.
+
+Follow the steps in order.
+
+Do not enable advanced features until the base system is stable.
 
 ---
 
-## 🎯 Objective
-- Install Blue Iris correctly the first time
-- Establish a stable baseline configuration
-- Avoid common setup mistakes
-- Prepare the system for cameras, recording, and AI integration
+## 🔹 Step 1 — Install Blue Iris
 
----
-
-## 🧠 Key Concepts
-- Install first, tune later
-- Keep initial configuration simple
-- Validate each step before moving forward
-- Separate installation from optimization
-
----
-
-## 🛠️ Installation Steps
-
-### Step 1 — Install Blue Iris
-- Download latest version
-- Install with default settings
+- Install latest version
 - Launch application
-- Confirm software opens without errors
+- Confirm license activation
+
+✔ Result: Blue Iris opens and runs without errors
 
 ---
 
-### Step 2 — Configure Storage Paths
-- Set New folder (short-term recording)
-- Set Stored folder (long-term storage)
-- Define size limits and retention rules
-- Confirm disk space is sufficient
+## 🔹 Step 2 — Add First Camera
 
----
-
-### Step 3 — Add First Camera
-- Add camera using IP or ONVIF
+- Add new camera
+- Select **Network IP**
+- Enter IP, username, password
 - Confirm video stream loads
-- Set correct resolution and frame rate
-- Verify credentials and connectivity
+
+✔ Result: Live video is stable
 
 ---
 
-### Step 4 — Configure Recording
-- Set recording mode (continuous or triggered)
-- Enable direct-to-disk if applicable
-- Configure pre-trigger and post-trigger times
-- Confirm clips are being saved
+## 🔹 Step 3 — Configure Video Stream
+
+- Confirm main stream resolution
+- Set FPS (~15 FPS recommended)
+- Enable sub-stream if available
+
+✔ Result: Smooth video, no stuttering
 
 ---
 
-### Step 5 — Configure Motion Detection
+## 🔹 Step 4 — Configure Recording
+
+- Set **Direct-to-disk**
+- Confirm recording folder
+- Enable **When triggered**
+
+✔ Result: Clips are being recorded
+
+---
+
+## 🔹 Step 5 — Configure Motion Detection
+
+- Enable motion sensor
 - Define zones
-- Adjust sensitivity and object size
-- Reduce false triggers
-- Confirm motion events are detected
+- Adjust thresholds:
+  - Min object size
+  - Min contrast
+  - Make time (~1.0 sec)
+
+✔ Result: Motion triggers are clean and consistent
 
 ---
 
-### Step 6 — Configure Alerts (Basic)
-- Enable alert triggers
-- Configure notifications (if needed)
-- Test alert delivery
+## 🔹 Step 6 — Add AI Confirmation
+
+- Enable **Confirm alerts with AI**
+- Set confidence (~60%)
+- Enable main stream for AI (if available)
+
+✔ Result: False alerts reduced
 
 ---
 
-### Step 7 — Validate System
+## 🔹 Step 7 — Configure Alerts
+
+- Trigger: **New triggers only**
+- Add to alerts list: **Database only**
+
+✔ Result: Alerts are meaningful and not excessive
+
+---
+
+## 🔹 Step 8 — Validate System
+
 - Confirm cameras are stable
 - Confirm recordings are stored correctly
 - Confirm motion and alerts function as expected
 - Check CPU and system load
 
----
-
-## 📊 Optional Diagram
-
-<img src="/img/projects/blue-iris-card.png" alt="Blue Iris Setup" style={{width: '100%', maxWidth: '420px', borderRadius: '12px', marginTop: '10px'}} />
+✔ Result: System is stable under normal operation
 
 ---
 
+## 🔹 System Flow
 
-## ⚡ Quick Wins
+Build the system in this order:
 
-- Start with 1–2 cameras before scaling
-- Use sub-stream for motion detection where possible
-- Set frame rate to ~15 FPS for most cameras
-- Confirm storage paths before long-term recording
-- Avoid enabling all alerts at once
-## ⚠️ Notes
-- Do not over-tune during installation
-- Avoid adding too many cameras at once
-- Validate each step before moving forward
-- Performance tuning comes later
+1. Camera works  
+2. Recording works  
+3. Motion works  
+4. AI works  
+5. Alerts work  
+
+Do not skip steps.
 
 ---
 
-## ✅ Result
-A clean, stable Blue Iris installation ready for expansion, tuning, and AI integration.
+## 🔹 Quick Wins
+
+- Start with 1–2 cameras before scaling  
+- Use sub-stream for motion detection  
+- Set FPS to ~15 for most cameras  
+- Avoid H.265 if performance issues appear  
+- Use direct-to-disk whenever possible  
+
+---
+
+## 🔹 Common Mistakes
+
+- Enabling AI before motion is tuned  
+- Using too many cameras too early  
+- Not verifying recording folders  
+- Over-tuning sensitivity  
+- Ignoring system performance  
+
+---
+
+## 🔹 Final Thought
+
+A stable system is built step-by-step.
+
+Do not optimize until the base system is working correctly.
