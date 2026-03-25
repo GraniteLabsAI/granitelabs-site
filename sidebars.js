@@ -23,6 +23,7 @@ const sidebars = {
       
    items: [
   'blue-iris/index',
+  'blue-iris/start-here',
 
   // Core understanding
   'blue-iris/overview',
