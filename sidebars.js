@@ -27,6 +27,7 @@ const sidebars = {
   // Core understanding
   'blue-iris/overview',
   'blue-iris/installation',
+  'blue-iris/remote-access',
   'blue-iris/system-reference',
   'blue-iris/documentation-map',
   'blue-iris/tab-index',
