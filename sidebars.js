@@ -120,6 +120,7 @@ const sidebars = {
           items: [
             'networking/cloudflare-tunnel/phase1-overview',
             'networking/cloudflare-tunnel/phase2-onsite-installation',
+            'networking/cloudflare-tunnel/phase3-hardening',
           ],
         },
       ],
