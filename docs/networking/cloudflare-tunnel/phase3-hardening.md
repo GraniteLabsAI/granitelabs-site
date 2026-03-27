@@ -45,3 +45,11 @@ Cloudflare Tunnel
     │
     ▼
 Blue Iris Web Server
+```
+
+## ▶ Next Step
+
+Phase 3 completes the security hardening of the Cloudflare Tunnel and brings the system to a production-ready state with Zero Trust access controls enforced.
+
+⬅ **Back to Phase 2:** [Phase 2 – Onsite Installation](./phase2-onsite-installation)  
+⬅ **Back to Phase 1:** [Phase 1 – Overview](./phase1-overview)
