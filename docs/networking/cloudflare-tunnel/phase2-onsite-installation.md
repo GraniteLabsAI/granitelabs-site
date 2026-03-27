@@ -10,6 +10,8 @@ description: Install the Cloudflare connector on the Blue Iris PC, bring the tun
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
 **Status:** Ready for onsite installation on Blue Iris workstation
 
+<img src="/img/cloudflare-tunnel-phase2-dark.png" alt="Cloudflare Tunnel Phase 2 Diagram" />
+
 ---
 
 ## 🎯 Objective
