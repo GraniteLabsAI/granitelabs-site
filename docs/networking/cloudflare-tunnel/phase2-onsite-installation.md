@@ -107,3 +107,41 @@ Blue Iris PC
     │
     ▼
 Blue Iris Web Server
+
+---
+
+---
+
+## 📊 Expected State After Phase 2
+
+| Component | Status After Phase 2 |
+|----------|-----------------------|
+| Domain Active | ✅ |
+| DNS via Cloudflare | ✅ |
+| Tunnel Created | ✅ |
+| Connector Installed | ✅ |
+| Tunnel Online | ✅ |
+| Hostname Created | ✅ |
+| Blue Iris Exposure via Tunnel | ✅ |
+| Open Ports | ❌ |
+
+---
+
+## 🔐 Security Model
+
+This deployment keeps the Blue Iris system fully behind the firewall while enabling secure remote access through Cloudflare.
+
+- no port forwarding required  
+- outbound-only connection  
+- HTTPS enforced at Cloudflare  
+- identity-based access via Zero Trust  
+- controlled hostname entry point  
+
+---
+
+## ▶ Next Step
+
+Phase 2 completes the onsite installation and brings the Cloudflare Tunnel online.
+
+⬅ **Back to Phase 1:** [Phase 1 – Overview](./phase1-overview)
+
