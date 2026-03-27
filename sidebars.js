@@ -119,6 +119,7 @@ const sidebars = {
           collapsed: false,
           items: [
             'networking/cloudflare-tunnel/phase1-overview',
+            'networking/cloudflare-tunnel/phase2-onsite-installation',
           ],
         },
       ],
