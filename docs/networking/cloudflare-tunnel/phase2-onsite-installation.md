@@ -107,8 +107,7 @@ Blue Iris PC
     │
     ▼
 Blue Iris Web Server
-
----
+```
 
 ---
 
@@ -144,4 +143,3 @@ This deployment keeps the Blue Iris system fully behind the firewall while enabl
 Phase 2 completes the onsite installation and brings the Cloudflare Tunnel online.
 
 ⬅ **Back to Phase 1:** [Phase 1 – Overview](./phase1-overview)
-
