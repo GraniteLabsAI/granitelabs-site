@@ -176,6 +176,9 @@ Blue Iris Web Server
 
 ## ▶ Next Step
 
+Phase 1 is complete. Continue to the onsite implementation guide for connector installation, tunnel activation, hostname mapping, and Blue Iris service routing.
+
+➡ **Continue to Phase 2:** [Phase 2 – Onsite Installation](./phase2-onsite-installation)
 👉 Begin Phase 2 when onsite:
 
 **Command:**  
