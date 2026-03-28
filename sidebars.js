@@ -109,10 +109,17 @@ const sidebars = {
     },
 
  {
+  
+  {
   type: 'category',
   label: 'Networking',
   collapsed: false,
-  items: [
+  link: {
+    type: 'doc',
+    id: 'networking/index',
+  },
+  items: [ 
+   
     {
       type: 'category',
       label: 'Cloudflare Tunnel',
