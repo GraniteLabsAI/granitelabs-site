@@ -26,7 +26,8 @@ Structured reference for networking systems, secure access architecture, and inf
 
 | Section | Description | Status |
 |---------|-------------|--------|
-| [Cloudflare Tunnel](./cloudflare-tunnel/index) | Zero Trust secure remote access for Blue Iris | ✅ Complete |
+| [Cloudflare Tunnel](/networking/cloudflare-tunnel/)  
+| Zero Trust secure remote access for Blue Iris | ✅ Complete |
 
 ---
 
@@ -41,4 +42,4 @@ Structured reference for networking systems, secure access architecture, and inf
 
 ## ▶ Start Here
 
-➡ [Cloudflare Tunnel](./cloudflare-tunnel/index)
+➡ [Cloudflare Tunnel](/networking/cloudflare-tunnel/)
