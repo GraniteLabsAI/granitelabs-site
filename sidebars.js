@@ -108,23 +108,27 @@ const sidebars = {
       ],
     },
 
+ {
+  type: 'category',
+  label: 'Networking',
+  collapsed: false,
+  items: [
     {
       type: 'category',
-      label: 'Networking',
+      label: 'Cloudflare Tunnel',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'networking/cloudflare-tunnel/index',
+      },
       items: [
-        {
-          type: 'category',
-          label: 'Cloudflare Tunnel',
-          collapsed: false,
-          items: [
-            'networking/cloudflare-tunnel/phase1-overview',
-            'networking/cloudflare-tunnel/phase2-onsite-installation',
-            'networking/cloudflare-tunnel/phase3-hardening',
-          ],
-        },
+        'networking/cloudflare-tunnel/phase1-overview',
+        'networking/cloudflare-tunnel/phase2-onsite-installation',
+        'networking/cloudflare-tunnel/phase3-hardening',
       ],
     },
+  ],
+},
 
     {
       type: 'category',
