@@ -31,7 +31,7 @@ This page provides the high-level view of how the Blue Iris environment is struc
 
 ## 📊 System Architecture
 
-<img src="/img/cloudflare-tunnel-phase1-dark.png" alt="Blue Iris Architecture" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
+<img src="/img/blueiris-overview.svg" alt="Blue Iris System Overview" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
 
 ---
 
