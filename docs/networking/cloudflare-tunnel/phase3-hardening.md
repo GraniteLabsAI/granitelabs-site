@@ -71,7 +71,7 @@ Blue Iris Web Server
 |--------|-------|
 | Action | Allow |
 | Rule | Email-based |
-| Example | `stanroth1@gmail.com` |
+| Example | `*********@gmail.com` |
 
 ---
 
