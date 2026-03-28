@@ -52,7 +52,7 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 
 ## 🔐 Cloudflare Zero Trust Setup
 
-- Accessed via: https://one.dash.cloudflare.com
+- Accessed via: https://dash.cloudflare.com/one/
 - Guided onboarding skipped (manual setup preferred)
 
 ---
@@ -114,7 +114,7 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 ---
 
 ## 🌐 Planned Hostname
-**.*************.ai
+`bi.granitelabs.ai`
 
 
 ➡ Will route to Blue Iris local web server
