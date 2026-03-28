@@ -108,7 +108,7 @@ const sidebars = {
       ],
     },
 
- {
+ 
   
   {
   type: 'category',
