@@ -49,7 +49,7 @@ const config = {
   ],
 
   themeConfig: {
-    image: 'img/granitelabs-preview.png',
+    image: 'img/granitelabs-preview.jpg',
    colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
