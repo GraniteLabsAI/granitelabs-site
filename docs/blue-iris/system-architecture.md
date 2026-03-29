@@ -7,7 +7,7 @@ This page provides a high-level view of how cameras, Blue Iris, AI, storage, and
 
 ## 📊 Architecture Diagram
 
-<img src="/img/cloudflare-tunnel-phase1-dark.png" alt="System Architecture" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
+<img src="/img/blueiris_system_architecture_granitelabs_v5.png" alt="System Architecture" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
 
 ---
 
