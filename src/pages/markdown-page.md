@@ -1,6 +1,9 @@
 ---
-title: Markdown page example
+title: Granite Labs
+description: Granite Labs System Architecture
+image: /img/granitelabs-preview.png
 ---
+
 
 # Markdown page example
 
