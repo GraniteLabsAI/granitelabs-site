@@ -7,7 +7,7 @@ This page shows how an event moves from motion detection to alert delivery.
 
 ## 📊 Detection Flow Diagram
 
-<img src="/img/cloudflare-tunnel-phase1-dark.png" alt="Detection Flow" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
+<img src="/img/blueiris-detection-flow-v2.png" alt="Detection Flow" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
 
 ---
 
