@@ -31,7 +31,7 @@ This page provides the high-level view of how the Blue Iris environment is struc
 
 ## 📊 System Architecture
 
-<img src="/img/blueiris_overview.svg" alt="Blue Iris System Overview" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
+<img src="/img/blueiris-system-overview-v4.png" alt="Blue Iris System Overview" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
 
 ---
 
