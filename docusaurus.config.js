@@ -49,7 +49,7 @@ const config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/granitelabs-preview.png',
    colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
