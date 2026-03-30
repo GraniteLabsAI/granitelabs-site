@@ -2,6 +2,7 @@
 title: Networking
 sidebar_label: Networking
 description: GraniteLabs networking documentation covering secure remote access, Zero Trust architecture, and network infrastructure.
+image: /img/og/cloudflare-og.jpg
 ---
 
 # 🌐 Networking
