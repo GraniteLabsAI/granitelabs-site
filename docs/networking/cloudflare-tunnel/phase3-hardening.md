@@ -1,10 +1,10 @@
 ---
-title: Phase 3 – Hardening & Zero Trust Access
-sidebar_label: Phase 3 – Hardening
-description: Secure the Cloudflare Tunnel with Zero Trust policies, authentication, and controlled access to Blue Iris.
+title: Cloudflare Tunnel – Hardening & Zero Trust Access
+description: Advanced configuration, optimization, and production deployment considerations for Cloudflare Tunnel.
+image: /img/og/cloudflare-og.jpg
 ---
 
-# 🔐 Cloudflare Tunnel — Phase 3 (Hardening)
+# 🔐 Cloudflare Tunnel — Phase 3 (Hardening & Zero Trust Access)
 
 ## 📌 Project
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
