@@ -1,3 +1,9 @@
+---
+title: Acumatica Cloud ERP
+description: Acumatica ERP system architecture, financials, job cost tracking, and operational workflows.
+image: /img/og/acumatica-og.jpg
+---
+
 # Acumatica
 
 ## 🔹 Overview
