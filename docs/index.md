@@ -4,9 +4,10 @@ description: Granite Labs delivers structured system architecture, documentation
 image: /img/og/granitelabs-preview.jpg
 ---
 
+# Granite Labs
+
 ![Granite Labs](/img/og/granitelabs-preview.jpg)
 
-# Granite Labs
 
 <div style={{padding: '48px 32px', borderRadius: '20px', background: 'linear-gradient(135deg, rgba(20,30,45,0.95), rgba(10,14,20,0.98))', border: '1px solid rgba(120,160,200,0.18)', marginBottom: '40px'}}>
 
