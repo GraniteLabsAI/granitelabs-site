@@ -6,6 +6,8 @@ image: /img/og/acumatica-og.jpg
 
 # Acumatica
 
+![UniFi](/img/og/acumatica-og.jpg)
+
 ## 🔹 Overview
 Acumatica is the core ERP platform used for financial management, job cost tracking, reporting, and operational visibility.
 
