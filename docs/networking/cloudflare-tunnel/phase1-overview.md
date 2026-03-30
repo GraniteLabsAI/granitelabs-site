@@ -1,4 +1,10 @@
-# 🌐 Cloudflare Tunnel — Phase 1 (Completed)
+---
+title: Cloudflare Tunnel – Phase 1 Overview
+description: Phase 1 of Cloudflare Tunnel deployment covering initial setup, architecture, and connectivity design.
+image: /img/og/cloudflare-og.jpg
+---
+
+# 🌐 Cloudflare Tunnel — Phase 1 
 
 ## 📌 Project
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
