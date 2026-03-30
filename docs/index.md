@@ -37,15 +37,13 @@ image: /img/og/granitelabs-preview.jpg
 
 ---
 
-## 🔹 Overview
+## Core Systems
 
-This site documents real systems including:
-
-- Blue Iris surveillance architecture  
-- Cloudflare Tunnel remote access  
-- AI-assisted detection workflows  
-- Storage and performance tuning  
-- Acumatica ERP and Velixo reporting  
+- [Blue Iris System](/blue-iris/)
+- [UniFi Network](/unifi/)
+- [Cloudflare Tunnel](/networking/cloudflare-tunnel/)
+- [Acumatica Cloud ERP](/acumatica/)
+- [Velixo Reporting](/velixo/)  
 
 ---
 
