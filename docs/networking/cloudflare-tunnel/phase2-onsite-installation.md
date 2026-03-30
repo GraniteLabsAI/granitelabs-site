@@ -1,7 +1,7 @@
 ---
-title: Phase 2 – Onsite Installation
-sidebar_label: Phase 2 – Onsite Installation
-description: Install the Cloudflare connector on the Blue Iris PC, bring the tunnel online, map the hostname, and prepare secure remote access.
+title: Cloudflare Tunnel – Phase 2 Setup
+description: Configuration and deployment steps for Cloudflare Tunnel including authentication and routing.
+image: /img/og/cloudflare-og.jpg
 ---
 
 # 🚇 Cloudflare Tunnel — Phase 2 (Onsite Installation)
