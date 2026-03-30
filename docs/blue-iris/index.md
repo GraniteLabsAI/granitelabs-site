@@ -6,6 +6,8 @@ image: /img/og/blueiris-og.jpg
 
 # Blue Iris Setup Guide (AI, Motion Detection, Storage & Performance)
 
+![Blue-Iris](/img/og/blueiris-og.jpg)
+
 ## 🔹 Overview
 Blue Iris 6 is the central platform for camera management, recording, alerting, AI-assisted detection, storage planning, and long-term surveillance documentation.
 
