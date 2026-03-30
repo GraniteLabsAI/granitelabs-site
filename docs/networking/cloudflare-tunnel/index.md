@@ -1,10 +1,11 @@
 ---
 title: Cloudflare Tunnel
-sidebar_label: Cloudflare Tunnel
-description: GraniteLabs secure remote access implementation using Cloudflare Tunnel. Zero Trust architecture for Blue Iris without port forwarding.
+description: Secure remote access using Cloudflare Tunnel with zero trust architecture and edge protection.
+image: /img/og/cloudflare-og.jpg
 ---
 
 # 🌐 Cloudflare Tunnel
+
 
 ## 📌 Project
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
