@@ -64,6 +64,17 @@ const sidebars = {
 
 {
   type: 'category',
+  label: 'UniFi',
+  collapsed: false,
+  link: {
+    type: 'doc',
+    id: 'unifi',
+  },
+  items: [],
+},
+    
+{
+  type: 'category',
   label: 'Acumatica',
   collapsed: false,
   link: {
