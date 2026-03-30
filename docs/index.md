@@ -39,11 +39,49 @@ image: /img/og/granitelabs-preview.jpg
 
 ## Core Systems
 
-- [Blue Iris System](/blue-iris/)
-- [UniFi Network](/unifi/)
-- [Cloudflare Tunnel](/networking/cloudflare-tunnel/)
-- [Acumatica Cloud ERP](/acumatica/)
-- [Velixo Reporting](/velixo/)  
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '24px', marginTop: '20px', marginBottom: '40px'}}>
+
+  <a href="/blue-iris/" style={{textDecoration: 'none', color: 'inherit'}}>
+    <div style={{padding: '18px', borderRadius: '18px', border: '1px solid rgba(120,160,200,0.18)', background: 'rgba(255,255,255,0.03)', boxShadow: '0 8px 24px rgba(0,0,0,0.18)', height: '100%'}}>
+      <img src="/img/og/blueiris-og.jpg" style={{width: '100%', borderRadius: '12px', marginBottom: '14px'}} />
+      <div style={{fontWeight: 700, fontSize: '1.05rem', marginBottom: '6px'}}>Blue Iris System</div>
+      <div style={{fontSize: '0.92rem', opacity: 0.78}}>AI detection, recording, alerts, and surveillance architecture.</div>
+    </div>
+  </a>
+
+  <a href="/unifi/" style={{textDecoration: 'none', color: 'inherit'}}>
+    <div style={{padding: '18px', borderRadius: '18px', border: '1px solid rgba(120,160,200,0.18)', background: 'rgba(255,255,255,0.03)', boxShadow: '0 8px 24px rgba(0,0,0,0.18)', height: '100%'}}>
+      <img src="/img/og/unifi-og.jpg" style={{width: '100%', borderRadius: '12px', marginBottom: '14px'}} />
+      <div style={{fontWeight: 700, fontSize: '1.05rem', marginBottom: '6px'}}>UniFi Network</div>
+      <div style={{fontSize: '0.92rem', opacity: 0.78}}>Wi-Fi, switching, and infrastructure design for scalable deployments.</div>
+    </div>
+  </a>
+
+  <a href="/networking/cloudflare-tunnel/" style={{textDecoration: 'none', color: 'inherit'}}>
+    <div style={{padding: '18px', borderRadius: '18px', border: '1px solid rgba(120,160,200,0.18)', background: 'rgba(255,255,255,0.03)', boxShadow: '0 8px 24px rgba(0,0,0,0.18)', height: '100%'}}>
+      <img src="/img/og/cloudflare-og.jpg" style={{width: '100%', borderRadius: '12px', marginBottom: '14px'}} />
+      <div style={{fontWeight: 700, fontSize: '1.05rem', marginBottom: '6px'}}>Cloudflare Tunnel</div>
+      <div style={{fontSize: '0.92rem', opacity: 0.78}}>Secure remote access with zero trust and edge protection.</div>
+    </div>
+  </a>
+
+  <a href="/acumatica/" style={{textDecoration: 'none', color: 'inherit'}}>
+    <div style={{padding: '18px', borderRadius: '18px', border: '1px solid rgba(120,160,200,0.18)', background: 'rgba(255,255,255,0.03)', boxShadow: '0 8px 24px rgba(0,0,0,0.18)', height: '100%'}}>
+      <img src="/img/og/acumatica-og.jpg" style={{width: '100%', borderRadius: '12px', marginBottom: '14px'}} />
+      <div style={{fontWeight: 700, fontSize: '1.05rem', marginBottom: '6px'}}>Acumatica Cloud ERP</div>
+      <div style={{fontSize: '0.92rem', opacity: 0.78}}>ERP workflows, financial structure, and operational visibility.</div>
+    </div>
+  </a>
+
+  <a href="/velixo/" style={{textDecoration: 'none', color: 'inherit'}}>
+    <div style={{padding: '18px', borderRadius: '18px', border: '1px solid rgba(120,160,200,0.18)', background: 'rgba(255,255,255,0.03)', boxShadow: '0 8px 24px rgba(0,0,0,0.18)', height: '100%'}}>
+      <img src="/img/og/velixo-og.jpg" style={{width: '100%', borderRadius: '12px', marginBottom: '14px'}} />
+      <div style={{fontWeight: 700, fontSize: '1.05rem', marginBottom: '6px'}}>Velixo Reporting</div>
+      <div style={{fontSize: '0.92rem', opacity: 0.78}}>Excel-based reporting, extraction, and financial insight.</div>
+    </div>
+  </a>
+
+</div>  
 
 ---
 
