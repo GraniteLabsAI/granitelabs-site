@@ -1,4 +1,12 @@
+---
+title: Acumatica System Reference
+description: Overview of Acumatica ERP system architecture, workflows, and financial management capabilities.
+image: /img/og/acumatica-og.jpg
+---
+
 # Acumatica – System Reference
+
+![Acumatica](/img/og/acumatica-og.jpg)
 
 ## 🔹 Overview
 This page provides a structured reference of key areas within Acumatica.
