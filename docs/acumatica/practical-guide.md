@@ -1,5 +1,5 @@
 ---
-title: Acumatica Overview
+title: Acumatica Practical Guide
 description: Overview of Acumatica ERP system architecture, workflows, and financial management capabilities.
 image: /img/og/acumatica-og.jpg
 ---
