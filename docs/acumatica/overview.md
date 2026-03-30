@@ -1,4 +1,12 @@
+---
+title: Acumatica Overview
+description: Overview of Acumatica ERP system architecture, workflows, and financial management capabilities.
+image: /img/og/acumatica-og.jpg
+---
+
 # Acumatica – Overview
+
+![Acumatica](/img/og/acumatica-og.jpg)
 
 ## 🔹 Overview
 Acumatica is the core ERP system used for financials, project accounting, job cost tracking, and reporting.
