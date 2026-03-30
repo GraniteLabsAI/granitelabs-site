@@ -1,11 +1,13 @@
 ---
-title: Networking
+title: Cloudflare Tunnel
 sidebar_label: Networking
 description: GraniteLabs networking documentation covering secure remote access, Zero Trust architecture, and network infrastructure.
 image: /img/og/cloudflare-og.jpg
 ---
 
 # 🌐 Networking
+
+![Cloudflare-Tunnel](/img/og/cloudflare-og.jpg)
 
 ## 📌 Overview
 **GraniteLabs Networking Documentation**
