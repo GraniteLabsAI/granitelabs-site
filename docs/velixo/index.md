@@ -1,4 +1,12 @@
+---
+title: Velixo Reporting
+description: Velixo reporting system for Acumatica, including financial reporting, data extraction, and Excel integration.
+image: /img/og/velixo-og.jpg
+---
+
 # Velixo
+
+![UniFi Network](/img/og/velixo-og.jpg)
 
 ## 🔹 Overview
 Velixo is the primary reporting layer for Acumatica, providing Excel-based real-time financial and operational reporting.
