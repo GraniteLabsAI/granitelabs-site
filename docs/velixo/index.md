@@ -6,7 +6,7 @@ image: /img/og/velixo-og.jpg
 
 # Velixo
 
-![UniFi Network](/img/og/velixo-og.jpg)
+![Velixo](/img/og/velixo-og.jpg)
 
 ## 🔹 Overview
 Velixo is the primary reporting layer for Acumatica, providing Excel-based real-time financial and operational reporting.
