@@ -1,3 +1,9 @@
+---
+title: Icon System | Granite Labs
+description: A modular visual language system designed to standardize, scale, and deploy technical documentation across platforms.
+image: /img/og/icon-system-og.jpg
+---
+
 # Granite Labs – Icon System
 
 A visual index of systems, components, and capabilities.
