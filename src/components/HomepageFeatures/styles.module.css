@@ -1,11 +1,62 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
+/* Feature section wrapper */
+.featuresSection {
+  padding: 48px 32px;
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+/* Grid — matches the Core Systems grid in docs/index.md */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+/* Card link wrapper */
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+/* Card — matches .icon-card values from custom.css */
+.card {
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(120, 160, 200, 0.18);
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  height: 100%;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+  filter: brightness(1.1);
+}
+
+/* Card image */
+.cardImage {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  transition: transform 0.25s ease;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.03);
+}
+
+/* Card title */
+.cardTitle {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+/* Card description */
+.cardDesc {
+  font-size: 0.92rem;
+  opacity: 0.78;
 }
