@@ -1,103 +1,105 @@
 ---
-title: Blue Iris Installation and Initial Setup
-description: Step-by-step Blue Iris installation guide including camera setup, recording configuration, motion detection, and system validation.
+title: Blue Iris – Installation and Initial Setup
+description: Step-by-step Blue Iris installation guide covering camera setup, recording, motion detection, AI confirmation, and system validation.
+image: /img/og/blueiris-system-architecture-og.jpg
 ---
 
 [← Back to Blue Iris](/blue-iris/)
 
-# Blue Iris Installation and Initial Setup
+# Blue Iris – Installation and Initial Setup
+
+<img src="/img/og/blueiris-system-architecture-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
 ## 🔹 Overview
 
-This guide walks through a clean Blue Iris installation and first system setup.
+This guide walks through a clean Blue Iris installation and initial system setup.
 
-Follow the steps in order.
-
+Follow the steps in order.  
 Do not enable advanced features until the base system is stable.
 
 ---
 
 ## 🔹 Step 1 — Install Blue Iris
 
-- Install latest version
-- Launch application
-- Confirm license activation
+- Install the latest version  
+- Launch the application  
+- Confirm license activation  
 
-✔ Result: Blue Iris opens and runs without errors
+✔ Result: Blue Iris opens and runs without errors  
 
 ---
 
 ## 🔹 Step 2 — Add First Camera
 
-- Add new camera
-- Select **Network IP**
-- Enter IP, username, password
-- Confirm video stream loads
+- Add a new camera  
+- Select **Network IP**  
+- Enter IP, username, and password  
+- Confirm video stream loads  
 
-✔ Result: Live video is stable
+✔ Result: Live video is stable  
 
 ---
 
 ## 🔹 Step 3 — Configure Video Stream
 
-- Confirm main stream resolution
-- Set FPS (~15 FPS recommended)
-- Enable sub-stream if available
+- Confirm main stream resolution  
+- Set FPS (~15 FPS recommended)  
+- Enable sub-stream if available  
 
-✔ Result: Smooth video, no stuttering
+✔ Result: Smooth video with no stuttering  
 
 ---
 
 ## 🔹 Step 4 — Configure Recording
 
-- Set **Direct-to-disk**
-- Confirm recording folder
-- Enable **When triggered**
+- Enable **Direct-to-disk**  
+- Confirm recording folder  
+- Set recording to **When triggered**  
 
-✔ Result: Clips are being recorded
+✔ Result: Clips are being recorded  
 
 ---
 
 ## 🔹 Step 5 — Configure Motion Detection
 
-- Enable motion sensor
-- Define zones
-- Adjust thresholds:
-  - Min object size
-  - Min contrast
-  - Make time (~1.0 sec)
+- Enable motion sensor  
+- Define zones  
+- Adjust thresholds:  
+  - Minimum object size  
+  - Minimum contrast  
+  - Make time (~1.0 sec)  
 
-✔ Result: Motion triggers are clean and consistent
+✔ Result: Motion triggers are clean and consistent  
 
 ---
 
 ## 🔹 Step 6 — Add AI Confirmation
 
-- Enable **Confirm alerts with AI**
-- Set confidence (~60%)
-- Enable main stream for AI (if available)
+- Enable **Confirm alerts with AI**  
+- Set confidence (~60%)  
+- Use main stream for AI if available  
 
-✔ Result: False alerts reduced
+✔ Result: False alerts are reduced  
 
 ---
 
 ## 🔹 Step 7 — Configure Alerts
 
-- Trigger: **New triggers only**
-- Add to alerts list: **Database only**
+- Trigger: **New triggers only**  
+- Add to alerts list: **Database only**  
 
-✔ Result: Alerts are meaningful and not excessive
+✔ Result: Alerts are meaningful and controlled  
 
 ---
 
 ## 🔹 Step 8 — Validate System
 
-- Confirm cameras are stable
-- Confirm recordings are stored correctly
-- Confirm motion and alerts function as expected
-- Check CPU and system load
+- Confirm cameras are stable  
+- Confirm recordings are stored correctly  
+- Confirm motion and alerts function correctly  
+- Check CPU and system load  
 
-✔ Result: System is stable under normal operation
+✔ Result: System is stable under normal operation  
 
 ---
 
@@ -128,7 +130,7 @@ Do not skip steps.
 ## 🔹 Common Mistakes
 
 - Enabling AI before motion is tuned  
-- Using too many cameras too early  
+- Adding too many cameras too early  
 - Not verifying recording folders  
 - Over-tuning sensitivity  
 - Ignoring system performance  
