@@ -5,13 +5,16 @@ const sidebars = {
       id: 'index',
       label: 'Home',
     },
-
+    {
+      type: 'doc',
+      id: 'architecture/index',
+      label: 'Architecture',
+    },
     {
       type: 'doc',
       id: 'icon-system',
       label: 'Icon System',
     },
-
     {
       type: 'category',
       label: 'Blue Iris',
@@ -20,89 +23,67 @@ const sidebars = {
         type: 'doc',
         id: 'blue-iris/index',
       },
-      
-   items: [
-  'blue-iris/index',
-  'blue-iris/start-here',
-
-  // Core understanding
-  'blue-iris/overview',
-  'blue-iris/installation',
-  'blue-iris/how-to-add-a-camera',
-  'blue-iris/remote-access',
-  'blue-iris/system-reference',
-  'blue-iris/documentation-map',
-  'blue-iris/tab-index',
-
-  // Real-world usage
-  'blue-iris/real-world-operations',
-  'blue-iris/real-config-examples',
-
-  // Advanced tuning
-  'blue-iris/tuning',
-  'blue-iris/best-settings',
-  'blue-iris/fix-false-alerts',
-  'blue-iris/ai-tuning',
-  'blue-iris/storage-architecture',
-  'blue-iris/performance-optimization',
-  'blue-iris/troubleshooting',
-  'blue-iris/alerts-not-working',
-
-  // Camera references
-  'blue-iris/reolink-rlc-810a',
-  'blue-iris/reolink-rlc-843a',
-  'blue-iris/axis-p1485-le',
-
-  // Tools
-  'blue-iris/field-quick-sheet',
-  'blue-iris/field-quick-sheet-print',
-  'blue-iris/system-architecture',
-  'blue-iris/detection-flow',
-],
-      
+      items: [
+        'blue-iris/start-here',
+        'blue-iris/overview',
+        'blue-iris/installation',
+        'blue-iris/how-to-add-a-camera',
+        'blue-iris/remote-access',
+        'blue-iris/system-reference',
+        'blue-iris/documentation-map',
+        'blue-iris/tab-index',
+        'blue-iris/real-world-operations',
+        'blue-iris/real-config-examples',
+        'blue-iris/tuning',
+        'blue-iris/best-settings',
+        'blue-iris/fix-false-alerts',
+        'blue-iris/ai-tuning',
+        'blue-iris/storage-architecture',
+        'blue-iris/performance-optimization',
+        'blue-iris/troubleshooting',
+        'blue-iris/alerts-not-working',
+        'blue-iris/reolink-rlc-810a',
+        'blue-iris/reolink-rlc-843a',
+        'blue-iris/axis-p1485-le',
+        'blue-iris/field-quick-sheet',
+        'blue-iris/field-quick-sheet-print',
+        'blue-iris/system-architecture',
+        'blue-iris/detection-flow',
+      ],
     },
-
-{
-  type: 'category',
-  label: 'UniFi',
-  collapsed: false,
-  link: {
-    type: 'doc',
-    id: 'unifi',
-  },
-  items: [],
-},
-    
-{
-  type: 'category',
-  label: 'Acumatica',
-  collapsed: false,
-  link: {
-    type: 'doc',
-    id: 'acumatica/index',
-  },
-  items: [
-    'acumatica/overview',
-    'acumatica/system-reference',
-    'acumatica/practical-guide',
-  ],
-},
-
-{
-  type: 'category',
-  label: 'Velixo',
-  collapsed: false,
-  link: {
-    type: 'doc',
-    id: 'velixo/index',
-  },
-  items: [
-    'velixo/overview',
-    'velixo/system-reference',
-    'velixo/reporting-patterns',
-  ],
-},
-    
+    {
+      type: 'doc',
+      id: 'unifi',
+      label: 'UniFi',
+    },
+    {
+      type: 'category',
+      label: 'Acumatica',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'acumatica/index',
+      },
+      items: [
+        'acumatica/overview',
+        'acumatica/system-reference',
+        'acumatica/practical-guide',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Velixo',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'velixo/index',
+      },
+      items: [
+        'velixo/overview',
+        'velixo/system-reference',
+        'velixo/reporting-patterns',
+      ],
+    },
     {
       type: 'category',
       label: 'IT Core Systems',
@@ -118,36 +99,31 @@ const sidebars = {
         'database',
       ],
     },
-
- 
-  
-  {
-  type: 'category',
-  label: 'Networking',
-  collapsed: false,
-  link: {
-    type: 'doc',
-    id: 'networking/index',
-  },
-  items: [ 
-   
     {
       type: 'category',
-      label: 'Cloudflare Tunnel',
+      label: 'Networking',
       collapsed: false,
       link: {
         type: 'doc',
-        id: 'networking/cloudflare-tunnel/index',
+        id: 'networking/index',
       },
       items: [
-        'networking/cloudflare-tunnel/phase1-overview',
-        'networking/cloudflare-tunnel/phase2-onsite-installation',
-        'networking/cloudflare-tunnel/phase3-hardening',
+        {
+          type: 'category',
+          label: 'Cloudflare Tunnel',
+          collapsed: false,
+          link: {
+            type: 'doc',
+            id: 'networking/cloudflare-tunnel/index',
+          },
+          items: [
+            'networking/cloudflare-tunnel/phase1-overview',
+            'networking/cloudflare-tunnel/phase2-onsite-installation',
+            'networking/cloudflare-tunnel/phase3-hardening',
+          ],
+        },
       ],
     },
-  ],
-},
-
     {
       type: 'category',
       label: 'AI & Automation',
@@ -156,25 +132,23 @@ const sidebars = {
         'ai-systems/index',
         'ai-inference/index',
         'searchable-hub/index',
+        'chatgpt/index',
         'wildlife-specialist/index',
         'knowledge-monolith/index',
-        'chatgpt/index',
       ],
     },
-
-{
-  type: 'category',
-  label: 'Research',
-  collapsed: false,
-  link: {
-    type: 'doc',
-    id: 'research/index',
-  },
-  items: [
-    'research/environmental-abatement-overview',
-  ],
-},
-    
+    {
+      type: 'category',
+      label: 'Research',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'research/index',
+      },
+      items: [
+        'research/environmental-abatement-overview',
+      ],
+    },
     {
       type: 'category',
       label: 'Projects',
@@ -185,10 +159,11 @@ const sidebars = {
       },
       items: [],
     },
+    {
+      type: 'doc',
+      id: 'brand/index',
+      label: 'Brand System',
+    },
   ],
 };
-
-
-
-
 export default sidebars;
