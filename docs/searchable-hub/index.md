@@ -16,7 +16,9 @@ A Python-based tool that captures every tab in Blue Iris 6 using screenshots,
 extracts all visible text using AI vision, and builds a fully searchable HTML index.
 
 A complete run captured 47 tabs and over 1,600 settings and UI elements across
-the entire Blue Iris 6 interface. The live searchable index is coming soon.
+the entire Blue Iris 6 interface.
+
+**[Open Blue Iris Tab Index](pathname:///tools/blueiris-tab-index.html)**
 
 ## Scope
 
