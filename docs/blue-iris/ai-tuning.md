@@ -1,104 +1,114 @@
+---
+title: Blue Iris AI Tuning
+description: Practical AI tuning guidance for Blue Iris, including motion setup, confidence thresholds, and alert workflow design using CodeProject.AI.
+image: /img/og/blueiris-ai-tuning-og.jpg
+---
+
 # Blue Iris 6 – AI Tuning
 
-## 🔹 Overview
-This page captures practical guidance for using AI confirmation in Blue Iris to improve event quality and reduce false alerts.
+<img src="/img/og/blueiris-ai-tuning-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-The focus is on disciplined setup: clean motion first, AI second, alerts third.
+---
+
+## 🔹 Overview
+This page provides practical guidance for using AI confirmation in Blue Iris to improve event quality and reduce false alerts.
+
+The focus is on disciplined setup: **motion first, AI second, alerts third**.
 
 ---
 
 ## 🎯 Objective
-- Improve event quality
-- Reduce false alerts
-- Build a stable AI confirmation workflow
-- Avoid using AI to compensate for poor trigger design
+- Improve event quality  
+- Reduce false alerts  
+- Build a stable AI confirmation workflow  
+- Avoid using AI to compensate for poor trigger design  
 
 ---
 
 ## 🧠 Key Concepts
-- AI confirms events; it should not replace sensible motion settings
-- Image quality matters to AI results
-- Confidence thresholds should be tuned, not guessed
-- Stable workflows beat aggressive settings
+- AI confirms events — it does not replace motion tuning  
+- Image quality directly affects AI accuracy  
+- Confidence thresholds must be tuned based on results  
+- Stable workflows outperform aggressive configurations  
 
 ---
 
 ## 🛠️ Core Tuning Areas
 
 ### Motion Before AI
-- Start with reasonable motion tuning first
-- Reduce obvious false triggers from scene noise
-- Confirm the camera is generating usable trigger events
+- Establish clean motion detection first  
+- Reduce false triggers caused by scene noise  
+- Confirm cameras produce reliable trigger events  
 
 ---
 
 ### Image Source
-- Make sure AI is analyzing a useful image
-- Poor framing, weak detail, or excessive compression reduces AI value
-- Confirm whether main stream or sub-stream gives the better practical result for your use case
+- Ensure AI analyzes a usable image  
+- Poor framing, compression, or lighting reduces effectiveness  
+- Evaluate whether main stream or sub-stream produces better results  
 
 ---
 
 ### Confidence Thresholds
-- Start with moderate confidence settings
-- Review confirmed and unconfirmed events
-- Raise or lower confidence only after observing actual results
+- Start with moderate confidence settings  
+- Review confirmed vs rejected events  
+- Adjust thresholds only after observing real-world behavior  
 
 ---
 
 ### Object Classes
-- Enable only the classes you truly care about
-- Extra categories can create noise and unnecessary reviews
-- Keep the workflow aligned with the actual security objective
+- Enable only required object types  
+- Avoid unnecessary classifications that create noise  
+- Align detection with actual security objectives  
 
 ---
 
 ### Alert Logic
-- Do not enable aggressive notifications immediately
-- First confirm that AI-confirmed events are consistently meaningful
-- Then layer on notifications and external actions
+- Do not enable aggressive notifications initially  
+- Validate AI-confirmed events first  
+- Then introduce alerts and external integrations  
 
 ---
 
 ### Performance
-- AI adds processing load
-- Watch CPU, GPU, and overall responsiveness together
-- Scale carefully when enabling AI across many cameras
+- AI increases system load  
+- Monitor CPU, GPU, and system responsiveness  
+- Scale gradually when enabling across multiple cameras  
 
 ---
 
 ## 📊 Recommended Baseline
-- Reasonably clean motion
-- Moderate confidence threshold
-- Limited object classes
-- Simple alert logic
-- Review actual results before expanding
+- Clean motion detection  
+- Moderate confidence threshold  
+- Limited object classes  
+- Simple alert logic  
+- Review actual results before expanding  
 
 ---
 
 ## 🧠 Real-World Notes
-- Most “AI problems” start as motion or scene-design problems
-- Good framing usually improves AI more than aggressive settings
-- Too many object classes often create more review work than value
-- A slower, cleaner rollout usually produces better long-term results
+- Most AI issues originate from motion or scene design  
+- Proper framing often improves results more than tuning  
+- Excess object classes increase review workload  
+- Controlled rollout produces more stable long-term performance  
 
 ---
 
 ## ⚠️ Common Mistakes
-- Turning on AI before motion is usable
-- Letting AI analyze poor images
-- Enabling too many classes
-- Sending notifications before validation
-- Changing multiple AI variables at once
+- Enabling AI before motion is stable  
+- Analyzing poor-quality images  
+- Using too many object classes  
+- Sending alerts before validation  
+- Changing multiple variables simultaneously  
 
 ---
 
 ## 📊 Related Pages
-- [Blue Iris Tuning](/blue-iris/tuning/)
-- [Blue Iris Installation](/blue-iris/installation/)
-- [Blue Iris System Reference](/blue-iris/system-reference/)
+- [Blue Iris Tuning](/blue-iris/tuning/)  
+- [Blue Iris Installation](/blue-iris/installation/)  
+- [Blue Iris System Reference](/blue-iris/system-reference/)  
 
 ---
 
 ## ✅ Result
-This page provides a practical framework for using AI confirmation in Blue Iris without creating extra noise or instability.
+A practical framework for implementing AI confirmation in Blue Iris without introducing unnecessary noise or instability.
