@@ -1,12 +1,12 @@
 ---
 title: Blue Iris AI Detection Flow
 description: End-to-end AI detection pipeline using Blue Iris and CodeProject.AI, from motion trigger to alert delivery with direct-to-disk recording.
-image: /img/og/blueiris-ai-detection-flow.jpg
+image: /img/og/blueiris-ai-detection-flow-og.jpg
 ---
 
 # Blue Iris – Detection Flow
 
-<img src="/img/og/blueiris-ai-detection-flow.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
+<img src="/img/og/blueiris-ai-detection-flow-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
 ---
 
