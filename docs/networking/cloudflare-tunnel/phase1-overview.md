@@ -1,6 +1,6 @@
 ---
 title: Cloudflare Tunnel – Phase 1 Overview
-description: Phase 1 of Cloudflare Tunnel deployment covering initial setup, Zero Trust architecture, and secure connectivity design for Blue Iris.
+description: Phase 1 of Cloudflare Tunnel deployment covering initial setup, architecture, and connectivity design.
 image: /img/og/cloudflare-tunnel-phase1-og.jpg
 ---
 
