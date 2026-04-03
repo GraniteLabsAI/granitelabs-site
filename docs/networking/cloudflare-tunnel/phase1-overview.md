@@ -1,18 +1,20 @@
 ---
 title: Cloudflare Tunnel – Phase 1 Overview
-description: Phase 1 of Cloudflare Tunnel deployment covering initial setup, architecture, and connectivity design.
-image: /img/og/cloudflare-og.jpg
+description: Phase 1 of Cloudflare Tunnel deployment covering initial setup, Zero Trust architecture, and secure connectivity design for Blue Iris.
+image: /img/og/cloudflare-tunnel-phase1-og.jpg
 ---
 
-# 🌐 Cloudflare Tunnel — Phase 1 
+# 🌐 Cloudflare Tunnel — Phase 1
+
+<img src="/img/og/cloudflare-tunnel-phase1-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
+
+---
 
 ## 📌 Project
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
 **Status:** Phase 1 Complete – Awaiting Onsite Installation (Phase 2)
 
-<img src="/img/cloudflare-tunnel-phase1-dark.png" alt="Cloudflare Tunnel Phase 1 Diagram" />
-
-
+<img src="/img/cloudflare-tunnel-phase1-dark.png" alt="Cloudflare Tunnel Phase 1 Diagram" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
 
 ---
 
@@ -24,10 +26,10 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 
 ## 🧠 Architecture Goal
 
-- Eliminate open ports on firewall
-- Avoid VPN dependency
-- Use Cloudflare Zero Trust for secure access
-- Route external HTTPS traffic → internal Blue Iris web server
+- Eliminate open ports on firewall  
+- Avoid VPN dependency  
+- Use Cloudflare Zero Trust for secure access  
+- Route external HTTPS traffic → internal Blue Iris web server  
 
 ---
 
@@ -37,29 +39,28 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 
 ### Completed Actions
 
-- Domain added to Cloudflare
-- Free Cloudflare plan selected
-- DNS records imported:
-  - MX (Microsoft 365)
-  - TXT (SPF + MS verification)
-  - CNAME (autodiscover, www)
+- Domain added to Cloudflare  
+- Free Cloudflare plan selected  
+- DNS records imported:  
+  - MX (Microsoft 365)  
+  - TXT (SPF + MS verification)  
+  - CNAME (autodiscover, www)  
 
 ### Nameservers
--****.ns.cloudflare.com
--*****.ns.cloudflare.com
-
+- ****.ns.cloudflare.com  
+- *****.ns.cloudflare.com  
 
 ### Status
 
-- ✅ Domain Active
-- ✅ DNS managed by Cloudflare
+- ✅ Domain Active  
+- ✅ DNS managed by Cloudflare  
 
 ---
 
 ## 🔐 Cloudflare Zero Trust Setup
 
-- Accessed via: https://dash.cloudflare.com/one/
-- Guided onboarding skipped (manual setup preferred)
+- Accessed via: https://dash.cloudflare.com/one/  
+- Guided onboarding skipped (manual setup preferred)  
 
 ---
 
@@ -70,13 +71,13 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 
 ### Tunnel Details
 
-- Name: `blueiris-tunnel`
-- Type: Cloudflared (outbound connector)
+- Name: `blueiris-tunnel`  
+- Type: Cloudflared (outbound connector)  
 
 ### Status
 
-- ✅ Tunnel created
-- ⛔ Connector not installed yet
+- ✅ Tunnel created  
+- ⛔ Connector not installed yet  
 
 ---
 
@@ -87,20 +88,20 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 
 ### Notes
 
-- “amd64” = standard 64-bit (Intel + AMD)
-- No compatibility concerns
+- “amd64” = standard 64-bit (Intel + AMD)  
+- No compatibility concerns  
 
 ### Target Device
 
-- Blue Iris PC (Puget System)
+- Blue Iris PC (Puget System)  
 
 ---
 
 ## 🔑 Authentication Token
 
-- Generated in Cloudflare
-- Tied to `blueiris-tunnel`
-- Will be used in Phase 2 installation
+- Generated in Cloudflare  
+- Tied to `blueiris-tunnel`  
+- Will be used in Phase 2 installation  
 
 ---
 
@@ -108,22 +109,21 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 
 ### Phase 2
 
-- Cloudflare Access (Zero Trust)
-  - Email-based authentication
-  - Optional SSO / OTP
+- Cloudflare Access (Zero Trust)  
+  - Email-based authentication  
+  - Optional SSO / OTP  
 
 ### Future
 
-- DMARC policy
-  - Align with M365 (SPF + DKIM)
+- DMARC policy  
+  - Align with M365 (SPF + DKIM)  
 
 ---
 
 ## 🌐 Planned Hostname
 `bi.granitelabs.ai`
 
-
-➡ Will route to Blue Iris local web server
+➡ Will route to Blue Iris local web server  
 
 ---
 
@@ -147,9 +147,9 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 1. Install `cloudflared` on Blue Iris PC  
 2. Authenticate using tunnel token  
 3. Bring tunnel online  
-4. Create hostname:
+4. Create hostname:  
    - `bi.granitelabs.ai`  
-5. Map to:
+5. Map to:  
    - `http://localhost:<BI_PORT>`  
 6. Configure Cloudflare Access  
 7. Test remote access  
@@ -158,25 +158,24 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 
 ## 🔐 Security Model
 
-Internet
-↓
-Cloudflare (HTTPS + Authentication)
-↓
-Secure Tunnel (Outbound Only)
-↓
-Blue Iris PC (cloudflared)
-↓
-Blue Iris Web Server
-
+Internet  
+↓  
+Cloudflare (HTTPS + Authentication)  
+↓  
+Secure Tunnel (Outbound Only)  
+↓  
+Blue Iris PC (cloudflared)  
+↓  
+Blue Iris Web Server  
 
 ---
 
 ## 📝 Notes
 
-- No port forwarding required
-- WAN IP is never exposed
-- HTTPS enforced via Cloudflare
-- Adds identity-based access layer
+- No port forwarding required  
+- WAN IP is never exposed  
+- HTTPS enforced via Cloudflare  
+- Adds identity-based access layer  
 
 ---
 
@@ -185,6 +184,7 @@ Blue Iris Web Server
 Phase 1 is complete. Continue to the onsite implementation guide for connector installation, tunnel activation, hostname mapping, and Blue Iris service routing.
 
 ➡ **Continue to Phase 2:** [Phase 2 – Onsite Installation](./phase2-onsite-installation)
+
 👉 Begin Phase 2 when onsite:
 
 **Command:**  
