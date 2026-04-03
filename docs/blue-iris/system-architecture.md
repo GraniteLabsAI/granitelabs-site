@@ -1,3 +1,9 @@
+---
+title: Blue Iris System Architecture
+description: High-level system architecture showing how cameras, Blue Iris, AI, storage, and alerts interact.
+image: /img/og/blueiris-system-architecture-overview-og.jpg
+---
+
 # Blue Iris – System Architecture
 
 ## 🔹 Overview
