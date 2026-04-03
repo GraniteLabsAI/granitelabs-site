@@ -2,6 +2,7 @@
 title: ChatGPT at GraniteLabs
 description: How GraniteLabs uses ChatGPT for AI image generation, brand development, and visual system design within a production AI stack.
 image: /img/og/chatgpt-automation-platform-og.jpg
+og:type: website
 ---
 
 # ChatGPT at GraniteLabs
