@@ -1,15 +1,18 @@
 ---
-title: Start Here – Blue Iris System Guide
-description: Where to begin with Blue Iris setup, configuration, and optimization. A guided path through installation, tuning, and real-world operation.
+title: Blue Iris – Start Here
+description: Entry point for the GraniteLabs Blue Iris documentation system, including installation, architecture, tuning, troubleshooting, and secure remote access.
+image: /img/og/blueiris-og.jpg
 ---
 
-# Start Here – Blue Iris System Guide
+# Blue Iris – Start Here
+
+<img src="/img/og/blueiris-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
 ## 🔹 Overview
 
-This section provides a structured path through the Blue Iris system.
+This page is the starting point for the GraniteLabs Blue Iris system.
 
-If you are new, follow the steps below in order.
+If you are new to Blue Iris, follow the sections below in order.
 
 ---
 
@@ -19,10 +22,10 @@ Start here:
 
 - [Installation](/blue-iris/installation/)
 
-Goal:
-- Get Blue Iris running
-- Add first camera
-- Confirm live video
+**Goal:**
+- Get Blue Iris installed and running
+- Add the first camera
+- Confirm live video is working
 
 ---
 
@@ -32,9 +35,9 @@ Goal:
 - [System Reference](/blue-iris/system-reference/)
 - [Tab Index](/blue-iris/tab-index/)
 
-Goal:
-- Understand how the system works
-- Learn what each section controls
+**Goal:**
+- Understand how the system is structured
+- Learn what each major section controls
 
 ---
 
@@ -43,9 +46,9 @@ Goal:
 - [Real World Operation](/blue-iris/real-world-operations/)
 - [Real Config Examples](/blue-iris/real-config-examples/)
 
-Goal:
+**Goal:**
 - See how a working system behaves
-- Understand real configurations
+- Understand practical configuration patterns
 
 ---
 
@@ -56,10 +59,10 @@ Goal:
 - [AI Tuning](/blue-iris/ai-tuning/)
 - [Storage Architecture](/blue-iris/storage-architecture/)
 
-Goal:
+**Goal:**
 - Improve performance
 - Reduce false alerts
-- Optimize recording
+- Optimize recording and retention
 
 ---
 
@@ -68,9 +71,9 @@ Goal:
 - [Troubleshooting](/blue-iris/troubleshooting/)
 - [Fix False Alerts](/blue-iris/fix-false-alerts/)
 
-Goal:
+**Goal:**
 - Solve problems quickly
-- Stabilize the system
+- Stabilize the system when issues appear
 
 ---
 
@@ -78,9 +81,9 @@ Goal:
 
 - [Remote Access](/blue-iris/remote-access/)
 
-Goal:
-- Secure remote viewing
-- Avoid port forwarding risks
+**Goal:**
+- Enable secure remote viewing
+- Avoid unnecessary exposure and port forwarding risks
 
 ---
 
@@ -88,8 +91,8 @@ Goal:
 
 - [Field Quick Sheet](/blue-iris/field-quick-sheet-print/)
 
-Goal:
-- Fast lookup during setup or troubleshooting
+**Goal:**
+- Provide a fast reference during setup or troubleshooting
 
 ---
 
