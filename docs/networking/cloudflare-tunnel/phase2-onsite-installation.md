@@ -1,6 +1,6 @@
 ---
 title: Cloudflare Tunnel – Phase 2 Setup
-description: Onsite installation and configuration of Cloudflare Tunnel including connector deployment, authentication, hostname routing, and Blue Iris exposure.
+description: Configuration and deployment steps for Cloudflare Tunnel including authentication and routing.
 image: /img/og/cloudflare-tunnel-phase2-og.jpg
 ---
 
