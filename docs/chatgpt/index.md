@@ -1,13 +1,24 @@
 ---
 title: ChatGPT at GraniteLabs
-description: How GraniteLabs uses ChatGPT for image generation, brand development, and AI tool comparison.
+description: How GraniteLabs uses ChatGPT for AI image generation, brand development, and visual system design within a production AI stack.
+image: /img/og/chatgpt-automation-platform-og.jpg
 ---
 
 # ChatGPT at GraniteLabs
 
-ChatGPT played a foundational role in the creation of GraniteLabs — from naming the brand to purchasing the domain, learning GitHub, and building the initial website structure. It remains a core tool in the GraniteLabs AI stack for specific, high-value tasks.
+<img src="/img/og/chatgpt-automation-platform-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-## Role in the GraniteLabs Stack
+ChatGPT played a foundational role in building GraniteLabs — from brand naming and domain acquisition to GitHub onboarding and early system design. It remains a core tool in the GraniteLabs AI stack for high-value tasks, particularly in visual asset generation and brand system development.
+
+---
+
+## 🔹 Overview
+
+This page outlines how ChatGPT is used within GraniteLabs, including strengths, limitations, and its role in a production AI workflow.
+
+---
+
+## 🧠 Role in the GraniteLabs Stack
 
 GraniteLabs uses a deliberate, task-specific AI stack based on real-world testing:
 
@@ -17,71 +28,111 @@ GraniteLabs uses a deliberate, task-specific AI stack based on real-world testin
 | Claude | Documentation, screenshot analysis, content generation, workflow development |
 | Gemini | Evaluated and retired — screenshot reading unreliable |
 
-## Image Generation
+---
 
-ChatGPT's image generation (DALL-E, built-in) is exceptional for technical branding work. Key workflow notes:
+## 🎨 Image Generation
 
-- Must explicitly instruct ChatGPT to **generate the image**, not describe it
-- ChatGPT now produces the image directly AND provides the full generation prompt — useful for reproducing assets in other tools
-- Used to produce GraniteLabs brand postcards, system diagrams, and visual assets
-- Consistent with the GraniteLabs Visual Standard v1 when prompted correctly
+ChatGPT's image generation (DALL·E, built-in) is exceptional for technical branding work.
 
-## Brand Development
+Key workflow notes:
+
+- Must explicitly instruct ChatGPT to **generate the image**, not describe it  
+- ChatGPT produces the image directly and provides the full generation prompt  
+- Prompts can be reused across tools and workflows  
+- Used to produce GraniteLabs brand postcards, system visuals, and OG images  
+- Consistent with the GraniteLabs Visual Standard when prompted correctly  
+- Used to develop and standardize the GraniteLabs OG Cube System for consistent visual branding across all documentation pages  
+
+---
+
+## 🧱 Brand Development
 
 ChatGPT contributed significantly to establishing the GraniteLabs visual identity:
 
-- Brand naming and positioning
-- Domain selection and purchase guidance
-- Initial website architecture and GitHub setup
-- Visual style development that became the foundation for the locked GraniteLabs Visual Standard v1
+- Brand naming and positioning  
+- Domain selection and purchase guidance  
+- Initial website architecture and GitHub setup  
+- Visual style development forming the GraniteLabs Visual Standard  
 
-Claude subsequently elevated the site to a production-grade documentation system, but the brand foundation was built with ChatGPT.
+Claude later elevated the platform into a production-grade documentation system, but the brand foundation was built with ChatGPT.
 
-## Strengths
+---
 
-- **Image generation:** Best-in-class for technical brand assets
-- **Brand ideation:** Strong for naming, positioning, and visual direction
-- **Broad knowledge:** Effective for general research and exploration
-- **Prompt output:** Provides reusable prompts alongside generated images
+## ✅ Strengths
 
-## Limitations — Field Tested
+- **Image generation:** Best-in-class for technical brand assets  
+- **Brand ideation:** Strong for naming, positioning, and visual direction  
+- **Broad knowledge:** Effective for research and exploration  
+- **Prompt output:** Provides reusable prompts alongside generated images  
 
-These are real observations from extended use, not opinions:
+---
 
-- **Version drift:** When working with newer versions of software or websites, ChatGPT consistently reverts to outdated information. Corrections do not persist — even with screenshots provided as evidence, ChatGPT will repeat the same incorrect information in subsequent messages.
-- **Screenshot reliability:** ChatGPT does not always read screenshots accurately. It will sometimes describe what it expects to see rather than what is actually shown.
-- **Memory within session:** Repeated corrections on version-specific details are not retained within the same conversation, requiring the user to re-correct the same point multiple times.
+## ⚠️ Limitations — Field Tested
 
-## Comparison: ChatGPT vs Claude
+The following limitations are based on extended real-world use in production workflows:
+
+- **Version drift:** ChatGPT may revert to outdated information when working with newer software or UI changes  
+- **Screenshot interpretation:** Can occasionally describe expected UI instead of actual content  
+- **Correction persistence:** Repeated corrections may not be retained consistently within the same session  
+
+---
+
+## ⚖️ Comparison: ChatGPT vs Claude
 
 | Capability | ChatGPT | Claude |
 |---|---|---|
 | Image generation | ✅ Excellent | ❌ Not available |
 | Screenshot reading | ⚠️ Inconsistent | ✅ Reliable |
-| Version-specific accuracy | ⚠️ Reverts to old info | ✅ Holds corrections |
+| Version-specific accuracy | ⚠️ May revert | ✅ Holds corrections |
 | Documentation generation | ✅ Good | ✅ Excellent |
 | Brand/visual ideation | ✅ Excellent | ✅ Good |
 | Workflow development | ✅ Good | ✅ Excellent |
-| SEO assistance | ✅ Good | ✅ In development |
+| SEO assistance | ✅ Good | ⚠️ In development |
 
-## Gemini — Evaluated and Retired
+---
 
-Google Gemini was tested as a 50/50 alternative to ChatGPT. It was retired from the GraniteLabs stack after consistent failure to read screenshots — even when explicitly instructed to do so. Gemini appeared to rely entirely on memory rather than the provided visual content, making it unreliable for technical support workflows.
+## ❌ Gemini — Evaluated and Retired
 
-## Recommended AI Stack for Technical Lab Sites
+Google Gemini was tested as an alternative to ChatGPT and Claude.
 
-Based on real-world testing building GraniteLabs:
+It was removed from the GraniteLabs stack due to:
 
-- **ChatGPT** — Image generation, brand style, visual asset creation
-- **Claude** — Documentation, screenshot analysis, content generation, workflow development, SEO (in development)
-- **Single-tool approach:** Consolidating on Claude as the primary workflow tool where possible reduces context-switching and improves consistency
+- Inconsistent screenshot interpretation  
+- Reliance on assumptions instead of visual input  
+- Unreliable performance in technical workflows  
 
-## Foundation to Production
+---
+
+## 🧩 Recommended AI Stack for Technical Platforms
+
+Based on real-world implementation:
+
+- **ChatGPT** — Image generation, branding, visual systems  
+- **Claude** — Documentation, screenshot analysis, structured workflows, SEO (in development)  
+
+A hybrid approach provides the best balance between **visual creation** and **technical precision**.
+
+---
+
+## 🚀 Foundation to Production
 
 GraniteLabs was built in two phases:
 
-**Phase 1 — ChatGPT:** Brand naming, domain purchase, GitHub setup, initial website structure, visual identity foundation.
+### Phase 1 — ChatGPT
+- Brand naming  
+- Domain acquisition  
+- GitHub onboarding  
+- Initial architecture  
+- Visual identity foundation  
 
-**Phase 2 — Claude:** Production-grade documentation system, screenshot-based technical support, content generation at scale, and systematic site development.
+### Phase 2 — Claude
+- Production-grade documentation system  
+- Screenshot-based technical workflows  
+- Scalable content generation  
+- Structured site development  
 
-The combination produced a result neither tool could have achieved alone.
+---
+
+## 🧠 Final Perspective
+
+This hybrid approach — combining ChatGPT for visual systems and Claude for structured documentation — defines the GraniteLabs methodology for building technical platforms with both clarity and visual consistency.
