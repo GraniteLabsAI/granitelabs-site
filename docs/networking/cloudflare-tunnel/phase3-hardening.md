@@ -1,6 +1,6 @@
 ---
-title: Cloudflare Tunnel – Phase 3 Hardening
-description: Zero Trust security configuration for Cloudflare Tunnel including authentication, access policies, and production deployment hardening for Blue Iris.
+title: Cloudflare Tunnel – Hardening & Zero Trust Access
+description: Advanced configuration, optimization, and production deployment considerations for Cloudflare Tunnel.
 image: /img/og/cloudflare-tunnel-phase3-og.jpg
 ---
 
