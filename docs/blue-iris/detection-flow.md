@@ -1,3 +1,9 @@
+---
+title: Blue Iris AI Detection Flow
+description: End-to-end AI detection pipeline using Blue Iris and CodeProject.AI with direct-to-disk recording.
+image: /img/og/blueiris-ai-detection-flow.jpg
+---
+
 # Blue Iris – Detection Flow
 
 ## 🔹 Overview
