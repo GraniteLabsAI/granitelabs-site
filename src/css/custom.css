@@ -114,13 +114,13 @@ h3 {
 /* Small inline cube icon (for headers) */
 .cube-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 1.2em;
+  height: 1.2em;
   background-image: url('/img/brand/granitelabs-cube.png');
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 8px;
-  vertical-align: -3px;
+  vertical-align: -0.15em;
 }
 
 /* Larger version (optional for main sections) */
