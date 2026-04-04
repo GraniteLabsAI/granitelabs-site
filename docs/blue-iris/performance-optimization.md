@@ -1,8 +1,10 @@
 ---
-title: Blue Iris Performance Optimization
-description: Practical performance optimization strategies for Blue Iris, including camera load, codecs, frame rate, AI impact, and system stability.
+title: Blue Iris – Performance Optimization
+description: Practical performance optimization strategies for Blue Iris including camera load, codecs, frame rate, AI impact, and long-term system stability.
 image: /img/og/blueiris-performance-optimization-og.jpg
 ---
+
+[← Back to Blue Iris](/blue-iris/)
 
 # Blue Iris – Performance Optimization
 
@@ -11,11 +13,13 @@ image: /img/og/blueiris-performance-optimization-og.jpg
 ---
 
 ## 🔹 Overview
+
 This page provides practical guidance for improving Blue Iris performance and maintaining long-term system stability.
 
 ---
 
 ## 🎯 Objective
+
 - Reduce CPU and system load  
 - Improve responsiveness  
 - Maintain stable multi-camera operation  
@@ -24,9 +28,18 @@ This page provides practical guidance for improving Blue Iris performance and ma
 ---
 
 ## 🧠 Key Concepts
+
 - Performance is cumulative across all cameras  
 - Stability is more important than maximum settings  
 - Small changes can have large impact at scale  
+
+---
+
+## 🧠 System Insight
+
+Resolution → FPS → Codec → AI → Storage load
+
+Performance issues are usually cumulative, not isolated.
 
 ---
 
@@ -79,6 +92,7 @@ This page provides practical guidance for improving Blue Iris performance and ma
 ---
 
 ## 📊 Recommended Baseline
+
 - H.264  
 - ~15 FPS  
 - Direct-to-disk enabled  
@@ -88,6 +102,7 @@ This page provides practical guidance for improving Blue Iris performance and ma
 ---
 
 ## 🧠 Real-World Notes
+
 - Performance issues often appear after incremental changes  
 - Stability degradation is gradual, not immediate  
 - Simpler configurations scale more reliably over time  
@@ -95,6 +110,7 @@ This page provides practical guidance for improving Blue Iris performance and ma
 ---
 
 ## ⚠️ Common Mistakes
+
 - Adding too many cameras at once  
 - Increasing FPS unnecessarily  
 - Running maximum settings across all cameras  
@@ -104,6 +120,9 @@ This page provides practical guidance for improving Blue Iris performance and ma
 ---
 
 ## 📊 Related Pages
+
+- [Best Settings](/blue-iris/best-settings/)  
+- [Tuning Guide](/blue-iris/tuning/)  
 - [Storage Architecture](/blue-iris/storage-architecture/)  
 - [AI Tuning](/blue-iris/ai-tuning/)  
 - [Troubleshooting](/blue-iris/troubleshooting/)  
@@ -111,4 +130,5 @@ This page provides practical guidance for improving Blue Iris performance and ma
 ---
 
 ## ✅ Result
+
 A stable, responsive Blue Iris system that balances performance, scalability, and video quality.
