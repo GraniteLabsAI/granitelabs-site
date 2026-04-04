@@ -9,8 +9,8 @@ image: /img/og/blueiris-ai-tuning-og.jpg
 <img src="/img/og/blueiris-ai-tuning-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
 ---
-## <span class="cube-icon cube-ai"></span> AI Test
-## 🔹 Overview
+
+## <span class="cube-icon cube-ai"></span> Overview
 This page provides practical guidance for using AI confirmation in Blue Iris to improve event quality and reduce false alerts.
 
 The focus is on disciplined setup: **motion first, AI second, alerts third**.
