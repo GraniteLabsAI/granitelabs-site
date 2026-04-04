@@ -1,100 +1,107 @@
 ---
-title: Blue Iris – Documentation Map
-description: Structured map of the Blue Iris documentation system including architecture, configuration, cameras, performance, and maintenance.
-image: /img/og/blueiris-system-architecture-og.jpg
-sidebar_position: 4
+title: Documentation Map | Granite Labs
+description: A structured overview of system architecture, documentation, and workflow flow across the Granite Labs platform.
+image: /img/og/documentation-map-og.jpg
 ---
 
-[← Back to Blue Iris](/blue-iris/)
+# Documentation Map
 
-# Blue Iris – Documentation Map
-
-<img src="/img/og/blueiris-system-architecture-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
-
-## 🔹 Overview
-
-The Blue Iris documentation is organized to match the GraniteLabs system structure.
-
-This layout mirrors how the system is designed, deployed, and maintained in real-world environments.
+<img src="/img/og/documentation-map-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
 ---
 
-## 🧭 System Reference
+## 🧠 System Overview
 
-- Blue Iris system overview  
-- Project numbering system  
-- Documentation structure  
+Granite Labs is organized as a structured system — not a collection of pages.
+
+Each section builds on the previous:
+
+**Build → Understand → Optimize → Troubleshoot → Scale**
 
 ---
 
-## 🧱 Architecture
+## 🧭 System Flow
 
-- System architecture  
-- Hardware layout  
-- Network design  
-- Storage architecture  
+### 1. Start
+- [Start Here](/blue-iris/start-here/)
+- [Installation](/blue-iris/installation/)
+- [Add a Camera](/blue-iris/how-to-add-a-camera/)
+
+**Purpose:** Get the system running.
+
+---
+
+### 2. Understand
+- [Overview](/blue-iris/overview/)
+- [System Architecture](/blue-iris/system-architecture/)
+- [System Reference](/blue-iris/system-reference/)
+- [Tab Index](/blue-iris/tab-index/)
+- [Detection Flow](/blue-iris/detection-flow/)
+
+**Purpose:** Learn how the system works.
+
+---
+
+### 3. Build & Observe
+- [Real World Operations](/blue-iris/real-world-operations/)
+- [Real Configuration Examples](/blue-iris/real-config-examples/)
+
+**Purpose:** See how a working system behaves.
+
+---
+
+### 4. Optimize
+- [Storage Architecture](/blue-iris/storage-architecture/)
+- [Best Settings](/blue-iris/best-settings/)
+- [Tuning Guide](/blue-iris/tuning/)
+- [AI Tuning](/blue-iris/ai-tuning/)
+- [Performance Optimization](/blue-iris/performance-optimization/)
+
+**Purpose:** Improve performance and reliability.
+
+---
+
+### 5. Troubleshoot
+- [Fix False Alerts](/blue-iris/fix-false-alerts/)
+- [Alerts Troubleshooting](/blue-iris/alerts-not-working/)
+- [Troubleshooting](/blue-iris/troubleshooting/)
+
+**Purpose:** Diagnose and resolve issues.
+
+---
+
+### 6. Deploy & Operate
+- [Remote Access](/blue-iris/remote-access/)
+- [Field Quick Sheet](/blue-iris/field-quick-sheet/)
+- [Field Quick Sheet (Print)](/blue-iris/field-quick-sheet-print/)
+
+**Purpose:** Use the system in real-world conditions.
 
 ---
 
 ## 📷 Camera Systems
 
-Documentation related to camera hardware and configuration.
+- [Reolink RLC-810A](/blue-iris/reolink-rlc-810a/)
+- [Reolink RLC-843A](/blue-iris/reolink-rlc-843a/)
+- [Axis P1485-LE](/blue-iris/axis-p1485-le/)
 
-Examples:
-
-- Reolink RLC-810A  
-- Reolink RLC-843A  
-- Axis P1485-LE  
-
-Topics include:
-
-- Camera setup  
-- Field of view and placement  
-- Camera comparisons  
+**Purpose:** Camera-specific setup and tuning guidance.
 
 ---
 
-## ⚙️ Blue Iris Configuration
+## 🧠 Key Insight
 
-Core configuration topics:
+This system is designed to be built in layers:
 
-- Global settings  
-- Recording configuration  
-- Motion detection  
-- AI detection  
-- Alerts and notifications  
+1. Camera works  
+2. Motion works  
+3. AI works  
+4. Alerts work  
 
----
-
-## 🚀 Performance and Optimization
-
-System performance topics include:
-
-- GPU acceleration  
-- Hardware decoding  
-- Storage performance  
-- Network performance  
-
----
-
-## 🛠️ Maintenance
-
-Operational topics include:
-
-- Database maintenance  
-- Backup procedures  
-- Troubleshooting  
-
----
-
-## 🧠 Notes
-
-- This page reflects the structure of the GraniteLabs Blue Iris system  
-- Sections are designed to scale as the system grows  
-- Keep categories stable — expand within them rather than creating new top-level groups  
+Skipping steps usually creates instability.
 
 ---
 
 ## ✅ Result
 
-A clear, structured map of the Blue Iris documentation system that aligns with real-world deployment and ongoing system management.
+A clear map of how Granite Labs documentation, systems, and workflows fit together.
