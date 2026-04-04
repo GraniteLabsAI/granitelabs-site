@@ -20,7 +20,8 @@ Each section builds on the previous:
 
 ---
 
-## 🧭 System Flow
+## <span class="cube-icon"></span> System Flow
+
 
 ### 1. Start
 - [Start Here](/blue-iris/start-here/)
