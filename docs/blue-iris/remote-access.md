@@ -97,9 +97,9 @@ Access Blue Iris using:
 
 - [Networking Overview](/networking/)
 - [Cloudflare Tunnel](/networking/cloudflare-tunnel/)
-- [Cloudflare Tunnel – Phase 1 Overview](/networking/phase1-overview/)
-- [Cloudflare Tunnel – Phase 2 Setup](/networking/phase2-onsite-installation/)
-- [Cloudflare Tunnel – Phase 3 Hardening](/networking/phase3-hardening/)
+- [Cloudflare Tunnel – Phase 1 Overview](/networking/cloudflare-tunnel/phase1-overview/)
+- [Cloudflare Tunnel – Phase 2 Setup](/networking/cloudflare-tunnel/phase2-onsite-installation/)
+- [Cloudflare Tunnel – Phase 3 Hardening](/networking/cloudflare-tunnel/phase3-hardening/)
 
 ---
 
