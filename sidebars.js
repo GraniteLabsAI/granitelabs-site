@@ -16,7 +16,7 @@ const sidebars = {
       label: 'Icon System',
     },
     
-   {
+ {
   type: 'category',
   label: 'Blue Iris',
   collapsed: false,
@@ -28,20 +28,21 @@ const sidebars = {
     'blue-iris/start-here',
     'blue-iris/overview',
     'blue-iris/installation',
-    'blue-iris/how-to-add-a-camera',
 
+    'blue-iris/system-architecture',
     'blue-iris/system-reference',
     'blue-iris/tab-index',
     'blue-iris/documentation-map',
-    'blue-iris/system-architecture',
-    'blue-iris/detection-flow',
 
+    'blue-iris/how-to-add-a-camera',
     'blue-iris/real-world-operations',
     'blue-iris/real-config-examples',
+
+    'blue-iris/storage-architecture',
     'blue-iris/best-settings',
     'blue-iris/tuning',
+    'blue-iris/detection-flow',
     'blue-iris/ai-tuning',
-    'blue-iris/storage-architecture',
     'blue-iris/performance-optimization',
 
     'blue-iris/fix-false-alerts',
