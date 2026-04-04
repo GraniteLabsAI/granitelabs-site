@@ -10,7 +10,7 @@ image: /img/og/blueiris-system-architecture-og.jpg
 
 <img src="/img/og/blueiris-system-architecture-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-## 🔹 Overview
+## <span class="cube-icon"></span> Overview
 Blue Iris is the core platform for managing cameras, recording strategy, motion detection, AI-assisted analysis, alerts, storage, and system tuning.
 
 This page provides a high-level view of how the Blue Iris environment is structured and how the major components work together.
@@ -37,7 +37,7 @@ This page provides a high-level view of how the Blue Iris environment is structu
 
 ---
 
-## 📊 System Architecture
+## <span class="cube-icon"></span> System Architecture
 
 <img src="/img/blueiris-system-overview-v4.png" alt="Blue Iris System Overview" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '20px'}} />
 
