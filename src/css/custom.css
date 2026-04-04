@@ -134,3 +134,19 @@ h3 {
   margin-right: 10px;
   vertical-align: -4px;
 }
+
+/* =========================
+   CUBE VARIANTS
+========================= */
+
+.cube-ai {
+  background-image: url('/img/brand/cubes/cube-ai.png');
+}
+
+.cube-storage {
+  background-image: url('/img/brand/cubes/cube-storage.png');
+}
+
+.cube-network {
+  background-image: url('/img/brand/cubes/cube-network.png');
+}
