@@ -41,7 +41,7 @@ Replace traditional remote access methods with a modern Zero Trust architecture 
 
 ---
 
-## <span class="cube-icon"></span> System Architecture
+## <span class="cube-icon cube-network"></span> System Architecture
 ```text
 Remote User
     │
