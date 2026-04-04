@@ -1,7 +1,7 @@
 ---
 title: Cloudflare Tunnel
 description: Secure remote access using Cloudflare Tunnel with zero trust architecture and edge protection.
-image: /img/og/cloudflare-og.jpg
+image: /img/og/cloudflare-tunnel-og.jpg
 ---
 
 # 🌐 Cloudflare Tunnel
