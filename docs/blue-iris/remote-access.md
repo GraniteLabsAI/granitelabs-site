@@ -1,19 +1,23 @@
 ---
-title: Blue Iris Remote Access (Secure Setup Without Port Forwarding)
-description: How to access Blue Iris remotely using secure methods like Cloudflare Tunnel. Avoid port forwarding and reduce security risks.
+title: Blue Iris – Remote Access (Secure Setup)
+description: Secure Blue Iris remote access using Cloudflare Tunnel and Zero Trust. Avoid port forwarding and protect your system from exposure.
+image: /img/og/cloudflare-tunnel-og.jpg
 ---
 
 [← Back to Blue Iris](/blue-iris/)
 
-# Blue Iris Remote Access (Secure Setup)
+# Blue Iris – Remote Access (Secure Setup)
+
+<img src="/img/og/cloudflare-tunnel-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
 ## 🔹 Overview
 
 Remote access is one of the most important — and most risky — parts of a Blue Iris system.
 
-Traditional setup:
-- Port forwarding
-- Exposing Blue Iris directly to the internet
+Traditional approaches often rely on:
+
+- Port forwarding  
+- Direct exposure of Blue Iris to the internet  
 
 This is **not recommended**.
 
@@ -23,10 +27,10 @@ This is **not recommended**.
 
 Use a secure tunnel:
 
-- Cloudflare Tunnel (preferred)
-- Zero Trust access
-- HTTPS encryption
-- No open inbound ports
+- Cloudflare Tunnel (preferred)  
+- Zero Trust access  
+- HTTPS encryption  
+- No open inbound ports  
 
 ---
 
@@ -34,10 +38,10 @@ Use a secure tunnel:
 
 Problems with port forwarding:
 
-- Exposes your system to the internet
-- Vulnerable to scanning and attacks
-- Requires constant monitoring
-- Weak authentication risks
+- Exposes your system directly to the internet  
+- Vulnerable to scanning and automated attacks  
+- Requires constant monitoring  
+- Weak authentication increases risk  
 
 ---
 
@@ -45,9 +49,9 @@ Problems with port forwarding:
 
 **Internet → Cloudflare → Secure Tunnel → Blue Iris Server**
 
-- No inbound ports open
-- Encrypted connection
-- Access controlled through identity
+- No inbound ports open  
+- Encrypted connection  
+- Identity-based access control  
 
 ---
 
@@ -55,19 +59,19 @@ Problems with port forwarding:
 
 Basic configuration:
 
-- Enable HTTPS
-- Use a secure port (non-default)
-- Disable HTTP if possible
-- Set strong authentication
+- Enable HTTPS  
+- Use a non-default port  
+- Disable HTTP if possible  
+- Set strong authentication credentials  
 
 ---
 
 ## 🔹 Cloudflare Tunnel Benefits
 
-- No port forwarding required
-- Hides internal IP
-- Protects against direct attacks
-- Adds authentication layer
+- No port forwarding required  
+- Internal IP is never exposed  
+- Protection from direct inbound attacks  
+- Adds an authentication layer via Zero Trust  
 
 ---
 
@@ -75,17 +79,17 @@ Basic configuration:
 
 Access Blue Iris using:
 
-- Web browser via secure URL
-- Blue Iris mobile app (if configured properly)
+- Secure browser URL (Cloudflare-protected)  
+- Blue Iris mobile app (when properly configured)  
 
 ---
 
 ## 🔹 Common Mistakes
 
-- Leaving port 81 open to the internet
-- Weak passwords
-- No HTTPS encryption
-- No access control
+- Leaving port 81 open to the internet  
+- Using weak or reused passwords  
+- Running without HTTPS  
+- No access control or authentication layer  
 
 ---
 
@@ -93,8 +97,8 @@ Access Blue Iris using:
 
 Remote access should be:
 
-- Secure
-- Encrypted
-- Controlled
+- Secure  
+- Encrypted  
+- Controlled  
 
 Not simply “open and working.”
