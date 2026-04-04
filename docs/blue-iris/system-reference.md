@@ -10,7 +10,7 @@ image: /img/og/blueiris-system-architecture-og.jpg
 
 <img src="/img/og/blueiris-system-architecture-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-## 🔹 Overview
+## <span class="cube-icon"></span> Overview
 
 This page serves as a structured reference for all major configuration areas within the Blue Iris system.
 
@@ -38,7 +38,7 @@ Use this page as a quick lookup to understand where settings live and how they r
 
 ---
 
-## 🛠️ System Areas
+## <span class="cube-icon"></span> System Areas
 
 ### Global Settings
 Controls system-wide behavior:
