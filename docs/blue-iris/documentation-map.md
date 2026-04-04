@@ -10,7 +10,7 @@ image: /img/og/documentation-map-og.jpg
 
 ---
 
-## 🧠 System Overview
+## <span class="cube-icon"></span> Documentation Map
 
 Granite Labs is organized as a structured system — not a collection of pages.
 
