@@ -10,7 +10,7 @@ image: /img/og/blueiris-storage-architecture-og.jpg
 
 ---
 
-## 🔹 Overview
+## <span class="cube-icon cube-storage"></span> Overview
 This page documents the practical storage design for Blue Iris, including recording locations, retention behavior, and the relationship between performance and disk usage.
 
 The goal is stable recording, predictable retention, and manageable storage growth.
@@ -33,7 +33,7 @@ The goal is stable recording, predictable retention, and manageable storage grow
 
 ---
 
-## 🛠️ Core Areas
+## <span class="cube-icon cube-storage"></span> Storage Architecture
 
 ### New Folder
 - Short-term recording location  
