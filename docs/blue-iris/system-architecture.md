@@ -10,7 +10,7 @@ image: /img/og/blueiris-system-architecture-og.jpg
 
 ---
 
-## 🔹 Overview
+## <span class="cube-icon"></span> System Architecture
 This page provides a high-level view of how cameras, Blue Iris, AI processing, storage, and alerting systems interact within the overall architecture.
 
 ---
