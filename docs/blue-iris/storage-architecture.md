@@ -4,7 +4,7 @@ description: Practical storage design for Blue Iris including recording location
 image: /img/og/blueiris-storage-architecture-og.jpg
 ---
 
-# Blue Iris 6 – Storage Architecture
+# Blue Iris – Storage Architecture
 
 <img src="/img/og/blueiris-storage-architecture-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
@@ -25,7 +25,7 @@ The goal is stable recording, predictable retention, and manageable storage grow
 
 ---
 
-## 🧠 Key Concepts
+## <span class="cube-icon cube-network"></span> System Architecture
 - Storage design directly affects performance, retention, and usability  
 - Recording folders should each have a clearly defined purpose  
 - Retention should be based on actual usage, not assumptions  
