@@ -1,20 +1,21 @@
 ---
-title: Cloudflare Tunnel
+title: Networking – Cloudflare & Secure Access
 sidebar_label: Networking
-description: GraniteLabs networking documentation covering secure remote access, Zero Trust architecture, and Cloudflare Tunnel deployment for Blue Iris.
-image: /img/og/cloudflare-tunnel-og.jpg
+description: GraniteLabs networking documentation covering Cloudflare Tunnel, Zero Trust architecture, and secure remote access design.
+image: /img/og/cloudflare-edge-security-og.jpg
 ---
 
 # 🌐 Networking
 
-<img src="/img/og/cloudflare-tunnel-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
+<img src="/img/og/cloudflare-edge-security-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
 ---
 
 ## 📌 Overview
-**GraniteLabs Networking Documentation**
 
-Structured reference for networking systems, secure access architecture, and infrastructure design used across GraniteLabs deployments.
+GraniteLabs networking documentation focuses on **secure remote access, Zero Trust architecture, and real-world deployment patterns**.
+
+This section provides a structured reference for building secure, scalable networking systems without exposing internal services.
 
 ---
 
@@ -27,11 +28,21 @@ Structured reference for networking systems, secure access architecture, and inf
 
 ---
 
-## 📋 Sections
+## 📋 Core Section
 
 | Section | Description | Status |
-|---------|-------------|--------|
-| [Cloudflare Tunnel](/networking/cloudflare-tunnel/) | Zero Trust secure remote access for Blue Iris | ✅ Complete |
+|--------|------------|--------|
+| [Cloudflare Tunnel](/networking/cloudflare-tunnel/) | Secure remote access using Zero Trust architecture and no port forwarding | ✅ Complete |
+
+---
+
+## 🧠 Key Concepts
+
+- Zero Trust access replaces traditional perimeter security  
+- No inbound ports should be exposed for remote access  
+- Identity-based access control improves security posture  
+- Secure tunnels eliminate direct attack surface  
+- Networking design should prioritize isolation and control  
 
 ---
 
