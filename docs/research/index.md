@@ -1,32 +1,63 @@
 ---
 title: Research
+description: Experiments, testing results, and technical investigations produced during GraniteLabs system design and deployment.
 sidebar_position: 1
+image: /img/og/documentation-map-og.jpg
 ---
 
 # Granite Labs Research
 
-The Research section contains experiments, testing results, technical investigations, and observations produced during Granite Labs projects.
+<img src="/img/og/documentation-map-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-## Purpose
+---
 
-Research documents capture findings that help improve system design and performance.
+## <span class="cube-icon"></span> Overview
 
-These documents often include:
+The Research section captures experiments, testing results, technical investigations, and real-world observations produced during GraniteLabs projects.
 
-- hardware testing
-- AI detection experiments
-- performance benchmarking
-- field observations
-- technical comparisons
+These documents turn hands-on experimentation into structured, reusable engineering knowledge.
 
-## Example Topics
+---
 
-Examples of research that will appear here:
+## 🎯 Purpose
 
-- camera model comparisons
-- AI object detection performance
-- network throughput testing
-- storage performance analysis
-- wildlife detection experiments
+- Improve system design through real-world testing  
+- Validate performance and configuration decisions  
+- Capture repeatable insights  
+- Support troubleshooting and optimization  
 
-Research documents help turn practical experimentation into reusable engineering knowledge.
+---
+
+## 🧠 What You’ll Find
+
+Research documents often include:
+
+- Hardware testing  
+- AI detection experiments  
+- Performance benchmarking  
+- Field observations  
+- Technical comparisons  
+
+---
+
+## 🧪 Example Topics
+
+- Camera model comparisons  
+- AI object detection performance  
+- Network throughput testing  
+- Storage performance analysis  
+- Wildlife detection experiments  
+
+---
+
+## 📊 Related Systems
+
+- [Blue Iris System](/blue-iris/)  
+- [AI Tuning](/blue-iris/ai-tuning/)  
+- [Performance Optimization](/blue-iris/performance-optimization/)  
+
+---
+
+## ✅ Result
+
+A structured research library that converts real-world experimentation into actionable system design knowledge.
