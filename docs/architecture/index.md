@@ -1,5 +1,5 @@
 ---
-title: title: System Architecture (Blue Iris, Networking, AI & Infrastructure)
+title: System Architecture (Blue Iris, Networking, AI & Infrastructure)
 description: Complete system architecture covering Blue Iris surveillance, AI detection, secure networking, Cloudflare Tunnel remote access, and real-world infrastructure design.
 image: /img/og/blueiris-system-architecture-og.jpg
 ---
