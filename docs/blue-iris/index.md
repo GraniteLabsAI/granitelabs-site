@@ -1,6 +1,6 @@
 ---
-title: Blue Iris Setup Guide – AI, Motion Detection, and System Architecture
-description: Complete Blue Iris setup guide covering camera configuration, AI detection, motion tuning, storage design, and performance optimization.
+title: Blue Iris Setup Guide (AI Detection, Motion, Storage & Performance)
+description: Step-by-step Blue Iris setup guide covering AI detection, motion settings, storage architecture, and performance optimization for real-world camera systems.
 image: /img/og/blueiris-og.jpg
 ---
 
