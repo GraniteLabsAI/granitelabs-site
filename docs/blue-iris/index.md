@@ -6,58 +6,102 @@ image: /img/og/blueiris-og.jpg
 
 # Blue Iris Setup Guide (AI, Motion Detection, Storage & Performance)
 
-![Blue-Iris](/img/og/blueiris-og.jpg)
+<img src="/img/og/blueiris-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-## 🔹 Overview
-Blue Iris 6 is the central platform for camera management, recording, alerting, AI-assisted detection, storage planning, and long-term surveillance documentation.
+---
 
-This section is the working knowledge base for designing, configuring, tuning, and maintaining a Blue Iris system.
+## <span class="cube-icon"></span> Overview
+
+Blue Iris 6 is the central platform for:
+
+- Camera management  
+- Recording and storage  
+- Motion detection and alerting  
+- AI-assisted object detection  
+- System performance tuning  
+
+This section serves as the **complete operational knowledge base** for designing, configuring, and maintaining a production Blue Iris system.
 
 ---
 
 ## 🎯 Objective
-- Create a structured reference for Blue Iris configuration
-- Document recording, alerting, AI, storage, and performance decisions
-- Support repeatable deployment and troubleshooting
-- Provide a clean entry point into the Blue Iris documentation set
+
+- Provide a structured system entry point  
+- Support repeatable deployment and configuration  
+- Document real-world tuning decisions  
+- Enable fast troubleshooting and iteration  
 
 ---
 
 ## 🧠 Key Concepts
-- Direct-to-disk recording
-- Motion detection and trigger logic
-- AI confirmation workflows
-- Profiles and schedules
-- Storage architecture
-- Camera integration and stream tuning
-- Performance optimization
+
+- Direct-to-disk recording  
+- Motion detection and trigger logic  
+- AI confirmation workflows  
+- Profiles and schedules  
+- Storage architecture  
+- Camera stream optimization  
+- Performance and scaling  
 
 ---
 
-## 🛠️ Documentation Map
+## 🧭 System Navigation
 
-### Core Pages
-- [Overview](/blue-iris/overview/)
-- [Documentation Map](/blue-iris/documentation-map/)
-- [System Reference](/blue-iris/system-reference/)
-- [Installation](/blue-iris/installation/)
-- [Blue Iris Tab Index](/blue-iris/tab-index/)
+### 🏗️ Foundation
+- [Overview](/blue-iris/overview/)  
+- [Installation](/blue-iris/installation/)  
+- [How to Add a Camera](/blue-iris/how-to-add-a-camera/)  
 
 ---
 
-## 📊 Featured Diagram
+### 🧠 System Understanding
+- [System Reference](/blue-iris/system-reference/)  
+- [Documentation Map](/blue-iris/documentation-map/)  
+- [Blue Iris Tab Index](/blue-iris/tab-index/)  
+
+---
+
+### ⚙️ Optimization & Tuning
+- [Tuning Guide](/blue-iris/tuning/)  
+- [AI Tuning](/blue-iris/ai-tuning/)  
+- [Fix False Alerts](/blue-iris/fix-false-alerts/)  
+- [Performance Optimization](/blue-iris/performance-optimization/)  
+
+---
+
+### 💾 Storage & Architecture
+- [Storage Architecture](/blue-iris/storage-architecture/)  
+- [System Architecture](/blue-iris/system-architecture/)  
+
+---
+
+### 🚨 Troubleshooting
+- [Troubleshooting](/blue-iris/troubleshooting/)  
+- [Alerts Not Working](/blue-iris/alerts-not-working/)  
+
+---
+
+### 🌐 Deployment & Access
+- [Remote Access](/blue-iris/remote-access/)  
+- [Field Quick Sheet](/blue-iris/field-quick-sheet/)  
+
+---
+
+## 📊 Featured System
 
 <img src="/img/projects/blue-iris-card.png" alt="Blue Iris" style={{width: '100%', maxWidth: '420px', borderRadius: '12px', marginTop: '10px', marginBottom: '20px'}} />
 
 ---
 
 ## ⚠️ Notes
-- This section is intended to grow into a full structured manual
-- Some pages are reference-oriented, while others are deployment-oriented
-- Keep image paths in `/img/...`
-- Use HTML image tags instead of markdown image syntax for consistency
+
+- This section is a **living system**, not static documentation  
+- Some pages are reference-based, others are operational  
+- Always validate changes against real-world behavior  
+- Keep structure consistent as content expands  
 
 ---
 
 ## ✅ Result
-This page serves as the entry point for the Blue Iris knowledge base and should remain the cleanest starting point for navigation into the full section.
+
+A complete, structured entry point into the Blue Iris system — supporting design, deployment, tuning, and long-term operation.
