@@ -15,9 +15,10 @@ Runs object detection directly inside Blue Iris — no external AI server requir
 
 The AI layer sits between motion detection and alerting:
 
+    Camera Feed → Motion Trigger → AI Confirmation → Alert or Cancel
 
-When motion fires, Blue Iris sends the frame to the AI engine.
-If the AI confirms a recognized object above the confidence threshold,
+When motion fires, Blue Iris sends the frame to the AI engine.  
+If the AI confirms a recognized object above the confidence threshold,  
 the alert proceeds. If not, the alert is cancelled.
 
 This is the primary mechanism for reducing false alerts on all cameras.
@@ -49,11 +50,11 @@ This is the primary mechanism for reducing false alerts on all cameras.
 
 ### Key Concepts
 
-- AI is **per-camera**
-- AI **confirms**, not replaces motion
-- Confidence threshold controls filtering
-- Object filters define triggers
-- “Cancel on no result” suppresses noise
+- AI is **per-camera**  
+- AI **confirms**, not replaces motion  
+- Confidence threshold controls filtering  
+- Object filters define triggers  
+- “Cancel on no result” suppresses noise  
 
 ---
 
@@ -73,8 +74,8 @@ This is the primary mechanism for reducing false alerts on all cameras.
 Blue Iris uses **ONNX Runtime** to load `.onnx` models directly.
 
 Execution:
-- CUDA (preferred, NVIDIA)
-- DirectML (fallback)
+- CUDA (preferred, NVIDIA)  
+- DirectML (fallback)  
 
 ---
 
@@ -111,6 +112,7 @@ Blue Iris → Settings → AI
 
 ### Models Folder
 
+    C:\BlueIris\AI\models
 
 ---
 
@@ -162,10 +164,10 @@ Blue Iris → Settings → AI
 
 ### Tuning Strategy
 
-**Too many false alerts**
+**Too many false alerts**  
 → Raise to 65–75%
 
-**Missed detections**
+**Missed detections**  
 → Lower to 50–55%
 
 ---
@@ -310,4 +312,4 @@ A GPU-accelerated AI system running fully inside Blue Iris v6.
 yolov8s handles general detection.  
 ipcam-animal extends wildlife coverage.  
 
-60% confidence and 8 max connects provide stable multi-camera performance.  
+60% confidence and 8 max connects provide stable multi-camera performance.
