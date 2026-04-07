@@ -9,13 +9,13 @@ og:type: website
 
 <img src="/img/og/chatgpt-automation-platform-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-ChatGPT played a foundational role in building GraniteLabs — from brand naming and domain acquisition to GitHub onboarding and early system design. It remains a core tool in the GraniteLabs AI stack for high-value tasks, particularly in visual asset generation and brand system development.
-
 ---
 
-## 🔹 Overview
+## <span class="cube-icon cube-ai"></span> Overview
 
-This page outlines how ChatGPT is used within GraniteLabs, including strengths, limitations, and its role in a production AI workflow.
+ChatGPT played a foundational role in building GraniteLabs — from brand naming and domain acquisition to GitHub onboarding and early system design.
+
+It remains a core tool in the GraniteLabs AI stack for high-value tasks, particularly in visual asset generation and brand system development.
 
 ---
 
@@ -42,7 +42,7 @@ Key workflow notes:
 - Prompts can be reused across tools and workflows  
 - Used to produce GraniteLabs brand postcards, system visuals, and OG images  
 - Consistent with the GraniteLabs Visual Standard when prompted correctly  
-- Used to develop and standardize the GraniteLabs OG Cube System for consistent visual branding across all documentation pages  
+- Used to develop and standardize the GraniteLabs OG Cube System  
 
 ---
 
@@ -70,11 +70,9 @@ Claude later elevated the platform into a production-grade documentation system,
 
 ## ⚠️ Limitations — Field Tested
 
-The following limitations are based on extended real-world use in production workflows:
-
-- **Version drift:** ChatGPT may revert to outdated information when working with newer software or UI changes  
-- **Screenshot interpretation:** Can occasionally describe expected UI instead of actual content  
-- **Correction persistence:** Repeated corrections may not be retained consistently within the same session  
+- **Version drift:** May revert to outdated information  
+- **Screenshot interpretation:** Can describe expected UI instead of actual  
+- **Correction persistence:** Corrections may not always stick within session  
 
 ---
 
@@ -94,30 +92,26 @@ The following limitations are based on extended real-world use in production wor
 
 ## ❌ Gemini — Evaluated and Retired
 
-Google Gemini was tested as an alternative to ChatGPT and Claude.
-
-It was removed from the GraniteLabs stack due to:
+Gemini was tested and removed due to:
 
 - Inconsistent screenshot interpretation  
-- Reliance on assumptions instead of visual input  
+- Assumption-based responses  
 - Unreliable performance in technical workflows  
 
 ---
 
-## 🧩 Recommended AI Stack for Technical Platforms
+## 🧩 Recommended AI Stack
 
-Based on real-world implementation:
+- **ChatGPT** — Visual systems, image generation, branding  
+- **Claude** — Documentation, workflows, structured systems  
 
-- **ChatGPT** — Image generation, branding, visual systems  
-- **Claude** — Documentation, screenshot analysis, structured workflows, SEO (in development)  
+This hybrid approach balances:
 
-A hybrid approach provides the best balance between **visual creation** and **technical precision**.
+👉 visual creation + technical precision  
 
 ---
 
 ## 🚀 Foundation to Production
-
-GraniteLabs was built in two phases:
 
 ### Phase 1 — ChatGPT
 - Brand naming  
@@ -126,9 +120,11 @@ GraniteLabs was built in two phases:
 - Initial architecture  
 - Visual identity foundation  
 
+---
+
 ### Phase 2 — Claude
 - Production-grade documentation system  
-- Screenshot-based technical workflows  
+- Screenshot-based workflows  
 - Scalable content generation  
 - Structured site development  
 
@@ -136,4 +132,23 @@ GraniteLabs was built in two phases:
 
 ## 🧠 Final Perspective
 
-This hybrid approach — combining ChatGPT for visual systems and Claude for structured documentation — defines the GraniteLabs methodology for building technical platforms with both clarity and visual consistency.
+GraniteLabs is built on a hybrid AI model:
+
+- ChatGPT → visual systems  
+- Claude → structured execution  
+
+This combination enables both clarity and consistency across technical platforms.
+
+---
+
+## 📊 Related Systems
+
+- [Searchable Hub](/searchable-hub/)  
+- [Icon System](/icon-system/)  
+- [Knowledge Monolith](/knowledge-monolith/)  
+
+---
+
+## ✅ Result
+
+A production-tested AI workflow that combines visual creativity with structured technical execution.
