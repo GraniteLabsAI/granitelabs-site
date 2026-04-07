@@ -10,7 +10,8 @@ image: /img/og/cloudflare-tunnel-phase2-og.jpg
 
 ---
 
-## 📌 Project
+## <span class="cube-icon cube-network"></span> Project
+
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
 **Status:** Ready for onsite installation on Blue Iris workstation
 
