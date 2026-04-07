@@ -58,3 +58,11 @@ This section provides a structured reference for building secure, scalable netwo
 ## ▶ Start Here
 
 ➡ [Cloudflare Tunnel](/networking/cloudflare-tunnel/)
+
+---
+
+## 📊 Related Systems
+
+- [Blue Iris Setup Guide](/blue-iris/)
+- [Blue Iris Remote Access](/blue-iris/remote-access/)
+- [System Architecture](/architecture/)
