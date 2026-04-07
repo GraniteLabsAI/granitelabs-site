@@ -10,7 +10,8 @@ image: /img/og/cloudflare-tunnel-phase1-og.jpg
 
 ---
 
-## 📌 Project
+## <span class="cube-icon cube-network"></span> Project
+
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
 **Status:** Phase 1 Complete – Awaiting Onsite Installation (Phase 2)
 
@@ -121,8 +122,8 @@ Establish a secure, zero-port-forwarding remote access method to internal LAN se
 ---
 
 ## 🌐 Planned Hostname
-`bi.granitelabs.ai`
 
+`bi.granitelabs.ai`  
 ➡ Will route to Blue Iris local web server  
 
 ---
@@ -181,9 +182,10 @@ Blue Iris Web Server
 
 ## ▶ Next Step
 
-Phase 1 is complete. Continue to the onsite implementation guide for connector installation, tunnel activation, hostname mapping, and Blue Iris service routing.
+Phase 1 is complete. Continue to onsite implementation.
 
-➡ **Continue to Phase 2:** [Phase 2 – Onsite Installation](./phase2-onsite-installation)
+➡ **Continue to Phase 2:**  
+/networking/cloudflare-tunnel/phase2-onsite-installation
 
 👉 Begin Phase 2 when onsite:
 
