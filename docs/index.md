@@ -1,5 +1,5 @@
 ---
-title: GraniteLabs
+title: Blue Iris, AI Surveillance & Network Systems | GraniteLabs
 description: Technical documentation and system design for Blue Iris, networking, AI, and real-world infrastructure projects.
 image: /img/og/granitelabs-preview.jpg
 ---
