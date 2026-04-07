@@ -1,53 +1,61 @@
 ---
 title: GraniteLabs
 description: Technical documentation and system design for Blue Iris, networking, AI, and real-world infrastructure projects.
-image: /img/og/chatgpt-automation-platform-og.jpg
+image: /img/og/granitelabs-preview.jpg
 ---
 
 # GraniteLabs
 
-<img src="/img/og/chatgpt-automation-platform-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
-
-## 🔹 Overview
-
-GraniteLabs is a structured documentation system for building and operating real-world technical environments.
-
-It focuses on:
-
-- Video surveillance systems (Blue Iris)  
-- Secure networking and remote access (Cloudflare Tunnel)  
-- AI-assisted workflows and automation  
-- Practical, field-tested system design  
+<img src="/img/og/granitelabs-preview.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '28px'}} />
 
 ---
 
-## 🧭 Core Sections
+## <span class="cube-icon"></span> Overview
 
-### 📹 Blue Iris System
+GraniteLabs is a structured system for building and operating real-world technical environments.
 
-Complete documentation for designing, deploying, and operating a Blue Iris system.
+It combines:
 
-- [Start Here](/blue-iris/start-here/)
-- [Overview](/blue-iris/overview/)
-- [Installation](/blue-iris/installation/)
-- [System Reference](/blue-iris/system-reference/)
-- [Tuning Guide](/blue-iris/tuning/)
-
----
-
-### 🌐 Networking
-
-Secure remote access and Zero Trust architecture.
-
-- [Cloudflare Tunnel](/networking/cloudflare-tunnel/)
+- Surveillance systems (Blue Iris)  
+- Secure networking (Cloudflare Tunnel)  
+- AI-assisted workflows  
+- Field-tested system design  
 
 ---
 
-### 🤖 AI & Automation
+## <span class="cube-icon"></span> Core Systems
 
-How GraniteLabs uses AI tools for real-world workflows.
+<div class="icon-grid">
 
-- [ChatGPT](/chatgpt/)
+<a href="/blue-iris/" class="icon-card-link">
+  <div class="icon-card">
+    <img src="/img/og/blueiris-og.jpg" />
+    <div>Blue Iris System</div>
+  </div>
+</a>
+
+<a href="/networking/" class="icon-card-link">
+  <div class="icon-card">
+    <img src="/img/og/cloudflare-tunnel-og.jpg" />
+    <div>Networking</div>
+  </div>
+</a>
+
+<a href="/icon-system/" class="icon-card-link">
+  <div class="icon-card">
+    <img src="/img/og/icon-system-og.jpg" />
+    <div>Icon System</div>
+  </div>
+</a>
+
+<a href="/chatgpt/" class="icon-card-link">
+  <div class="icon-card">
+    <img src="/img/projects/chatgpt-card.png" />
+    <div>AI & Automation</div>
+  </div>
+</a>
+
+</div>
 
 ---
 
