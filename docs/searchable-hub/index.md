@@ -56,7 +56,7 @@ A Python-based tool that:
 
 ## ▶ Open Tool
 
-👉 **[Open Blue Iris Tab Index](/tools/blueiris-tab-index.html)**
+👉 **[Open Blue Iris Tab Index](/blue-iris/tab-index/)**
 
 ---
 
