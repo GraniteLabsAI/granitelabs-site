@@ -1,6 +1,6 @@
 ---
-title: System Architecture
-description: Full infrastructure architecture for a property-scale deployment — surveillance, networking, ERP, remote access, and AI running as an integrated system.
+title: title: System Architecture (Blue Iris, Networking, AI & Infrastructure)
+description: Complete system architecture covering Blue Iris surveillance, AI detection, secure networking, Cloudflare Tunnel remote access, and real-world infrastructure design.
 image: /img/og/blueiris-system-architecture-og.jpg
 ---
 
@@ -129,3 +129,12 @@ Failures are contained:
         │ Business Systems       │
         │ (Acumatica / Velixo)   │
         └───────────────────────┘
+
+---
+
+## 📊 Related Systems
+
+- [Blue Iris Setup Guide](/blue-iris/)
+- [Cloudflare Tunnel](/networking/cloudflare-tunnel/)
+- [AI Detection System](/ai-systems/)
+- [Networking Overview](/networking/)
