@@ -4,13 +4,17 @@ description: A structured overview of system architecture, documentation, and wo
 image: /img/og/documentation-map-og.jpg
 ---
 
+[← Back to Blue Iris](/blue-iris/)
+
 # Documentation Map
 
 <img src="/img/og/documentation-map-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-## 🧠 System Overview
+---
 
-Granite Labs is organized as a structured system — not a collection of pages.
+## <span class="cube-icon"></span> System Overview
+
+GraniteLabs is organized as a structured system — not a collection of pages.
 
 Each section builds on the previous:
 
@@ -18,12 +22,12 @@ Each section builds on the previous:
 
 ---
 
-## 🧭 System Flow
+## <span class="cube-icon"></span> System Flow
 
 ### 1. Start
 - Start Here
 - Installation
-- Add a Camera
+- Add a Camera  
 
 **Purpose:** Get the system running.
 
@@ -34,7 +38,7 @@ Each section builds on the previous:
 - System Reference
 - Tab Index
 - System Architecture
-- Detection Flow
+- Detection Flow  
 
 **Purpose:** Learn how the system works.
 
@@ -46,7 +50,7 @@ Each section builds on the previous:
 - Tuning Guide
 - AI Tuning
 - Storage Architecture
-- Performance Optimization
+- Performance Optimization  
 
 **Purpose:** Improve performance and reliability.
 
@@ -55,7 +59,7 @@ Each section builds on the previous:
 ### 4. Troubleshoot
 - Fix False Alerts
 - Alerts Troubleshooting
-- Troubleshooting
+- Troubleshooting  
 
 **Purpose:** Diagnose and resolve issues.
 
@@ -64,7 +68,7 @@ Each section builds on the previous:
 ### 5. Deploy & Operate
 - Remote Access
 - Field Quick Sheet
-- Field Quick Sheet (Print)
+- Field Quick Sheet (Print)  
 
 **Purpose:** Use the system in real-world conditions.
 
@@ -85,4 +89,4 @@ Skipping steps usually creates instability.
 
 ## ✅ Result
 
-A clear map of how Granite Labs documentation, systems, and workflows fit together.
+A clear map of how GraniteLabs documentation, systems, and workflows fit together.
