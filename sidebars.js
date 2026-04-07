@@ -48,7 +48,8 @@ const sidebars = {
         'blue-iris/storage-architecture',
         'blue-iris/performance-optimization',
         'blue-iris/best-settings',
-
+        'blue-iris/blue-iris-best-settings',
+        
         // TROUBLESHOOT
         'blue-iris/fix-false-alerts',
         'blue-iris/alerts-not-working',
