@@ -1,31 +1,62 @@
 ---
 title: Guides
+description: Step-by-step technical instructions for building, configuring, and maintaining GraniteLabs systems.
 sidebar_position: 1
+image: /img/og/documentation-map-og.jpg
 ---
 
 # Granite Labs Guides
 
-The Guides section contains step-by-step technical instructions for building, configuring, and maintaining systems documented by Granite Labs.
+<img src="/img/og/documentation-map-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-## Purpose
+---
 
-Guides provide practical instructions that can be followed to reproduce real-world systems and solutions.
+## <span class="cube-icon"></span> Overview
 
-These guides focus on:
+The Guides section contains step-by-step technical instructions for building, configuring, and maintaining systems documented by GraniteLabs.
 
-- system setup
-- configuration procedures
-- troubleshooting
-- optimization
+These guides are designed to translate system design into real-world execution.
 
-## Example Topics
+---
 
-Examples of guides that will be included here:
+## 🎯 Purpose
 
-- Blue Iris installation and configuration
-- camera setup procedures
-- AI detection configuration
-- network infrastructure setup
-- storage configuration
+- Provide clear, repeatable instructions  
+- Enable system deployment and configuration  
+- Support troubleshooting and optimization  
+- Reduce ambiguity in implementation  
 
-Guides are written to be clear, repeatable, and easy to follow.
+---
+
+## 🧠 What You’ll Find
+
+Guides focus on practical execution, including:
+
+- System setup  
+- Configuration procedures  
+- Troubleshooting workflows  
+- Performance optimization  
+
+---
+
+## 🛠️ Example Topics
+
+- Blue Iris installation and configuration  
+- Camera setup procedures  
+- AI detection configuration  
+- Network infrastructure setup  
+- Storage configuration  
+
+---
+
+## 📊 Related Systems
+
+- [Blue Iris System](/blue-iris/)  
+- [Networking](/networking/)  
+- [Research](/research/)  
+
+---
+
+## ✅ Result
+
+A structured collection of step-by-step guides that enable consistent, real-world system deployment and operation.
