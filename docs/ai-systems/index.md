@@ -15,7 +15,7 @@ Runs object detection directly inside Blue Iris — no external AI server requir
 
 The AI layer sits between motion detection and alerting:
 
-    Camera Feed → Motion Trigger → AI Confirmation → Alert or Cancel
+    Camera Feed -> Motion Trigger -> AI Confirmation -> Alert or Cancel
 
 When motion fires, Blue Iris sends the frame to the AI engine.  
 If the AI confirms a recognized object above the confidence threshold,  
@@ -43,8 +43,8 @@ This is the primary mechanism for reducing false alerts on all cameras.
 3. Frame sent to ONNX engine  
 4. Model classifies objects  
 5. Results compared to camera filters  
-6. Match above threshold → alert confirmed  
-7. No match → alert cancelled  
+6. Match above threshold -> alert confirmed  
+7. No match -> alert cancelled  
 
 ---
 
@@ -54,7 +54,7 @@ This is the primary mechanism for reducing false alerts on all cameras.
 - AI **confirms**, not replaces motion  
 - Confidence threshold controls filtering  
 - Object filters define triggers  
-- “Cancel on no result” suppresses noise  
+- "Cancel on no result" suppresses noise  
 
 ---
 
@@ -100,7 +100,7 @@ Execution:
 
 ### Verify GPU Is Active
 
-Blue Iris → Settings → AI
+Blue Iris > Settings > AI
 
 - Provider shows ONNX + CUDA  
 - Logs confirm initialization  
@@ -165,18 +165,18 @@ Blue Iris → Settings → AI
 ### Tuning Strategy
 
 **Too many false alerts**  
-→ Raise to 65–75%
+- Raise to 65–75%
 
 **Missed detections**  
-→ Lower to 50–55%
+- Lower to 50–55%
 
 ---
 
 ### Per-Camera Guidance
 
-- Close range → 65–70%  
-- Long range → 50–55%  
-- Animal zones → 55–60%  
+- Close range -> 65–70%  
+- Long range -> 50–55%  
+- Animal zones -> 55–60%  
 
 ---
 
@@ -202,7 +202,7 @@ Outdoor cameras:
 
 ### Behavior
 
-- Animal detected → alert  
+- Animal detected -> alert  
 - Human/vehicle still detected  
 - Models run in parallel  
 
@@ -275,12 +275,12 @@ Outdoor cameras:
 
 | Setting | Location |
 |---|---|
-| AI provider | Settings → AI |
-| Model | Settings → AI |
-| Max connects | Settings → AI |
-| Camera AI | Camera → Trigger → AI |
-| Confidence | Camera → AI |
-| Logs | Log → AI |
+| AI provider | Settings > AI |
+| Model | Settings > AI |
+| Max connects | Settings > AI |
+| Camera AI | Camera > Trigger > AI |
+| Confidence | Camera > AI |
+| Logs | Log > AI |
 
 ---
 
