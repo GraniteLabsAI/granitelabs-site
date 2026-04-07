@@ -1,6 +1,6 @@
 ---
 title: Blue Iris, AI Surveillance & Network Systems | GraniteLabs
-description: Technical documentation and system design for Blue Iris, networking, AI, and real-world infrastructure projects.
+description: Blue Iris setup, AI surveillance systems, secure networking, and real-world infrastructure design. Step-by-step technical documentation for camera systems, Cloudflare Tunnel, and system architecture.
 image: /img/og/granitelabs-preview.jpg
 ---
 
