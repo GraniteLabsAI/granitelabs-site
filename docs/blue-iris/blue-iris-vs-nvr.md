@@ -30,6 +30,15 @@ Help determine which system is better based on:
 
 ---
 
+## 📊 Related Guides
+
+- [Blue Iris Setup Guide](/blue-iris/)
+- [Best Blue Iris Settings](/blue-iris/blue-iris-best-settings/)
+- [AI Detection System](/ai-systems/)
+- [Storage Architecture](/blue-iris/storage-architecture/)
+
+---
+
 ## ⚖️ Core Difference
 
 Blue Iris:
@@ -147,6 +156,23 @@ NVR:
 - [Best Blue Iris Settings](/blue-iris/blue-iris-best-settings/)
 - [AI Detection System](/ai-systems/)
 - [Storage Architecture](/blue-iris/storage-architecture/)
+
+---
+
+## 🧠 Real-World Recommendation
+
+Choose Blue Iris if:
+
+- You want full control over your system  
+- You plan to scale beyond 4–8 cameras  
+- You need reliable AI detection  
+- You want long-term flexibility  
+
+Choose an NVR if:
+
+- You want a simple plug-and-play setup  
+- You are running a small system  
+- You do not plan to customize or expand  
 
 ---
 
