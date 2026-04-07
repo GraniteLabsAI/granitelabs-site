@@ -1,6 +1,6 @@
 ---
-title: Cloudflare Tunnel
-description: Secure remote access using Cloudflare Tunnel with zero trust architecture and edge protection.
+title: Cloudflare Tunnel for Blue Iris (Zero Trust Remote Access)
+description: Step-by-step Cloudflare Tunnel setup for Blue Iris using Zero Trust remote access with no port forwarding, secure authentication, and edge protection.
 image: /img/og/cloudflare-tunnel-og.jpg
 ---
 
