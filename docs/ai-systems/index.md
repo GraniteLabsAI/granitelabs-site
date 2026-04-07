@@ -158,7 +158,7 @@ Blue Iris > Settings > AI
 | 90%+ | Very high certainty |
 | 70–89% | Strong detection |
 | 60–69% | Marginal |
-| <60% | Rejected |
+| Below 60% | Rejected |
 
 ---
 
