@@ -1,11 +1,16 @@
 ---
 title: Environmental Abatement and Demolition – Process, Strategy, and Risk Control
 description: Overview of environmental abatement, demolition integration, and project lifecycle including safety, compliance, and sequencing considerations.
+image: /img/og/documentation-map-og.jpg
 ---
 
-# Environmental Abatement and Demolition Overview
+# Environmental Abatement and Demolition
 
-## 🔹 Overview
+<img src="/img/og/documentation-map-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
+
+---
+
+## <span class="cube-icon"></span> Overview
 
 Environmental abatement and demolition projects require coordination between regulatory compliance, safety procedures, and construction sequencing.
 
@@ -40,7 +45,7 @@ This integrated approach becomes more important as projects increase in size and
 
 ---
 
-## 🔹 Core Services
+## 🛠️ Core Services
 
 Typical environmental contractor capabilities include:
 
@@ -52,22 +57,28 @@ Typical environmental contractor capabilities include:
 
 ---
 
-## 🔹 Project Lifecycle
+## 🧠 Project Lifecycle
 
 ### 1. Assessment
 - Hazard identification  
 - Sampling and testing  
 - Scope development  
 
+---
+
 ### 2. Planning
 - Regulatory requirements  
 - Permitting  
 - Work sequencing  
 
+---
+
 ### 3. Abatement
 - Containment setup  
 - Removal procedures  
 - Air monitoring and clearance  
+
+---
 
 ### 4. Demolition
 - Structural removal  
@@ -76,7 +87,7 @@ Typical environmental contractor capabilities include:
 
 ---
 
-## 🔹 Integration of Abatement and Demolition
+## 🔄 Integration of Abatement and Demolition
 
 The most efficient projects:
 
@@ -86,7 +97,7 @@ The most efficient projects:
 
 ---
 
-## 🔹 Risk Factors
+## ⚠️ Risk Factors
 
 Common risks include:
 
@@ -97,7 +108,7 @@ Common risks include:
 
 ---
 
-## 🔹 Operational Strategy
+## 🧭 Operational Strategy
 
 Best-performing contractors focus on:
 
@@ -108,7 +119,7 @@ Best-performing contractors focus on:
 
 ---
 
-## 🔹 Final Thought
+## 🧠 Final Thought
 
 Environmental projects succeed when:
 
@@ -117,3 +128,16 @@ Environmental projects succeed when:
 - Execution is consistent  
 
 Not when they are rushed or improvised.
+
+---
+
+## 📊 Related Systems
+
+- [Research](/research/)  
+- [Documentation Map](/blue-iris/documentation-map/)  
+
+---
+
+## ✅ Result
+
+A structured framework for managing environmental abatement and demolition projects with consistency, safety, and predictable outcomes.
