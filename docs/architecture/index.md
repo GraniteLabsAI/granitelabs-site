@@ -1,66 +1,131 @@
 ---
 title: System Architecture
 description: Full infrastructure architecture for a property-scale deployment — surveillance, networking, ERP, remote access, and AI running as an integrated system.
+image: /img/og/blueiris-system-architecture-og.jpg
 ---
 
 # System Architecture
 
-A structured overview of how all major infrastructure components connect,
-communicate, and operate as a unified system.
+<img src="/img/og/blueiris-system-architecture-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
 ---
 
-## 🔹 Overview
+## <span class="cube-icon"></span> Overview
+
+A structured view of how all major infrastructure components connect,
+communicate, and operate as a unified system.
 
 This deployment runs multiple interdependent systems across a single property.
-Each system is purpose-built for its function, connected through a shared
-network core, and designed so that a failure in one layer does not cascade
-into others.
+Each system is purpose-built, connected through a shared network core, and
+designed so failures do not cascade across layers.
 
-The architecture is organized into four layers:
+---
 
-- **Network layer** — physical infrastructure, switching, wireless, and internet
-- **Security layer** — surveillance, AI detection, and recording
-- **Business layer** — ERP, reporting, and financial systems
-- **Access layer** — remote access, zero trust, and edge security
+## 🧠 Architecture Layers
 
-Each layer has clear boundaries and defined integration points.
+The system is organized into four primary layers:
+
+### Network Layer
+- Switching, routing, and wireless infrastructure  
+- Fiber backbone and PoE distribution  
+- Internet connectivity and core network services  
+
+---
+
+### Security Layer
+- Blue Iris NVR system  
+- Camera infrastructure (Reolink, Axis, Luma, etc.)  
+- AI detection (YOLO / CodeProject / ONNX)  
+- Local recording and event processing  
+
+---
+
+### Business Layer
+- Acumatica ERP  
+- Velixo reporting  
+- Financial and operational data systems  
+
+---
+
+### Access Layer
+- Cloudflare Tunnel  
+- Zero Trust authentication  
+- Secure remote access to internal systems  
 
 ---
 
 ## 🎯 Design Principles
 
 ### Engineered
+Every component exists for a defined purpose.  
+No speculative deployments.
 
-Every component exists for a specific reason. Nothing is installed speculatively.
-Configuration decisions are documented with rationale, not assumed.
+---
 
 ### Modular
+Systems are decoupled where possible.
 
-Systems are decoupled where possible. The surveillance system does not depend
-on the ERP. The network does not depend on the remote access layer. A failure
-or change in one module does not require changes in another.
+- Surveillance does not depend on ERP  
+- Network does not depend on remote access  
+- Changes in one system do not require global changes  
+
+---
 
 ### Scalable
+Supports expansion without redesign.
 
-The architecture supports expansion without redesign. Additional cameras,
-access points, switches, and services can be added within the existing
-topology. Fiber backbone, PoE switching, and flat network design provide
-headroom for growth.
+- Additional cameras  
+- Additional APs and switches  
+- Expanded storage and compute  
+
+---
 
 ### Local-First
+Core systems operate locally:
 
-Core functions — surveillance recording, AI detection, network switching —
-run entirely on local hardware. Internet connectivity enhances the system
-(remote access, cloud ERP) but is not required for local operation.
+- Surveillance recording  
+- AI detection  
+- Network switching  
+
+Internet enhances — but does not control — the system.
+
+---
 
 ### Failure-Isolated
+Failures are contained:
 
-Each branch of the topology fails independently. A camera outage affects
-that camera. A switch outage affects that switch's zone. Internet loss
-suspends remote access but does not affect local recording or networking.
+- Camera failure → isolated  
+- Switch failure → zone-level impact  
+- Internet failure → remote access only  
 
 ---
 
 ## 🏗️ Infrastructure Diagram
-```
+
+```text
+                INTERNET
+                    │
+        ┌───────────▼───────────┐
+        │   Cloudflare (Access) │
+        └───────────┬───────────┘
+                    │
+            Secure Tunnel
+                    │
+        ┌───────────▼───────────┐
+        │     Network Core      │
+        │  (Switching / VLAN)   │
+        └───────┬───────┬───────┘
+                │       │
+         ┌──────▼───┐   │
+         │ Blue Iris│   │
+         │   Server │   │
+         └──────┬───┘   │
+                │       │
+        ┌───────▼───────▼───────┐
+        │ Cameras / APs / Devices│
+        └───────────────────────┘
+
+        ┌───────────────────────┐
+        │ Business Systems       │
+        │ (Acumatica / Velixo)   │
+        └───────────────────────┘
