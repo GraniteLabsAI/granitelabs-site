@@ -74,3 +74,4 @@ It combines:
 If you're new:
 
 ➡ [Blue Iris – Start Here](/blue-iris/start-here/)
+➡ [Blue Iris vs NVR Comparison](/blue-iris/blue-iris-vs-nvr/)
