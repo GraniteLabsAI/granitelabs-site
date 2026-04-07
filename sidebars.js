@@ -49,6 +49,7 @@ const sidebars = {
         'blue-iris/performance-optimization',
         'blue-iris/best-settings',
         'blue-iris/blue-iris-best-settings',
+        'blue-iris/blue-iris-vs-nvr',
         
         // TROUBLESHOOT
         'blue-iris/fix-false-alerts',
