@@ -11,7 +11,7 @@ image: /img/og/cloudflare-edge-security-og.jpg
 
 ---
 
-## 📌 Overview
+## <span class="cube-icon cube-network"></span> Overview
 
 GraniteLabs networking documentation focuses on **secure remote access, Zero Trust architecture, and real-world deployment patterns**.
 
@@ -28,11 +28,11 @@ This section provides a structured reference for building secure, scalable netwo
 
 ---
 
-## 📋 Core Section
+## <span class="cube-icon cube-network"></span> Core Section
 
 | Section | Description | Status |
 |--------|------------|--------|
-| [Cloudflare Tunnel](/networking/cloudflare-tunnel/) | Secure remote access using Zero Trust architecture and no port forwarding | ✅ Complete |
+| [Cloudflare Tunnel](/networking/cloudflare-tunnel/) | Secure remote access using Zero Trust architecture with no port forwarding | ✅ Complete |
 
 ---
 
