@@ -15,56 +15,65 @@ const sidebars = {
       id: 'icon-system',
       label: 'Icon System',
     },
-    
- {
-  type: 'category',
-  label: 'Blue Iris',
-  collapsed: false,
-  link: {
-    type: 'doc',
-    id: 'blue-iris/index',
-  },
-  items: [
-    'blue-iris/start-here',
-    'blue-iris/overview',
-    'blue-iris/installation',
 
-    'blue-iris/system-architecture',
-    'blue-iris/system-reference',
-    'blue-iris/tab-index',
-    'blue-iris/documentation-map',
+    {
+      type: 'category',
+      label: 'Blue Iris',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'blue-iris/index',
+      },
+      items: [
+        // FOUNDATION
+        'blue-iris/start-here',
+        'blue-iris/installation',
+        'blue-iris/how-to-add-a-camera',
 
-    'blue-iris/how-to-add-a-camera',
-    'blue-iris/real-world-operations',
-    'blue-iris/real-config-examples',
+        // UNDERSTAND
+        'blue-iris/overview',
+        'blue-iris/system-architecture',
+        'blue-iris/documentation-map',
+        'blue-iris/system-reference',
+        'blue-iris/tab-index',
 
-    'blue-iris/storage-architecture',
-    'blue-iris/best-settings',
-    'blue-iris/tuning',
-    'blue-iris/detection-flow',
-    'blue-iris/ai-tuning',
-    'blue-iris/performance-optimization',
+        // REAL WORLD
+        'blue-iris/real-world-operations',
+        'blue-iris/real-config-examples',
 
-    'blue-iris/fix-false-alerts',
-    'blue-iris/alerts-not-working',
-    'blue-iris/troubleshooting',
+        // OPTIMIZE
+        'blue-iris/tuning',
+        'blue-iris/detection-flow',
+        'blue-iris/ai-tuning',
+        'blue-iris/storage-architecture',
+        'blue-iris/performance-optimization',
+        'blue-iris/best-settings',
 
-    'blue-iris/remote-access',
+        // TROUBLESHOOT
+        'blue-iris/fix-false-alerts',
+        'blue-iris/alerts-not-working',
+        'blue-iris/troubleshooting',
 
-    'blue-iris/reolink-rlc-810a',
-    'blue-iris/reolink-rlc-843a',
-    'blue-iris/axis-p1485-le',
+        // DEPLOY
+        'blue-iris/remote-access',
 
-    'blue-iris/field-quick-sheet',
-    'blue-iris/field-quick-sheet-print',
-  ],
-},
-  
+        // CAMERA MODELS
+        'blue-iris/reolink-rlc-810a',
+        'blue-iris/reolink-rlc-843a',
+        'blue-iris/axis-p1485-le',
+
+        // FIELD
+        'blue-iris/field-quick-sheet',
+        'blue-iris/field-quick-sheet-print',
+      ],
+    },
+
     {
       type: 'doc',
       id: 'unifi',
       label: 'UniFi',
     },
+
     {
       type: 'category',
       label: 'Acumatica',
@@ -79,6 +88,7 @@ const sidebars = {
         'acumatica/practical-guide',
       ],
     },
+
     {
       type: 'category',
       label: 'Velixo',
@@ -93,6 +103,7 @@ const sidebars = {
         'velixo/reporting-patterns',
       ],
     },
+
     {
       type: 'category',
       label: 'IT Core Systems',
@@ -108,6 +119,7 @@ const sidebars = {
         'database',
       ],
     },
+
     {
       type: 'category',
       label: 'Networking',
@@ -133,9 +145,10 @@ const sidebars = {
         },
       ],
     },
+
     {
       type: 'category',
-      label: 'AI & Automation',
+      label: 'AI Systems',
       collapsed: false,
       items: [
         'ai-systems/index',
@@ -146,6 +159,7 @@ const sidebars = {
         'knowledge-monolith/index',
       ],
     },
+
     {
       type: 'category',
       label: 'Research',
@@ -158,6 +172,7 @@ const sidebars = {
         'research/environmental-abatement-overview',
       ],
     },
+
     {
       type: 'category',
       label: 'Projects',
@@ -168,6 +183,7 @@ const sidebars = {
       },
       items: [],
     },
+
     {
       type: 'doc',
       id: 'brand/index',
@@ -175,4 +191,5 @@ const sidebars = {
     },
   ],
 };
+
 export default sidebars;
