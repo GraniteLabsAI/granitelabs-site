@@ -32,6 +32,15 @@ This is not theory — these settings are based on actual deployment behavior.
 
 ---
 
+## 📊 Related Setup Guides
+
+- [Blue Iris Setup Guide](/blue-iris/)
+- [AI Detection System](/ai-systems/)
+- [Storage Architecture](/blue-iris/storage-architecture/)
+- [Performance Optimization](/blue-iris/performance-optimization/)
+
+---
+
 ## 🧠 Core Principles
 
 - Motion triggers first, AI confirms  
@@ -99,6 +108,20 @@ This is not theory — these settings are based on actual deployment behavior.
 - Using full-frame motion detection  
 - Relying on AI without good motion setup  
 - Ignoring storage growth  
+
+---
+
+## 🧠 When to Use These Settings
+
+Use these settings when:
+
+- Running 4+ cameras  
+- Using AI detection (CodeProject or ONNX)  
+- Experiencing false alerts  
+- Seeing high CPU usage  
+- Storage is growing faster than expected  
+
+These settings are designed for real-world systems — not lab conditions.
 
 ---
 
