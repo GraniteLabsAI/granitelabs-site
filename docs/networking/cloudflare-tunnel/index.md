@@ -6,12 +6,14 @@ image: /img/og/cloudflare-tunnel-og.jpg
 
 # 🌐 Cloudflare Tunnel
 
+<img src="/img/og/cloudflare-tunnel-og.jpg" style={{width: '100%', borderRadius: '12px', marginTop: '12px', marginBottom: '24px'}} />
 
-## 📌 Project
+---
+
+## <span class="cube-icon cube-network"></span> Project
+
 **GraniteLabs.ai – Secure Remote Access (Blue Iris)**  
 **Status:** All Three Phases Complete
-
-<img src="/img/cloudflare-tunnel-phase1-dark.png" alt="Cloudflare Tunnel Architecture" />
 
 ---
 
@@ -33,15 +35,16 @@ Replace traditional remote access methods with a modern Zero Trust architecture 
 
 ## ✅ What This Achieves
 
-- No open inbound firewall ports
-- WAN IP never exposed
-- HTTPS enforced at Cloudflare
-- Identity-based authentication required
-- Outbound-only connector on internal network
+- No open inbound firewall ports  
+- WAN IP never exposed  
+- HTTPS enforced at Cloudflare  
+- Identity-based authentication required  
+- Outbound-only connector on internal network  
 
 ---
 
 ## <span class="cube-icon cube-network"></span> System Architecture
+
 ```text
 Remote User
     │
@@ -56,20 +59,3 @@ Blue Iris PC (cloudflared)
     │
     ▼
 Blue Iris Web Server
-```
-
----
-
-## 📋 Three-Phase Implementation
-
-| Phase | Purpose | Status |
-|-------|---------|--------|
-| [Phase 1 – Foundation](./phase1-overview) | Cloudflare setup, DNS, tunnel creation | ✅ Complete |
-| [Phase 2 – Onsite Installation](./phase2-onsite-installation) | Connector install, tunnel activation, hostname mapping | ✅ Complete |
-| [Phase 3 – Hardening](./phase3-hardening) | Zero Trust authentication, access control | ✅ Complete |
-
----
-
-## ▶ Start Here
-
-➡ [Phase 1 – Foundation](./phase1-overview)
