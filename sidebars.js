@@ -29,6 +29,7 @@ const sidebars = {
         'blue-iris/start-here',
         'blue-iris/installation',
         'blue-iris/how-to-add-a-camera',
+        'blue-iris/blue-iris-ai-setup',
 
         // UNDERSTAND
         'blue-iris/overview',
