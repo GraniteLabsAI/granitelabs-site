@@ -128,6 +128,7 @@ These settings are designed for real-world systems — not lab conditions.
 ## 📊 Related Systems
 
 - [Blue Iris Setup Guide](/blue-iris/)
+- - [Blue Iris AI Setup](/blue-iris/blue-iris-ai-setup/)
 - [Blue Iris vs NVR Comparison](/blue-iris/blue-iris-vs-nvr/)
 - [AI Detection System](/ai-systems/)
 - [Storage Architecture](/blue-iris/storage-architecture/)
