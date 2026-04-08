@@ -16,6 +16,14 @@ Blue Iris AI setup involves enabling ONNX inference, loading a YOLOv8 model, con
 
 ---
 
+## 🔎 What is Blue Iris AI?
+
+Blue Iris AI refers to using artificial intelligence models such as YOLOv8 through ONNX to analyze camera footage and confirm motion events.
+
+Unlike traditional motion detection, Blue Iris AI identifies objects such as people, vehicles, and animals, allowing more accurate alerts and fewer false triggers.
+
+---
+
 ## 🔹 Overview
 
 This guide shows how to configure AI detection in Blue Iris using ONNX and YOLOv8.
